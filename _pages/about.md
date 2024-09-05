@@ -3,7 +3,7 @@ defaults:
   - scope:
       path: ""
       type: pages
-      permalink: /About/
+    permalink: /About/
     values:
       layout: single
       author_profile: true
