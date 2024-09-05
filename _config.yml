@@ -15,14 +15,14 @@
 minimal_mistakes_skin    : "neon" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-US"
+locale                   : "en-GB"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
 title                    : "Daniel Marshall"
 title_separator          : "-"
 subtitle                 : "My portfolio" # site tagline that appears below site title in masthead
 name                     : "Daniel Marshall"
 description              : "A website to showcase my Python stuff."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://d-cmarshall.github.io/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -116,7 +116,7 @@ author:
   name             : "Daniel Marshall"
   avatar           : "assets/2448130.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "PhD Researcher @ Brunel, synthesising network science with Design of Experiment theory."
-  location         : "United Kingdom"
+  location         : "London, UK"
   email            :
   links:
     - label: "Email"
