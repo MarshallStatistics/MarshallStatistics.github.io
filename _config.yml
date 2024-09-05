@@ -21,7 +21,7 @@ title                    : "Daniel Marshall"
 title_separator          : "-"
 subtitle                 : "My portfolio" # site tagline that appears below site title in masthead
 name                     : "Daniel Marshall"
-description              : "An amazing website."
+description              : "A website to showcase my Python stuff."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -114,7 +114,7 @@ analytics:
 # Site Author
 author:
   name             : "Daniel Marshall"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "assets/2448130.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "PhD Researcher @ Brunel, synthesising network science with Design of Experiment theory."
   location         : "United Kingdom"
   email            :
