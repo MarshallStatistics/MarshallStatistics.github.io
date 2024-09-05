@@ -1,7 +1,7 @@
 defaults:
   # _pages
   - scope:
-      path: "https://d-cmarshall.github.io/About/"
+      path: ""
       type: pages
     permalink: /About/
     values:
