@@ -18,4 +18,6 @@ I have always enjoyed visualising maths, and I had very much enjoyed learning ab
 
 Fortunately, a quick Google search of the Lotka-Volterra equations revealed discussions around the Paradox of the Pesticides; a consequence of applying pesticide to a two-species system of Lotka-Volterra equations. This was my answer - an interesting look at the L-V equations which all of my peers could access and learn something new (hopefully). 
 
-So, I began to plan out my presentation. A definition of the Lotka-Volterra equations followed by an exposition of what happens mathematically when one introduces pesticide to the system. 
+So, I began to plan out my presentation. A definition of the Lotka-Volterra equations followed by an exposition of what happens mathematically when one introduces pesticide to the system. In order to do this, I produced animations using Python to demonstrate how the population densities of a stable system fluctuate with time. 
+
+
