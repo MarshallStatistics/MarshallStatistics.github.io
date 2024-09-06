@@ -13,9 +13,10 @@ include: _includes/head/custom.html
 favicon: "/favicon.ico"
 ---
 <figure>
-  <img src="/assets/pexels-lum3n-44775-167682.jpg" alt="Black pen on white paper" title="Decorative image">
-  <figcaption>Source: Photo by Lum3n on [Pexels](https://www.pexels.com/photo/black-click-pen-on-white-paper-167682/)</figcaption>
+  <img src="/assets/pexels-lum3n-44775-167682.jpg" alt="Black pen on white paper" title="Decorative image" style="width=100%;">
+  <figcaption style="font-size: small;">Source: Photo by Lum3n on <a href = "https://www.pexels.com/photo/black-click-pen-on-white-paper-167682/">Pexels</a> </figcaption>
 </figure>
+
 
 I have four years experience teaching A-Level and GCSE Mathematics. In that time, I have taught:
 - OCR Level 2 Functional Skills
