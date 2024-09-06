@@ -13,8 +13,8 @@ include: _includes/head/custom.html
 favicon: "/favicon.ico"
 ---
 <figure>
-  <img src="/assets/pexels-lum3n-44775-167682.jpg" alt="Black pen on white paper" title="Decorative image" style="width=100%;">
-  <figcaption style="font-size: small;">Source: Photo by Lum3n on <a href = "https://www.pexels.com/photo/black-click-pen-on-white-paper-167682/">Pexels</a> </figcaption>
+  <img src="/assets/IMG-20240720-WA0048.jpg" alt="Me in Norway, near the Briksdal glacier." title="In Norway, near the Briksdal glacier." style="width=100%;">
+  <figcaption style="font-size: small;"> Me in Norway, near the Briksdal glacier. </figcaption>
 </figure>
 
 Hi! Thanks for taking a look at my GitHub site! My name is Daniel Marshall and I am a PhD Researcher at Brunel, University of London, exploring the consequences of combining network science with experimental design theory. 
