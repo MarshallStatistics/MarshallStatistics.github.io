@@ -19,7 +19,7 @@ One of the first assignments of my MSc was to present a topic to my peers. We we
 - Recurrence and transience of random walks
 - The contraction mapping theorem.
 
-I have always enjoyed visualising maths, and I had very much enjoyed learning about dynamical systems, so the Lotka-Volterra equations seemed a good choice. One issue arose, however: How could I explore the Lotka-Volterra equations in five minutes whilst making it somewhat interesting? Of course, one would expect the average MSc Mathematics student to know what they are or to have at least heard of them; I didn't want to merely relay information that my peers are familiar with - that seemed boring to me. For those unfamiliar, the Lotka-Volterra equations show how the population densities of two species, $x$ and $y$, change with time:
+I have always enjoyed visualising maths, and I had very much enjoyed learning about dynamical systems, so the Lotka-Volterra equations seemed a good choice. One issue arose, however: How could I explore the Lotka-Volterra equations in five minutes whilst making it somewhat interesting? Of course, one would expect the average MSc Mathematics student to know what they are or to have at least heard of them; I didn't want to merely relay information that my peers are familiar with - that seemed boring to me. For those unfamiliar, the Lotka-Volterra equations show how the population densities of two species, $$x$$ and $$y$$, change with time:
 
 $$
 \begin{aligned}
@@ -28,7 +28,7 @@ $$
 \end{aligned}
 $$
 
-where $\alpha$, $\beta$, $\gamma$, and $\delta$ are positive constants which represent the interactive behaviour between the two species.
+where $$\alpha$$, $$\beta$$, $$\gamma$$, and $\delta$ are positive constants which represent the interactive behaviour between the two species.
 
 Fortunately, a quick Google search of the Lotka-Volterra equations revealed discussions around the Paradox of the Pesticides; a consequence of applying pesticide to a two-species system of Lotka-Volterra equations. This was my answer - an interesting look at the L-V equations which all of my peers could access and from which learn something new (hopefully). 
 
