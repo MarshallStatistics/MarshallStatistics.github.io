@@ -13,6 +13,7 @@ source "https://rubygems.org"
 
 # To upgrade, run `bundle update`.
 
+bundle exec jekyll serve
 gem "jekyll"
 gem "minimal-mistakes-jekyll"
 
