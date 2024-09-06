@@ -15,7 +15,7 @@ Hi! Thanks for taking a look at my GitHub site! My name is Daniel Marshall and I
 
 ## Background
 
-I have an integrated masters degree in Mathematics from the University of York, A Postgraduate Certificate of Education from the University of Hull, and a further MSc in Mathematics from Queen Mary, University of London. 
+I have an integrated masters degree in Mathematics from the University of York, a Postgraduate Certificate of Education from the University of Hull, and a further MSc in Mathematics from Queen Mary, University of London. 
 
 ## Skills
 
