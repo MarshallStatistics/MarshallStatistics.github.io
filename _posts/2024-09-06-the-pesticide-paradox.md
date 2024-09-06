@@ -28,7 +28,7 @@ $$
 \end{aligned}
 $$
 
-where $\\alpha$, $\\beta$, $\\gamma$, and $\\delta$ are positive constants which represent the interactive behaviour between the two species.
+where $\alpha$, $\beta$, $\gamma$, and $\delta$ are positive constants which represent the interactive behaviour between the two species.
 
 Fortunately, a quick Google search of the Lotka-Volterra equations revealed discussions around the Paradox of the Pesticides; a consequence of applying pesticide to a two-species system of Lotka-Volterra equations. This was my answer - an interesting look at the L-V equations which all of my peers could access and from which learn something new (hopefully). 
 
