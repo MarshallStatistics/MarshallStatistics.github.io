@@ -13,8 +13,8 @@ include: _includes/head/custom.html
 favicon: "/favicon.ico"
 ---
 <figure>
-  <img src="./assets/example.jpg" alt="Example image" title="Example title">
-  <figcaption>Figure 1: An example image. Source: Example Source</figcaption>
+  <img src="./assets/pexels-lum3n-44775-167682.jpg" alt="Black pen on white paper" title="Decorative image">
+  <figcaption>Source: Photo by Lum3n on [Pexels](https://www.pexels.com/photo/black-click-pen-on-white-paper-167682/)</figcaption>
 </figure>
 
 I have four years experience teaching A-Level and GCSE Mathematics. In that time, I have taught:
