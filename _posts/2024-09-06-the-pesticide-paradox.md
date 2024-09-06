@@ -1,5 +1,8 @@
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
 <figure>
   <img src="/assets/pexels-orhanveliakbaba-23247806.jpg" alt="A tractor dispensing pesticide on a farm." title="A tractor dispensing pesticide on a farm." style="width=100%;">
   <figcaption style="font-size: small;">Source: Photo by Orhan Akbaba on <a href = "https://www.pexels.com/photo/tractor-spraying-pesticide-on-green-field-23247806/">Pexels</a> </figcaption>
@@ -20,7 +23,7 @@ I have always enjoyed visualising maths, and I had very much enjoyed learning ab
 
 $$
 \begin{aligned}
-\frac{\mathrm{d}x}{\mathrm{d}t} &= \alpha x -  \beta xy \\ 
+\frac{\mathrm{d}x}{\mathrm{d}t} &= \alpha x -  \beta xy \\ \\
 \frac{\mathrm{d}y}{\mathrm{d}t} &= -\gamma y +  \delta xy 
 \end{aligned}
 $$
