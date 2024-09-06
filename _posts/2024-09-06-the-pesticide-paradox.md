@@ -1,3 +1,5 @@
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 <figure>
   <img src="/assets/pexels-orhanveliakbaba-23247806.jpg" alt="A tractor dispensing pesticide on a farm." title="A tractor dispensing pesticide on a farm." style="width=100%;">
   <figcaption style="font-size: small;">Source: Photo by Orhan Akbaba on <a href = "https://www.pexels.com/photo/tractor-spraying-pesticide-on-green-field-23247806/">Pexels</a> </figcaption>
