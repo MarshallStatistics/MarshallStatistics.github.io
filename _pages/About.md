@@ -1,13 +1,3 @@
-defaults:
-  # _pages
-  - scope:
-      path: ""
-      type: pages
-    permalink: /About/
-    values:
-      layout: single
-      author_profile: true
-
 # About Me
 
 Hi, I'm Jane Doe, a software developer with a passion for open-source projects. I love coding, learning new technologies, and contributing to the developer community.
@@ -31,3 +21,15 @@ I have a degree in Computer Science from XYZ University and over 5 years of expe
 
 - Email: jane.doe@example.com
 - LinkedIn: Jane Doe
+
+defaults:
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    permalink: /About/
+    values:
+      layout: single
+      author_profile: true
+
+
