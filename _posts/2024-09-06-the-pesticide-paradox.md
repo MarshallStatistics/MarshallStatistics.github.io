@@ -55,7 +55,7 @@ $$
 \end{aligned}
 $$
 
-where ``$q$`` denotes the impact of the pesticide on both prey and predator densities. Plotting the trajectory of our new equations, combined with the trajectory of the original unpeturbed Lotka-Volterra equations reveals a paradoxical result (see Figure 3).
+where $$q$$ denotes the impact of the pesticide on both prey and predator densities. Plotting the trajectory of our new equations, combined with the trajectory of the original unpeturbed Lotka-Volterra equations reveals a paradoxical result (see Figure 3).
 
 <figure>
   <img src="/assets/LV_GIF3.gif" alt="A comparison of the unperturbed system and the peturbed system to demonstrate the impact of adding pesticide to the Lotka-Volterra system.">
