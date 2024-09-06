@@ -13,4 +13,8 @@ defaults:
       related: true
 ---
 
-cool!
+---
+layout: post
+title: "Your Post Title"
+thumbnail: /assets/image.jpg
+---
