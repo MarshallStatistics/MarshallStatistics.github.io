@@ -28,5 +28,5 @@ I also have experience teaching in a Higher Education institution, teaching Leve
 
 I have taught a wide array of students and strived to support them with differentiated resources. 
 
-Please see the A-Level and GCSE Mathematics resources I have uploaded to TES \\link{https://www.tes.com/teaching-resources/shop/DannyCMarshall}[here].
+Please see the A-Level and GCSE Mathematics resources I have uploaded to TES [here](https://www.tes.com/teaching-resources/shop/DannyCMarshall).
 
