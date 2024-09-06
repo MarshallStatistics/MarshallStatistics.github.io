@@ -9,7 +9,7 @@ type: pages
 values:
 layout: single
 author_profile: true
-include _includes/head/custom.html
+include: _includes/head/custom.html
 favicon: "/favicon.ico"
 ---
 
