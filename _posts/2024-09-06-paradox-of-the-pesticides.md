@@ -1,7 +1,4 @@
-
----
-title: "Paradox of the Pesticides"
-thumbnail: /assets/146189152.png
----
+hrushf
+hfuaih
 
 Hi there!HH
