@@ -57,8 +57,8 @@ where $q$ denotes the impact of the pesticide on both prey and predator densitie
   <figcaption style="font-size: small;"> Figure 1: A stable predator-prey system described by the Lotka-Volterra equations. Source: Self-produced using Python. </figcaption>
 </figure>
 
-We see that the pesticide-ladened system has (on average) a higher density of pests - the density of which we had hoped to reduce by adding pesticide. 
+We see that the pesticide-ladened system has (on average) a higher density of prey! We had hoped to reduce the prey density by adding pesticide but have in fact increased it.  
 
 A fascinating result explored in five minutes. 
 
-Thanks for reading!
+Thanks for reading! Please see the LaTex/Beamer presentation [here](https://github.com/D-CMarshall/MSc_Research_Presentation/tree/main) (you may have to use Adobe Acrobat to view the animations within the Beamer presentation) 
