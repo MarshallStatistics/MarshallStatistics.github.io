@@ -1,3 +1,9 @@
+---
+layout: single
+title: "About Me"
+permalink: /about/
+---
+
 # About Me
 
 Hi, I'm Jane Doe, a software developer with a passion for open-source projects. I love coding, learning new technologies, and contributing to the developer community.
