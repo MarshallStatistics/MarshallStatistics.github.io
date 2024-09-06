@@ -45,7 +45,7 @@ Now, let's discuss the impact of adding pesticide to this system. In the context
 
 $$
 \begin{aligned}
-\frac{\mathrm{d}x}{\mathrm{d}t} &= \alpha x -  \beta xy - qx \pause \\ \\
+\frac{\mathrm{d}x}{\mathrm{d}t} &= \alpha x -  \beta xy - qx \\ \\
 \frac{\mathrm{d}y}{\mathrm{d}t} &= -\gamma y +  \delta xy -qy 
 \end{aligned}
 $$
