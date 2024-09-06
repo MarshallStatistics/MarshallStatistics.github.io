@@ -30,15 +30,15 @@ Fortunately, a quick Google search of the Lotka-Volterra equations revealed disc
 So, I began to plan out my presentation. A definition of the Lotka-Volterra equations followed by an exposition of what happens mathematically when one introduces pesticide to the system. In order to do this, I produced animations using Python to demonstrate how the population densities dictated by a stable Lotka-Volterra system fluctuate with time (see Figure 1). 
 
 <figure>
-  <img src="/assets/LV_GIF1.gif" alt="A stable predator-prey system described by the Lotka-Volterra equations" title="A stable predator-prey system described by the Lotka-Volterra equations">
+  <img src="/assets/LV_GIF1.gif" alt="A stable predator-prey system described by the Lotka-Volterra equations." title="A stable predator-prey system described by the Lotka-Volterra equations over time.">
   <figcaption style="font-size: small;"> Figure 1: A stable predator-prey system described by the Lotka-Volterra equations. Source: Self-produced using Python. </figcaption>
 </figure>
 
 Another way of visualising the prey density dynamics is by plotting the densities against each other, revealing a circular orbit for a stable system centred at its non-trivial fixed point (see Figure 2). 
 
 <figure>
-  <img src="/assets/LV_GIF1.gif" alt="A stable predator-prey system described by the Lotka-Volterra equations" title="A stable predator-prey system described by the Lotka-Volterra equations">
-  <figcaption style="font-size: small;"> Figure 1: A stable predator-prey system described by the Lotka-Volterra equations. Source: Self-produced using Python. </figcaption>
+  <img src="/assets/LV_GIF2.gif" alt="A prey density - predator density plot to illustrate the stability of the system." title="A prey density - predator density plot to illustrate the stability of the system.">
+  <figcaption style="font-size: small;"> Figure 2: A prey density - predator density plot to illustrate the stability of the system. Source: Self-produced using Python. </figcaption>
 </figure>
 
 Now, let's discuss the impact of adding pesticide to this system. In the context of this paradox, we assume that the pesticide is a linear term introduced to both equations as follows:
@@ -53,12 +53,12 @@ $$
 where $q$ denotes the impact of the pesticide on both prey and predator densities. Plotting the trajectory of our new equations, combined with the trajectory of the original unpeturbed Lotka-Volterra equations reveals a paradoxical result (see Figure 3).
 
 <figure>
-  <img src="/assets/LV_GIF1.gif" alt="A stable predator-prey system described by the Lotka-Volterra equations" title="A stable predator-prey system described by the Lotka-Volterra equations">
-  <figcaption style="font-size: small;"> Figure 1: A stable predator-prey system described by the Lotka-Volterra equations. Source: Self-produced using Python. </figcaption>
+  <img src="/assets/LV_GIF3.gif" alt="A comparison of the unperturbed system and the peturbed system to demonstrate the impact of adding pesticide to the Lotka-Volterra system.">
+  <figcaption style="font-size: small;"> Figure 3: A comparison of the unperturbed system and the peturbed system to demonstrate the impact of adding pesticide to the Lotka-Volterra system. Source: Self-produced using Python. </figcaption>
 </figure>
 
 We see that the pesticide-ladened system has (on average) a higher density of prey! We had hoped to reduce the prey density by adding pesticide but have in fact increased it.  
 
 A fascinating result explored in five minutes. 
 
-Thanks for reading! Please see the LaTex/Beamer presentation [here](https://github.com/D-CMarshall/MSc_Research_Presentation/tree/main) (you may have to use Adobe Acrobat to view the animations within the Beamer presentation) 
+Thanks for reading! Please see the LaTex/Beamer presentation [here](https://github.com/D-CMarshall/MSc_Research_Presentation/tree/main) (you may have to use Adobe Acrobat to view the animations within the Beamer presentation).
