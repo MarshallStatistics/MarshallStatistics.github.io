@@ -2,9 +2,9 @@
 main:
   - title: "Quick-Start Guide"
     url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  - title: "&#x1F464; About"
+  - title: "&#x1F44B; About"
     url: /About/
-  - title: "&#x1F3EB; Teaching"
+  - title: "&#x1F34E; Teaching"
     url: /Teaching/
   # - title: "Sample Posts"
   #   url: /year-archive/
