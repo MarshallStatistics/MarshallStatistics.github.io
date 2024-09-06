@@ -12,6 +12,10 @@ author_profile: true
 include: _includes/head/custom.html
 favicon: "/favicon.ico"
 ---
+<figure>
+  <img src="./assets/example.jpg" alt="Example image" title="Example title">
+  <figcaption>Figure 1: An example image. Source: Example Source</figcaption>
+</figure>
 
 I have four years experience teaching A-Level and GCSE Mathematics. In that time, I have taught:
 - OCR Level 2 Functional Skills
