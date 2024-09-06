@@ -25,5 +25,5 @@ I have four years experience teaching A-Level and GCSE Mathematics. In that time
 
 I have taught a wide array of students and strived to support them with differentiated resources. 
 
-Please see the resources I have uploaded to TES \link[here]{https://www.tes.com/teaching-resources/shop/DannyCMarshall}.
+Please see the resources I have uploaded to TES \\link[here]{https://www.tes.com/teaching-resources/shop/DannyCMarshall}.
 
