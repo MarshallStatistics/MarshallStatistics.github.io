@@ -9,6 +9,7 @@ type: pages
 values:
 layout: single
 author_profile: true
+favicon: "/favicon.ico"
 ---
 
 Hi! Thanks for taking a look at my GitHub site! My name is Daniel Marshall and I am a PhD Researcher at Brunel, University of London, exploring the consequences of combining network science with experimental design theory. 
