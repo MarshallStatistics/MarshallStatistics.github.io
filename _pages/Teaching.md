@@ -13,7 +13,7 @@ include: _includes/head/custom.html
 favicon: "/favicon.ico"
 ---
 <figure>
-  <img src="/assets/pexels-lum3n-44775-167682.jpg" alt="Black pen on white paper" title="Decorative image" style="width=100%;">
+  <img src="/assets/pexels-lum3n-44775-167682.jpg" alt="Black pen on white paper" title="Black pen on white paper" style="width=100%;">
   <figcaption style="font-size: small;">Source: Photo by Lum3n on <a href = "https://www.pexels.com/photo/black-click-pen-on-white-paper-167682/">Pexels</a> </figcaption>
 </figure>
 
