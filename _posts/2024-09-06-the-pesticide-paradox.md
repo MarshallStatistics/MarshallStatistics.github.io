@@ -53,7 +53,7 @@ $$
 where $q$ denotes the impact of the pesticide on both prey and predator densities. Plotting the trajectory of our new equations, combined with the trajectory of the original unpeturbed Lotka-Volterra equations reveals a paradoxical result (see Figure 3).
 
 <figure>
-  <img src="/assets/LV_GIF1.gif" alt="A stable predator-prey system described by the Lotka-Volterra equations" title="A stable predator-prey system described by the Lotka-Volterra equations">
+  <img src="/assets/LV_GIF1.gif" alt="A stable predator-prey system described by the Lotka-Volterra equations" title="A stable predator-prey system described by the Lotka-Volterra equations" style="width=50%;">
   <figcaption style="font-size: small;"> Figure 1: A stable predator-prey system described by the Lotka-Volterra equations. Source: Self-produced using Python. </figcaption>
 </figure>
 
