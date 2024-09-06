@@ -13,8 +13,6 @@ include: _includes/head/custom.html
 favicon: "/favicon.ico"
 ---
 
-## Teaching Experience
-
 I have four years experience teaching A-Level and GCSE Mathematics. In that time, I have taught:
 - OCR Level 2 Functional Skills
 - Edexcel GCSE Mathematics (Higher and Foundation)
