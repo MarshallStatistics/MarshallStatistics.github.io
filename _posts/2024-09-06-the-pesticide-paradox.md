@@ -5,7 +5,7 @@
 </script>
 <figure>
   <img src="/assets/pexels-orhanveliakbaba-23247806.jpg" alt="A tractor dispensing pesticide on a farm." title="A tractor dispensing pesticide on a farm." style="width=100%;">
-  <figcaption style="font-size: small;">Source: Photo by Orhan Akbaba on <a href = "https://www.pexels.com/photo/tractor-spraying-pesticide-on-green-field-23247806/">Pexels</a> </figcaption>
+  <figcaption style="font-size: small;">Source: Orhan Akbaba on <a href = "https://www.pexels.com/photo/tractor-spraying-pesticide-on-green-field-23247806/">Pexels</a> </figcaption>
 </figure>
 One of the first assignments of my MSc was to present a topic to my peers. We were given an optional list of topics to choose from or we could pick one of our own. I trusted the instincts of the module leader, knowing that if I stray too far out of the range of the prescribed topics, I could see myself waffling and sending my peers to sleep. Some of the predetermined topics were as follows:
 
