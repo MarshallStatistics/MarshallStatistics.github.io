@@ -1,3 +1,11 @@
+---
+layout: single
+title: "Your Post Title"
+date: 2024-09-06
+thumbnail: /assets/pexels-orhanveliakbaba-23247806.jpg
+excerpt: "This is a brief summary of the post."
+---
+
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 <script type="text/javascript" async
