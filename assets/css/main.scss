@@ -8,16 +8,19 @@ search: false
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-.post-header-thumbnail {
+.post-content-thumbnail {
   display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 
 .post-thumbnail {
-  max-width: 100px; /* Adjust the size as needed */
-  margin-right: 15px; /* Space between thumbnail and title */
+  max-width: 300px; /* Adjust the size as needed */
+  height: auto;
+  margin-left: 15px; /* Space between content and thumbnail */
 }
 
-.post-header-thumbnail h2 {
-  margin: 0;
+.post-content {
+  flex-grow: 1;
 }
+
