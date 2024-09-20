@@ -20,28 +20,18 @@ layout: archive
       {% endif %}
       <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
     </div>
+     <p class="post-meta">
+        <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>
+        {% if post.read_time %}
+          • {{ post.read_time }}
+        {% endif %}
+      </p>
     {% if post.excerpt %}
       <p>{{ post.excerpt }}</p>
     {% endif %}
   </article>
 {% endfor %}
 
-{% for post in paginator.posts %}
-  <article class="post">
-    <header class="post-header">
-      <h2 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
-      <p class="post-meta">
-        <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>
-        {% if post.read_time %}
-          • {{ post.read_time }}
-        {% endif %}
-      </p>
-    </header>
-    <div class="post-content">
-      {{ post.excerpt }}
-    </div>
-  </article>
-{% endfor %}
 
 
 
