@@ -7,3 +7,17 @@ search: false
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+.post-header-thumbnail {
+  display: flex;
+  align-items: center;
+}
+
+.post-thumbnail {
+  max-width: 100px; /* Adjust the size as needed */
+  margin-right: 15px; /* Space between thumbnail and title */
+}
+
+.post-header-thumbnail h2 {
+  margin: 0;
+}
