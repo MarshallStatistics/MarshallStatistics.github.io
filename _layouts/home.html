@@ -16,20 +16,15 @@ layout: archive
 <div class="entries-{{ entries_layout }}">
   {% for post in posts %}
     {% include archive-single.html type=entries_layout %}
-  {% endfor %}
-</div>
-
-{% for post in paginator.posts %}
-  <article class="post">
-    {% if post.thumbnail %}
+      {% if post.thumbnail %}
       <img src="{{ post.thumbnail }}" alt="Thumbnail for {{ post.title }}">
     {% endif %}
     <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
     {% if post.excerpt %}
       <p>{{ post.excerpt }}</p>
     {% endif %}
-  </article>
-{% endfor %}
+  {% endfor %}
+</div>
 
 
 {% include paginator.html %}
