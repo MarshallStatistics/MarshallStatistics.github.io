@@ -2,7 +2,7 @@
 layout: single
 title: "Your Post Title"
 date: 2024-09-06
-thumbnail: /assets/pexels-orhanveliakbaba-23247806.jpg
+thumbnail: "/assets/pexels-orhanveliakbaba-23247806.jpg"
 excerpt: "This is a brief summary of the post."
 ---
 
