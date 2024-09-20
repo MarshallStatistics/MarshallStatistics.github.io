@@ -1,9 +1,9 @@
 ---
 layout: single
-title: "Your Post Title"
+title: "My MSc Presentation: The Paradox of the Pesticides"
 date: 2024-09-06
 thumbnail: "/assets/pexels-orhanveliakbaba-23247806.jpg"
-excerpt: "This is a brief summary of the post."
+excerpt: "A brief look at my first MSc presentation assignment and the pesticide paradox."
 ---
 
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
