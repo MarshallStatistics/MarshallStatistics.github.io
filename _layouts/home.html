@@ -20,8 +20,9 @@ layout: archive
         {% if post.excerpt %}
           <p>{{ post.excerpt }}</p>
         {% endif %}
-      </div>
+    <p class="post-meta">
       <i class="fa fa-calendar"></i> <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>
+    </p>  
       {% if post.thumbnail %}
         <img src="{{ post.thumbnail }}" alt="Thumbnail for {{ post.title }}" class="post-thumbnail">
       {% endif %}
