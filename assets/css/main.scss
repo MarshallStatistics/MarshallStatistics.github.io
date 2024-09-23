@@ -8,6 +8,11 @@ search: false
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
+.post-content-thumbnail {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
 
 .post-thumbnail {
   max-width: 300px; /* Adjust the size as needed */
