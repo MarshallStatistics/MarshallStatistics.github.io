@@ -27,4 +27,7 @@ gem "jekyll-reading-time"
 # If you have any other plugins, put them here!
 # Cf. https://jekyllrb.com/docs/plugins/installation/
 group :jekyll_plugins do
+
+bundle exec jekyll serve
+
 end
