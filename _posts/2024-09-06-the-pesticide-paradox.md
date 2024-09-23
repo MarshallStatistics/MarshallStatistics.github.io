@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "5 Minutes on the Paradox of the Pesticides"
+title: "A Few Minutes on the Pesticide Paradox"
 date: 2024-09-06
 thumbnail: "/assets/pexels-orhanveliakbaba-23247806.jpg"
 excerpt: "A brief look at my first MSc presentation assignment and the pesticide paradox."
