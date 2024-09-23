@@ -8,15 +8,6 @@ search: false
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-.parent-container {
-  display: flex;
-  justify-content: center; /* Center items horizontally */
-  align-items: center; /* Center items vertically */
-  border: 2px solid #000; /* Optional: Add a border */
-  padding: 10px; /* Optional: Add padding */
-  height: 100%; /* Ensure the parent container has a height */
-  position: relative; /* Ensure the parent container can position children */
-}
 
 .post-thumbnail {
   max-width: 300px; /* Adjust the size as needed */
