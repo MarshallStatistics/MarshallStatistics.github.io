@@ -3,7 +3,7 @@ layout: single
 title: "Randomly Walking in Python, Stylishly"
 date: 2024-09-23
 thumbnail: "/assets/rw_sim.png"
-excerpt: "A brief look at my first MSc presentation assignment and the pesticide paradox."
+excerpt: "A quick guide on plotting random walks in Python."
 read_time: true
 ---
 
@@ -12,6 +12,10 @@ read_time: true
 <script type="text/javascript" async
   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
 </script>
+
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
 <figure>
   <img src="/assets/rw_sim.png" alt="A symmetric random walk running for fifty steps." title="A symmetric random walk running for fifty steps." style="width=100%;">
   <figcaption style="font-size: small;">Source: Marshall, using Python </figcaption>
@@ -32,7 +36,7 @@ where $S_0=0$ denotes the initial starting point.
 \end{mdframed}
 $$
 
-Rather handwavingly, one may think of a simple symmetric random walk as a walker stepping forward by one metre or backwards by one metre with equal probability for each step of their walk. Flip a coin: heads is forward, tails is backwards. After $n$ flips, your distance from where you started is given by $S_n$.
+Rather handwavingly, one may think of a simple symmetric random walk as a walker stepping forward by one metre or backwards by one metre with equal probability for each step of their walk. Flip a coin: heads is forwards, tails is backwards. After $$n$$ flips, your distance from where you started is given by $$S_n$$.
 
 One may of course generalise this by changing the step size from one metre and by changing the probability of stepping forward each step to be a value other than one-half. However, this is outside the scope of this post. We will instead focus on how to plot a simple symmetric random walk in Python. 
 
