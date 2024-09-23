@@ -178,6 +178,7 @@ include:
   - ["_pages"]
   - _includes/head/custom.html
   - _plugins
+  - ["_plugins"]
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
