@@ -21,7 +21,7 @@ layout: archive
       <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
     </div>
     <p class="post-meta">
-      <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>
+      <i class="fa fa-calendar"></i> <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>
     </p>
     {% if post.excerpt %}
       <p>{{ post.excerpt }}</p>
