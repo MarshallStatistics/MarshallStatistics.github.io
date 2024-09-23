@@ -15,19 +15,20 @@ search: false
 }
 
 .parent-container {
-  border: 2px solid #FFFFFF; /* Adjust the border width and color as needed */
-  padding: 10px; /* Optional: Add padding inside the border */
+  display: flex;
+  justify-content: flex-end; /* Align items to the right */
+  align-items: center; /* Center items vertically */
+  border: 2px solid #000; /* Optional: Add a border */
+  padding: 10px; /* Optional: Add padding */
+  height: 100%; /* Ensure the parent container has a height */
 }
 
 .post-thumbnail {
   max-width: 300px; /* Adjust the size as needed */
-  height: 100%; /* Match the height of the parent container */
+  height: auto; /* Maintain aspect ratio */
   margin-left: 15px; /* Space between content and thumbnail */
-  float: right;
-  display: flex;
-  align-items: center; /* Center image vertically */
+  display: block; /* Ensure the thumbnail is a block element */
 }
-
 
 .post-content {
   flex-grow: 1;
