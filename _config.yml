@@ -126,9 +126,9 @@ author:
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
+    - label: "X / Twitter"
+      icon: "fab fa-fw fa-x-twitter-square"
+      url: "https://x.com/MarshStats"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
@@ -145,9 +145,9 @@ author:
 # Site Footer
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url:
+    - label: "X / Twitter"
+      icon: "fab fa-fw fa-x-twitter-square"
+      url: "https://x.com/MarshStats"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url:
