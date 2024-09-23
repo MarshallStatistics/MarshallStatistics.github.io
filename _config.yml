@@ -177,8 +177,7 @@ include:
   - _pages
   - ["_pages"]
   - _includes/head/custom.html
-  - /_plugins
-  - ["_plugins"]
+
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -279,8 +278,6 @@ plugins:
   - jekyll-feed
   - jekyll-include-cache
   - jekyll-reading-time
-  - /_plugins/ordinal_date.rb
-
 
 
 # mimic GitHub Pages with --safe
