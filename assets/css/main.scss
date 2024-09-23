@@ -14,14 +14,20 @@ search: false
   align-items: center; /* Center items vertically */
 }
 
+.parent-container {
+  border: 2px solid #000; /* Adjust the border width and color as needed */
+  padding: 10px; /* Optional: Add padding inside the border */
+}
+
 .post-thumbnail {
   max-width: 300px; /* Adjust the size as needed */
-  max-height: 150px;
+  height: 100%; /* Match the height of the parent container */
   margin-left: 15px; /* Space between content and thumbnail */
   float: right;
   display: flex;
   align-items: center; /* Center image vertically */
 }
+
 
 .post-content {
   flex-grow: 1;
