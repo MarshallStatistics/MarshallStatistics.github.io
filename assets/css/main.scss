@@ -11,15 +11,15 @@ search: false
 .post-content-thumbnail {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
-  margin-bottom: 20px; /* Adjust the space between posts */
+  align-items: flex-start; /* Align items at the top */
+  margin-bottom: 20px; /* Space between posts */
 }
 
 .post-thumbnail {
   max-width: 300px; /* Adjust the size as needed */
   height: auto;
   margin-left: 15px; /* Space between content and thumbnail */
-  float: right;
+  /* Remove float */
 }
 
 .post-content {
