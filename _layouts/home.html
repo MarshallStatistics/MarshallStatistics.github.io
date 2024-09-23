@@ -22,9 +22,6 @@ layout: archive
     </div>
      <p class="post-meta">
         <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>
-        {% if post.read_time %}
-          • {{ post.read_time }}
-        {% endif %}
       </p>
     {% if post.excerpt %}
       <p>{{ post.excerpt }}</p>
