@@ -126,9 +126,9 @@ author:
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
-    - label: "X / Twitter"
-      icon: "fab fa-fw fa-x-twitter-square"
-      url: "https://x.com/MarshStats"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/daniel-marshall-4654881a9/"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
@@ -138,16 +138,18 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/daniel-marshall-4654881a9/"
+    - label: "@MarshStats"
+      icon: "fab fa-x-twitter"
+      url: "https://x.com/MarshStats"
+
+
 
 # Site Footer
 footer:
   links:
-    - label: "X / Twitter"
-      icon: "fab fa-x-twitter"
-      url: "https://x.com/MarshStats"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/daniel-marshall-4654881a9/"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url:
@@ -163,9 +165,10 @@ footer:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url:
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/daniel-marshall-4654881a9/"
+    - label: "@MarshStats"
+      icon: "fab fa-x-twitter"
+      url: "https://x.com/MarshStats"
+
 
 
 # Reading Files
