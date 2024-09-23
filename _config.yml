@@ -177,7 +177,7 @@ include:
   - _pages
   - ["_pages"]
   - _includes/head/custom.html
-  - _plugins
+  - /_plugins
   - ["_plugins"]
 exclude:
   - "*.sublime-project"
@@ -279,6 +279,7 @@ plugins:
   - jekyll-feed
   - jekyll-include-cache
   - jekyll-reading-time
+  - /_plugins/ordinal_date.rb
 
 
 
