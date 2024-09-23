@@ -21,6 +21,7 @@ layout: archive
           <p>{{ post.excerpt }}</p>
         {% endif %}
       </div>
+      <i class="fa fa-calendar"></i> <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>
       {% if post.thumbnail %}
         <img src="{{ post.thumbnail }}" alt="Thumbnail for {{ post.title }}" class="post-thumbnail">
       {% endif %}
