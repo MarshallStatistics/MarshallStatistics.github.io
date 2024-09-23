@@ -16,11 +16,9 @@ search: false
 
 .post-thumbnail {
   max-width: 300px; /* Adjust the size as needed */
-  height: auto; /* Maintain aspect ratio */
+  height: auto;
   margin-left: 15px; /* Space between content and thumbnail */
-  right: 0; /* Flush right */
-  top: 50%; /* Center vertically */
-  transform: translateY(-50%); /* Adjust for perfect vertical centering */
+  float: right;
 }
 
 .post-content {
