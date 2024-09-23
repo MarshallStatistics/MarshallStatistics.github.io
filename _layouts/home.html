@@ -14,21 +14,20 @@ layout: archive
 
 {% for post in paginator.posts %}
   <article class="post">
-    <div class="post-header-thumbnail">
+    <div class="post-content-thumbnail">
+      <div class="post-content">
+        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+        {% if post.excerpt %}
+          <p>{{ post.excerpt }}</p>
+        {% endif %}
+      </div>
       {% if post.thumbnail %}
         <img src="{{ post.thumbnail }}" alt="Thumbnail for {{ post.title }}" class="post-thumbnail">
       {% endif %}
-      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
     </div>
-    <p class="post-meta">
-       <i class="fa fa-calendar"></i> <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>
-    </p>
-    {% if post.excerpt %}
-       <p>{{ post.excerpt }}</p>
-     {% endif %}
-  </div>
   </article>
 {% endfor %}
+
 
 
 
