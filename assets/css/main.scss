@@ -14,9 +14,9 @@ search: false
 }
 
 .post-thumbnail {
-  margin-right: 15px; /* Adjust the margin as needed */
+  margin-left: 15px; /* Adjust the margin as needed */
   max-width: 150px; /* Adjust the size as needed */
-  flush: right;
+  float: right;
 }
 
 .post-content {
