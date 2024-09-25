@@ -3,7 +3,7 @@ layout: single
 title: "Randomly Walking in Python, Stylishly"
 date: 2024-09-23
 thumbnail: "/assets/rw_sim.png"
-excerpt: "A quick guide on plotting random walks in Python."
+excerpt: "A quick guide on plotting random walks in Python and how to make your plots nice in Matplotlib for beginners."
 read_time: true
 ---
 
