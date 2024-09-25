@@ -14,9 +14,10 @@ search: false
 }
 
 .post-thumbnail {
-  margin-left: 15px; /* Adjust the margin as needed */
-  max-width: 150px; /* Adjust the size as needed */
-  float: right;
+  margin-right: 15px; /* Adjust the margin as needed */
+  width: 200px; /* Fixed width */
+  height: 200px; /* Fixed height */
+  object-fit: cover; /* Crop the image to fit the container */
 }
 
 .post-content {
