@@ -11,12 +11,14 @@ search: false
 .post-content-thumbnail {
   display: flex;
   align-items: center;
+  justify-content: center; /* Center horizontally */
+  height: 100%; /* Ensure the container takes full height */
 }
 
 .post-thumbnail {
   margin-right: 15px; /* Adjust the margin as needed */
-  width: 300px; /* Fixed width */
-  height: 200px; /* Fixed height */
+  width: 100%; /* Full width of the container */
+  height: 50%; /* Half the height of the container */
   object-fit: cover; /* Crop the image to fit the container */
 }
 
