@@ -10,20 +10,16 @@ search: false
 
 .post-content-thumbnail {
   display: flex;
-  justify-content: space-between;
-  align-items: flex-start; /* Align items at the top */
-  margin-bottom: 20px; /* Space between posts */
+  align-items: center;
 }
 
 .post-thumbnail {
-  max-width: 300px; /* Adjust the size as needed */
-  height: auto;
-  margin-left: 15px; /* Space between content and thumbnail */
-  float: right;
+  margin-right: 15px; /* Adjust the margin as needed */
+  max-width: 150px; /* Adjust the size as needed */
 }
 
 .post-content {
-  flex-grow: 1;
+  flex: 1;
 }
 
 .post-meta {
