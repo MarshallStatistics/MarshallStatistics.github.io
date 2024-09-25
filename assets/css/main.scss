@@ -10,13 +10,14 @@ search: false
 
 .post-content-thumbnail {
   display: flex;
-  align-items: center;
+  align-items: flex-start; /* Align items to the start */
 }
 
 .post-thumbnail {
   margin-right: 15px; /* Adjust the margin as needed */
   width: 200px; /* Fixed width */
-  height: 200px; /* Fixed height */
+  height: auto; /* Dynamic height */
+  max-height: 200px; /* Maximum height */
   object-fit: cover; /* Crop the image to fit the container */
 }
 
