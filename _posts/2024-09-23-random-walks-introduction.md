@@ -33,10 +33,9 @@ When learning about stochastic processes, we are often first introduced to the s
 
 Firstly, please see below the mathematical definition of a simple, symmetric random walk:
 
-
 Let $$\left\{X_i\right\} \sim \text{Be}(0.5)$$ for $$i \in \mathbb{N}$$ be a set of independent and identically distributed (i.i.d.) random variables, each taking either the value 1 or -1.
-Then, a simple symmetric random walk, $$S_n$$, of $$n \in \mathbb{N}$$ steps, is an iterative process given by
-$$S_{n+1} = S_n + X_n$$
+Then, a simple symmetric random walk, $$S_n$$, of $$n \in \mathbb{N}$$ steps, is an iterative process given by \\
+$$S_{n+1} = S_n + X_n$$ \\
 where $$S_0=0$$ denotes the initial starting point.
 
 
