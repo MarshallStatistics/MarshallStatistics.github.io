@@ -21,7 +21,6 @@ read_time: true
     border: 1px solid #000;
     padding: 10px;
     margin: 10px 0;
-    background-color: #f9f9f9;
 }
 </style>
 
@@ -35,14 +34,10 @@ When learning about stochastic processes, we are often first introduced to the s
 Firstly, please see below the mathematical definition of a simple, symmetric random walk:
 
 <div class="definition">
-$$
-\begin{definition}[Simple Symmetric 1-D Random Walk]\label{def:rw}
-Let \left\{X_i\right\} \sim \text{Be}(0.5) for i \in \mathbb{N} be a set of independent and identically distributed (i.i.d.) random variables, each taking either the value 1 or -1.
-Then, a simple symmetric random walk, S_n, of n \in \mathbb{N} steps, is an iterative process given by
-S_{n+1} = S_n + X_n
-where S_0=0 denotes the initial starting point.
-\end{definition}
-$$
+Let $\left\{X_i\right\} \sim \text{Be}(0.5)$ for $i \in \mathbb{N}$ be a set of independent and identically distributed (i.i.d.) random variables, each taking either the value 1 or -1.
+Then, a simple symmetric random walk, $S_n$, of $n \in \mathbb{N}$ steps, is an iterative process given by
+$$S_{n+1} = S_n + X_n$$
+where $S_0=0$ denotes the initial starting point.
 </div>
 
 Rather handwavingly, one may think of a simple symmetric random walk as a walker stepping forward by one metre or backwards by one metre with equal probability for each step of their walk. Flip a coin: heads is forwards, tails is backwards. After $$n$$ flips, your distance from where you started is given by $$S_n$$.
