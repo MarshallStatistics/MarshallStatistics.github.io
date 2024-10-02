@@ -33,12 +33,13 @@ When learning about stochastic processes, we are often first introduced to the s
 
 Firstly, please see below the mathematical definition of a simple, symmetric random walk:
 
-<div class="definition">
+________
+### Definition 1: Simple Random Walk
 Let $$\left\{X_i\right\} \sim \text{Be}(0.5)$$ for $$i \in \mathbb{N}$$ be a set of independent and identically distributed (i.i.d.) random variables, each taking either the value 1 or -1.
 Then, a simple symmetric random walk, $$S_n$$, of $$n \in \mathbb{N}$$ steps, is an iterative process given by \\
-$$S_{n+1} = S_n + X_n$$ \\
+$$$S_{n+1} = S_n + X_n$$$ \\
 where $$S_0=0$$ denotes the initial starting point.
-</div>
+________
 
 Rather handwavingly, one may think of a simple symmetric random walk as a walker stepping forward by one metre or backwards by one metre with equal probability for each step of their walk. Flip a coin: heads is forwards, tails is backwards. After $$n$$ flips, your displacement from your initial point is given by $$S_n$$.
 
