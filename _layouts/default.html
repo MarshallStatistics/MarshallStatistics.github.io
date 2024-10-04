@@ -8,11 +8,6 @@
     {% include head.html %}
     {% include head/custom.html %}
     <link rel="shortcut icon" type="favicon_package_v0.16/favicon.ico" href="favicon.ico">
-    
-    <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
-    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-    <script src="{{ '/assets/js/custom.js' | relative_url }}"></script>
-    <div id="particles-js"></div>
   </head>
 
   <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}" dir="{% if site.rtl %}rtl{% else %}ltr{% endif %}">
