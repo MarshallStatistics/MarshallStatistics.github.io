@@ -31,10 +31,15 @@ search: false
 }
 
 #particles-js {
-  position: absolute;
   width: 100%;
   height: 200px; /* Adjust height as needed */
-  z-index: 1; /* Ensure it stays behind the content */
+  position: relative; /* Ensure it stays in place */
+  margin-bottom: 20px; /* Add space below the particles container */
+}
+
+.archive__subtitle {
+  position: relative; /* Ensure it stays in place */
+  z-index: 1; /* Ensure it stays above the particles container */
 }
 
 
