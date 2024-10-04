@@ -34,7 +34,7 @@ search: false
   position: absolute;
   width: 100%;
   height: 200px; /* Adjust height as needed */
-  z-index: -1; /* Ensure it stays behind the content */
+  z-index: 1; /* Ensure it stays behind the content */
 }
 
 
