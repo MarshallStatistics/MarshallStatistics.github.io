@@ -1,7 +1,7 @@
 ---
 defaults:
 layout: archive
-title: "PhD DIary"
+title: "PhD Diary"
 permalink: /phd_diary/
 scope:
 path: ""
@@ -13,10 +13,21 @@ include: _includes/head/custom.html
 favicon: "/favicon.ico"
 ---
 
-<h1>My PhD Diary</h1>
-
-<ul>
-  {% for post in site.tags.phd-diary %}
-    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
-</ul>
+{% for post in site.tags.phd-diary %}
+  <article class="post">
+    <div class="post-content-thumbnail">
+      {% if post.thumbnail %}
+        <img src="{{ post.thumbnail }}" alt="Thumbnail for {{ post.title }}" class="post-thumbnail">
+      {% endif %}
+      <div class="post-content">
+        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+        <p class="post-meta">
+          <i class="fa fa-calendar"></i> <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>
+        </p>  
+        {% if post.excerpt %}
+          <p>{{ post.excerpt }}</p>
+        {% endif %}
+      </div>
+    </div>
+  </article>
+{% endfor %}
