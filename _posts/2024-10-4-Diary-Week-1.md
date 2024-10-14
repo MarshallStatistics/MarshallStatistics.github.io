@@ -13,7 +13,7 @@ read_time: true
   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
 </script>
 <figure>
-  <img src="/assets/pexels-orhanveliakbaba-23247806.jpg" alt="The view from the PhD office in Tower A at Brunel" title="The view from the PhD office in Tower A at Brunel" style="width=100%;">
+  <img src="/assets/phd_office_view.jpg" alt="The view from the PhD office in Tower A at Brunel" title="The view from the PhD office in Tower A at Brunel" style="width=100%;">
   <figcaption style="font-size: small;">Source: Self-produced </figcaption>
 </figure>
 My first week as a PhD student was an interesting one; learning how to manage my time without strict boundaries in place has been a learning curve. My background as a mathematics teacher and foundation year lecturer has trained me to be somewhat rigid with my time, whether that be via explicit teaching timetables and 1:1 meetings or self-imposed ‘I need to get this task done to get it out of my mind’-type restrictions. However, as a PhD student, I need to retain information long-term. Therefore, I resorted to old behaviours and created a timetable, briefly describing my various commitments and allocating a sensible amount of time to study.
