@@ -21,4 +21,5 @@ My first week as a PhD student was an interesting one; learning how to manage my
 
 This is of course adaptable and subject to change, though an outline of a timetable forces me to focus on certain tasks as and when I need to. I would highly recommend that every student creates a timetable to support their studies. I have provided links to various time management resources that I like below. Feel free to check them out.:
 
-
+* Creating a timetable using Microsoft Excel. Excel is my favourite tool to use when creating a timetable. Plus, there are tonnes of templates available to you on their website: https://create.microsoft.com/en-us/templates/schedules.
+* Pomodoro technique. This is always a go-to on many time management suggestion lists. Basically, you work for 25 minutes and then take a 5 minute break. repeat this 4 times and then take a longer break. The duration of each working period and break is entirely up to you. Here is an article which better describes the process: https://todoist.com/productivity-methods/pomodoro-technique. Here is a neat timer that helps you count each period: https://pomofocus.io/. It seems Italian tomatoes are better for you in more ways than first expected!
