@@ -2,7 +2,7 @@
 layout: single
 title: "PhD Diary, Week 1: First things first, make a timetable"
 date: 2024-10-04
-thumbnail: "/assets/pexels-orhanveliakbaba-23247806.jpg"
+thumbnail: "/assets/phd_office_view.jpg"
 excerpt: "My first week, revisiting some time management resources"
 read_time: true
 ---
