@@ -1,6 +1,16 @@
 ---
+defaults:
 layout: archive
-title: My PhD Diary
+title: "PhD DIary"
+permalink: /phd_diary/
+scope:
+path: ""
+type: pages
+values:
+layout: single
+author_profile: true
+include: _includes/head/custom.html
+favicon: "/favicon.ico"
 ---
 
 <h1>My PhD Diary</h1>
