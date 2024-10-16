@@ -20,6 +20,12 @@ body {
   gap: 20px;
 }
 
+.card-wrapper {
+  position: relative;
+  width: 100%;
+  padding-top: calc(100% * 1.4504918); /* Maintain aspect ratio */
+}
+  
 .flip-card {
   background-color: transparent;
   width: 100%;
@@ -95,6 +101,7 @@ body {
 <h1>Card Flip with Text</h1>
 <h3>Hover over the images below:</h3>
 
+<div class="card-container-wrapper">
   <div class="card-container">
     <div class="flip-card">
       <div class="flip-card-inner">
@@ -149,7 +156,8 @@ body {
       </div>
     </div>
   </div>
-
+</div>
+  
 </body>
 </html>
 {% endraw %}
