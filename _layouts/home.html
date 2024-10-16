@@ -1,15 +1,18 @@
 ---
 layout: single
+title: Card Flip
 ---
 
+{% raw %}
 <!DOCTYPE html>
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 body {
-  font-family: Arial, Helvetica, 
-{% raw %}
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 .card-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -70,7 +73,9 @@ body {
   position: relative;
   z-index: 2;
 }
-
+</style>
+</head>
+<body>
 
 <h1>Card Flip with Text</h1>
 <h3>Hover over the images below:</h3>
@@ -133,6 +138,7 @@ body {
 </body>
 </html>
 {% endraw %}
+
 
 <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
 
