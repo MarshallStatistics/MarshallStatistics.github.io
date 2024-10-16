@@ -1,9 +1,127 @@
 ---
-layout: splash
+layout: archive
 ---
 
-{{ content }}
-<div id="particles-js"></div>
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 500px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: #2980b9;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.flip-card-back img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+.flip-card-back h1, .flip-card-back p {
+  position: relative;
+  z-index: 2;
+}
+</style>
+
+<h1>Card Flip with Text</h1>
+<h3>Hover over the images below:</h3>
+
+<div class="card-container">
+  <div class="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src="img_avatar.png" alt="Avatar" style="width:1525px;height:2212px;">
+      </div>
+      <div class="flip-card-back">
+        <img src="img_avatar.png" alt="Avatar" style="width:1525px;height:2212px;">
+        <h1>John Doe</h1>
+        <p>Architect & Engineer</p>
+        <p>We love that guy</p>
+      </div>
+    </div>
+  </div>
+  <div class="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src="img_avatar.png" alt="Avatar" style="width:1525px;height:2212px;">
+      </div>
+      <div class="flip-card-back">
+        <img src="img_avatar.png" alt="Avatar" style="width:1525px;height:2212px;">
+        <h1>Jane Doe</h1>
+        <p>Designer & Developer</p>
+        <p>We admire her work</p>
+      </div>
+    </div>
+  </div>
+  <div class="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src="img_avatar.png" alt="Avatar" style="width:1525px;height:2212px;">
+      </div>
+      <div class="flip-card-back">
+        <img src="img_avatar.png" alt="Avatar" style="width:1525px;height:2212px;">
+        <h1>Alex Smith</h1>
+        <p>Artist & Teacher</p>
+        <p>Inspires creativity</p>
+      </div>
+    </div>
+  </div>
+  <div class="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src="img_avatar.png" alt="Avatar" style="width:1525px;height:2212px;">
+      </div>
+      <div class="flip-card-back">
+        <img src="img_avatar.png" alt="Avatar" style="width:1525px;height:2212px;">
+        <h1>Emily Johnson</h1>
+        <p>Writer & Poet</p>
+        <p>We cherish her words</p>
+      </div>
+    </div>
+  </div>
+</div>
+
 
 <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
 
