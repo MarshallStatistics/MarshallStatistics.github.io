@@ -26,11 +26,11 @@ body {
   width: 100%;
   height: auto;
   perspective: 1000px;
-  position: absolute;
+  position: relative;
 }
 
 .flip-card-inner {
-  position: absolute;
+  position: relative;
   width: 100%;
   height: 100%;
   text-align: center;
@@ -76,10 +76,22 @@ body {
   position: relative;
   z-index: 2;
 }
-</style>
-<\head>
-<body>
 
+/* Media queries for responsive design */
+@media screen and (min-width: 768px) {
+  .card-container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .card-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+</style>
+</head>
+<body>
 
 <h1>Card Flip with Text</h1>
 <h3>Hover over the images below:</h3>
@@ -88,10 +100,10 @@ body {
   <div class="flip-card">
     <div class="flip-card-inner">
       <div class="flip-card-front">
-        <img src="/assets/card_doe_back.png">
+        <img src="/assets/card_doe_back.png" alt="Avatar">
       </div>
       <div class="flip-card-back">
-        <img src="/assets/card_doe_front.png">
+        <img src="/assets/card_doe_front.png" alt="Avatar">
         <h1>John Doe</h1>
         <p>Architect & Engineer</p>
         <p>We love that guy</p>
@@ -101,10 +113,10 @@ body {
   <div class="flip-card">
     <div class="flip-card-inner">
       <div class="flip-card-front">
-        <img src="/assets/card_net_back.png">
+        <img src="/assets/card_net_back.png" alt="Avatar">
       </div>
       <div class="flip-card-back">
-        <img src="/assets/card_doe_front.png">
+        <img src="/assets/card_doe_front.png" alt="Avatar">
         <h1>Jane Doe</h1>
         <p>Designer & Developer</p>
         <p>We admire her work</p>
@@ -114,10 +126,10 @@ body {
   <div class="flip-card">
     <div class="flip-card-inner">
       <div class="flip-card-front">
-        <img src="/assets/card_py_back.png">
+        <img src="/assets/card_py_back.png" alt="Avatar">
       </div>
       <div class="flip-card-back">
-        <img src="/assets/card_py_front.png">
+        <img src="/assets/card_py_front.png" alt="Avatar">
         <h1>Alex Smith</h1>
         <p>Artist & Teacher</p>
         <p>Inspires creativity</p>
@@ -127,10 +139,10 @@ body {
   <div class="flip-card">
     <div class="flip-card-inner">
       <div class="flip-card-front">
-        <img src="/assets/card_diary_back.png">
+        <img src="/assets/card_diary_back.png" alt="Avatar">
       </div>
       <div class="flip-card-back">
-        <img src="/assets/card_diary_front.png">
+        <img src="/assets/card_diary_front.png" alt="Avatar">
         <h1>Emily Johnson</h1>
         <p>Writer & Poet</p>
         <p>We cherish her words</p>
