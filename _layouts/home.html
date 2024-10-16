@@ -15,6 +15,14 @@ body {
 
 }
 
+.card-container-wrapper {
+  background-color: green; /* Add green background */
+  padding: 20px; /* Add padding to the wrapper */
+  border-radius: 10px; /* Optional: add rounded corners */
+  display: flex;
+  justify-content: center;
+}
+
 .card-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -85,59 +93,62 @@ body {
 <h1>Card Flip with Text</h1>
 <h3>Hover over the images below:</h3>
 
-<div class="card-container">
-  <div class="flip-card">
-    <div class="flip-card-inner">
-      <div class="flip-card-front">
-        <img src="/assets/card_doe_back.png" alt="Avatar">
+<div class="card-container-wrapper">
+  <div class="card-container">
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img src="/assets/card_doe_back.png" alt="Avatar">
+        </div>
+        <div class="flip-card-back">
+          <img src="/assets/card_doe_front.png" alt="Avatar">
+          <h1>John Doe</h1>
+          <p>Architect & Engineer</p>
+          <p>We love that guy</p>
+        </div>
       </div>
-      <div class="flip-card-back">
-        <img src="/assets/card_doe_front.png" alt="Avatar">
-        <h1>John Doe</h1>
-        <p>Architect & Engineer</p>
-        <p>We love that guy</p>
+    </div>
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img src="/assets/card_net_back.png" alt="Avatar">
+        </div>
+        <div class="flip-card-back">
+          <img src="/assets/card_doe_front.png" alt="Avatar">
+          <h1>Jane Doe</h1>
+          <p>Designer & Developer</p>
+          <p>We admire her work</p>
+        </div>
+      </div>
+    </div>
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img src="/assets/card_py_back.png" alt="Avatar">
+        </div>
+        <div class="flip-card-back">
+          <img src="/assets/card_py_front.png" alt="Avatar">
+          <h1>Alex Smith</h1>
+          <p>Artist & Teacher</p>
+          <p>Inspires creativity</p>
+        </div>
+      </div>
+    </div>
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img src="/assets/card_diary_back.png" alt="Avatar">
+        </div>
+        <div class="flip-card-back">
+          <img src="/assets/card_diary_front.png" alt="Avatar">
+          <h1>Emily Johnson</h1>
+          <p>Writer & Poet</p>
+          <p>We cherish her words</p>
+        </div>
       </div>
     </div>
   </div>
-  <div class="flip-card">
-    <div class="flip-card-inner">
-      <div class="flip-card-front">
-        <img src="/assets/card_net_back.png" alt="Avatar">
-      </div>
-      <div class="flip-card-back">
-        <img src="/assets/card_doe_front.png" alt="Avatar">
-        <h1>Jane Doe</h1>
-        <p>Designer & Developer</p>
-        <p>We admire her work</p>
-      </div>
-    </div>
-  </div>
-  <div class="flip-card">
-    <div class="flip-card-inner">
-      <div class="flip-card-front">
-        <img src="/assets/card_py_back.png" alt="Avatar">
-      </div>
-      <div class="flip-card-back">
-        <img src="/assets/card_py_front.png" alt="Avatar">
-        <h1>Alex Smith</h1>
-        <p>Artist & Teacher</p>
-        <p>Inspires creativity</p>
-      </div>
-    </div>
-  </div>
-  <div class="flip-card">
-    <div class="flip-card-inner">
-      <div class="flip-card-front">
-        <img src="/assets/card_diary_back.png" alt="Avatar">
-      </div>
-      <div class="flip-card-back">
-        <img src="/assets/card_diary_front.png" alt="Avatar">
-        <h1>Emily Johnson</h1>
-        <p>Writer & Poet</p>
-        <p>We cherish her words</p>
-      </div>
-    </div>
-  </div>
+</div>
 </div>
 
 </body>
