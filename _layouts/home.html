@@ -6,6 +6,10 @@ title: Card Flip
 {% raw %}
 <!DOCTYPE html>
 <html>
+{% assign network_posts = site.posts | where: "tags", "networks" | count %}
+{% assign doe_posts = site.posts | where: "tags", "doe" | count %}
+{% assign python_posts = site.posts | where: "tags", "python" | count %}
+{% assign diary_posts = site.posts | where: "tags", "phd_diary" | count %}
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
@@ -99,11 +103,6 @@ body {
 </style>
 </head>
 <body>
-
-{% assign network_posts = site.posts | where: "tags", "networks" | count %}
-{% assign doe_posts = site.posts | where: "tags", "doe" | count %}
-{% assign python_posts = site.posts | where: "tags", "python" | count %}
-{% assign diary_posts = site.posts | where: "tags", "phd_diary" | count %}
 
   <h3>Choose a card below for notes on experimental design, network science, Python tutorials, or a weekly PhD diary.</h3>
 
