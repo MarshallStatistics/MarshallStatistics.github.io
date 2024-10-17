@@ -99,7 +99,13 @@ body {
 </style>
 </head>
 <body>
-<h3>Choose a card below for notes on experimental design, network science, Python tutorials, or a weekly PhD diary.</h3>
+
+{% assign network_posts = site.posts | where: "tags", "networks" | count %}
+{% assign doe_posts = site.posts | where: "tags", "doe" | count %}
+{% assign python_posts = site.posts | where: "tags", "python" | count %}
+{% assign diary_posts = site.posts | where: "tags", "phd_diary" | count %}
+
+  <h3>Choose a card below for notes on experimental design, network science, Python tutorials, or a weekly PhD diary.</h3>
 
   <div class="card-container">
     <div class="card-wrapper">
@@ -110,9 +116,9 @@ body {
         </div>
         <div class="flip-card-back">
           <img src="/assets/card_doe_front.png" alt="Avatar">
-          <h1>John Doe</h1>
-          <p>Architect & Engineer</p>
-          <p>We love that guy</p>
+          <p></p>
+          <h3>Experimental Design (DOE)</h3>
+          <p>{{ doe_posts }} posts (and counting!)</p>
         </div>
       </div>
     </div>
@@ -125,9 +131,9 @@ body {
         </div>
         <div class="flip-card-back">
           <img src="/assets/card_net_front.png" alt="Avatar">
-          <h1>Jane Doe</h1>
-          <p>Designer & Developer</p>
-          <p>We admire her work</p>
+          <p></p>
+          <h3>Networks and Graphs</h3>
+          <p>{{ network_posts }} posts (and counting!)</p>
         </div>
       </div>
     </div>
@@ -140,9 +146,9 @@ body {
         </div>
         <div class="flip-card-back">
           <img src="/assets/card_py_front.png" alt="Avatar">
-          <h1>Alex Smith</h1>
-          <p>Artist & Teacher</p>
-          <p>Inspires creativity</p>
+          <p></p>
+          <h3>Python Tutorials</h3>
+          <p>{{ python_posts }} posts (and counting!)</p>
         </div>
       </div>
     </div>
@@ -155,9 +161,9 @@ body {
         </div>
         <div class="flip-card-back">
           <img src="/assets/card_diary_front.png" alt="Avatar">
-          <h1>Emily Johnson</h1>
-          <p>Writer & Poet</p>
-          <p>We cherish her words</p>
+          <p></p>
+          <h3>PhD Diary</h3>
+          <p>{{ diary_posts }} posts (and counting!)</p>
         </div>
       </div>
     </div>
