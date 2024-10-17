@@ -1,5 +1,9 @@
 ---
 ---
+{% assign network_posts = site.posts | where: "tags", "networks" | count %}
+{% assign doe_posts = site.posts | where: "tags", "doe" | count %}
+{% assign python_posts = site.posts | where: "tags", "python" | count %}
+{% assign diary_posts = site.posts | where: "tags", "phd-diary" | count %}
 
 <!doctype html>
 {% include copyright.html %}
@@ -33,11 +37,6 @@
     </div>
 
     {% include scripts.html %}
-
-    {% assign network_posts = site.posts | where: "tags", "networks" | count %}
-{% assign doe_posts = site.posts | where: "tags", "doe" | count %}
-{% assign python_posts = site.posts | where: "tags", "python" | count %}
-{% assign diary_posts = site.posts | where: "tags", "phd-diary" | count %}
     
   </body>
 </html>
