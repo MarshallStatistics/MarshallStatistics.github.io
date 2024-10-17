@@ -117,6 +117,7 @@ body {
         <div class="flip-card-back">
           <img src="/assets/card_doe_front.png" alt="Avatar">
           <h1>Experimental Design (DOE)</h1>
+          {% assign doe_posts = site.posts | where: "tags", "doe" | count %}
           <p> {{ doe_posts }} posts (and counting!)</p>
         </div>
       </div>
