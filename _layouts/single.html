@@ -2,10 +2,6 @@
 layout: default
 ---
 
-{% assign network_posts = site.posts | where: "tags", "networks" | count %}
-{% assign doe_posts = site.posts | where: "tags", "doe" | count %}
-{% assign python_posts = site.posts | where: "tags", "python" | count %}
-{% assign diary_posts = site.posts | where: "tags", "phd_diary" | count %}
 
 {% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
   {% include page__hero.html %}
