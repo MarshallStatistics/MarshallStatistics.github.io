@@ -8,6 +8,7 @@ title: Card Flip
 {% assign python_posts = site.posts | where: "tags", "python" | count %}
 {% assign diary_posts = site.posts | where: "tags", "phd-diary" | count %}
 
+{% raw %}
 <!DOCTYPE html>
 <html>
 <head>
@@ -171,6 +172,7 @@ body {
   
 </body>
 </html>
+{% endraw %}
 
 <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
 
