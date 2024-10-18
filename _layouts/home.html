@@ -109,6 +109,13 @@ body {
   }
 }
 
+.poker-chip-container {
+  display: flex;
+  justify-content: flex-end; /* Align items to the right */
+  align-items: center;
+  gap: 20px; /* Adjust the space between items */
+  margin-top: 20px; /* Add space above */
+
 .poker-chip {
   display: flex;
   align-items: center;
@@ -206,16 +213,16 @@ body {
   </div>
 </div>
 
+<div class="poker-chip-container">
 <div class="poker-chip">
   <img src="/assets/poker_chip.png" alt="Poker Chip" class="poker-chip-img">
   <p class="poker-chip-text">All posts</p>
 </div>
-
 <div class="poker-chip">
   <img src="/assets/dice_flat.png" alt="flat dice" class="poker-chip-img">
   <p class="poker-chip-text">Random post</p>
 </div>
-  
+</div>
   
 </body>
 </html>
