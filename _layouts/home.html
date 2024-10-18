@@ -3,9 +3,9 @@ layout: single
 title: Card Flip
 ---
 
-{% assign network_posts = site.posts | where: "tags", "networks" | count %}
-{% assign doe_posts = site.posts | where: "tags", "doe" | count %}
-{% assign python_posts = site.posts | where: "tags", "python" | count %}
+{% assign network_posts_count = site.posts | where: "tags", "networks" | size %}
+{% assign doe_posts_count = site.posts | where: "tags", "doe" | size %}
+{% assign python_posts_count = site.posts | where: "tags", "python" | size %}
 {% assign diary_posts_count = site.posts | where: "tags", "phd-diary" | size %}
 
 {% raw %}
@@ -120,7 +120,7 @@ body {
         <div class="flip-card-back">
           <img src="/assets/card_doe_front.png" alt="Avatar">
           <h1>Experimental Design (DOE)</h1>
-          <p> On {{ doe_posts }} posts (and counting!)</p>
+          <p> On {{ doe_posts_count }} posts (and counting!)</p>
         </div>
       </div>
     </div>
@@ -135,7 +135,7 @@ body {
           <img src="/assets/card_net_front.png" alt="Avatar">
           <p></p>
           <h3>Networks and Graphs</h3>
-          <p>{{ network_posts }} posts (and counting!)</p>
+          <p>{{ network_posts_count }} posts (and counting!)</p>
         </div>
       </div>
     </div>
@@ -150,7 +150,7 @@ body {
           <img src="/assets/card_py_front.png" alt="Avatar">
           <p></p>
           <h3>Python Tutorials</h3>
-          <p>{{python_posts}} posts (and counting!)</p>
+          <p>{{ python_posts_count }} posts (and counting!)</p>
         </div>
       </div>
     </div>
