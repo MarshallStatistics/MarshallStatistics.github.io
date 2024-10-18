@@ -2,12 +2,10 @@
 layout: single
 title: Card Flip
 ---
-
 {% assign network_posts_count = site.posts | where: "tags", "networks" | size %}
 {% assign doe_posts_count = site.posts | where: "tags", "doe" | size %}
 {% assign python_posts_count = site.posts | where: "tags", "python" | size %}
 {% assign diary_posts_count = site.posts | where: "tags", "phd-diary" | size %}
-
 {% raw %}
 <!DOCTYPE html>
 <html>
@@ -110,10 +108,7 @@ body {
 {% endraw %}
 
 <body>
-
-  
-  <h3>Choose a card below for notes on experimental design, network science, Python tutorials, or a weekly PhD diary.</h3>
-
+<h3>Choose a card below for notes on experimental design, network science, Python tutorials, or a weekly PhD diary.</h3>
   <div class="card-container">
     <div class="card-wrapper">
     <div class="flip-card">
