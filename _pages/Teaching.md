@@ -2,7 +2,7 @@
 defaults:
 layout: single
 title: "Teaching"
-permalink: /Teaching/
+permalink: /teaching/
 scope:
 path: ""
 type: pages
