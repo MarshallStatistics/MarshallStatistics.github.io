@@ -1,7 +1,7 @@
 ---
 defaults:
 layout: archive
-title: "PhD Diary"
+title: "Networks"
 permalink: /networks/
 scope:
 path: ""
