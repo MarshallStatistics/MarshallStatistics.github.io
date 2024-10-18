@@ -1,7 +1,7 @@
 ---
 defaults:
 layout: archive
-title: "PhD Diary"
+title: "Python Tutorials"
 permalink: /python/
 scope:
 path: ""
