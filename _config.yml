@@ -19,7 +19,7 @@ locale                   : "en-GB"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
 title                    : "Daniel Marshall"
 title_separator          : "-"
-subtitle                 : "My portfolio" # site tagline that appears below site title in masthead
+subtitle                 : "Notes on experimental design, network science, Python tutorials, and a weekly PhD diary." # site tagline that appears below site title in masthead
 name                     : "Daniel Marshall"
 description              : "A website to showcase my Python stuff."
 url                      : "https://d-cmarshall.github.io/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
