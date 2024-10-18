@@ -2,7 +2,7 @@
 defaults:
 layout: single
 title: "About Me"
-permalink: /About/
+permalink: /about/
 scope:
 path: ""
 type: pages
