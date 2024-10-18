@@ -108,6 +108,23 @@ body {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
+.poker-chip {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px; /* Adjust as needed */
+}
+
+.poker-chip-img {
+  width: 50px; /* Adjust size as needed */
+  height: auto;
+  margin-right: 10px; /* Space between image and text */
+}
+
+.poker-chip-text {
+  font-size: 1.2em; 
+}
 </style>
 </head>
 {% endraw %}
@@ -187,6 +204,11 @@ body {
       </div>
     </div>
   </div>
+</div>
+
+<div class="poker-chip">
+  <img src="/assets/poker_chip.png" alt="Poker Chip" class="poker-chip-img">
+  <p class="poker-chip-text">All posts</p>
 </div>
   
 </body>
