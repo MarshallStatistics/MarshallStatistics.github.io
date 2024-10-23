@@ -11,9 +11,15 @@
   overflow: hidden; /* Ensure particles don't overflow */
 }
 
-.footer-logo img {
-    height: 95%;
+.footer-logo {
     position: relative;
-    bottom: 0;
-    right: 0;
+    display: flex;
+    justify-content: flex-end; /* Align to the right */
+    align-items: flex-end; /* Align to the bottom */
+    height: 100%; /* Make sure the logo fits the height */
+}
+
+.footer-logo img {
+    max-height: 95%; /* Scale to 95% of the footer's height */
+    max-width: 100%; /* Ensure the logo doesn't overflow horizontally */
 }
