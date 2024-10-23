@@ -156,7 +156,7 @@ footer:
       icon: "fab fa-fw fa-facebook-square"
       # url:
     - label: "GitHub"
-      icon: <i class="fab fa-fw fa-github" style="color: white;"></i>
+      icon: "fab fa-fw fa-github"
       url: "https://github.com/MarshallStatistics"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
@@ -168,7 +168,7 @@ footer:
       icon: "fab fa-fw fa-instagram"
       # url:
     - label: "@MarshStats"
-      icon: <i class="fab fa-x-twitter" style="color: white;"></i>
+      icon: "fab fa-x-twitter"
       url: "https://x.com/MarshStats"
 
 
