@@ -10,3 +10,10 @@
   position: relative;
   overflow: hidden; /* Ensure particles don't overflow */
 }
+
+.footer-logo img {
+    height: 95%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
