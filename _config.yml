@@ -17,7 +17,7 @@ minimal_mistakes_skin    : "air" # "default", "air", "aqua", "contrast", "dark",
 # Site Settings
 locale                   : "en-GB"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
-title                    : "Daniel Marshall"
+title                    : "Marshall Statistics"
 title_separator          : "-"
 subtitle                 : "Notes on experimental design, network science, Python tutorials, and a weekly PhD diary." # site tagline that appears below site title in masthead
 name                     : "Marshall Statistics"
