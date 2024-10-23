@@ -179,6 +179,7 @@ include:
   - _pages
   - ["_pages"]
   - _includes/head/custom.html
+  - _includes/footer/custom.html
 
 exclude:
   - "*.sublime-project"
