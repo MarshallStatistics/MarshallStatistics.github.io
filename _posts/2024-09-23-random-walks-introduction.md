@@ -96,7 +96,7 @@ Here is my output below:
 If you wish to save your image in Python, append your code with a line stating:
 
 ```Python
-plt.savefig('random_walk.png')
+plt.savefig('rw_sim (1).png')
 ```
 
 Pretty cool, eh?
