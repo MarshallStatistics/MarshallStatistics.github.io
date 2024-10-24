@@ -11,9 +11,23 @@
   overflow: hidden; /* Ensure particles don't overflow */
 }
 
+.footer-logo {
+    position: relative;
+    display: flex;
+    justify-content: flex-end; /* Align to the right */
+    align-items: center; /* Center vertically */
+}
+
 #footer-logo {
-  height: 1.5em; /* Set the height */
-  width: auto; /* Maintain aspect ratio */
-  max-width: 10%; /* Ensure it does not exceed a certain width */
+    max-height: 95%; /* Scale to 95% of the footer's height */
+    height: auto; /* Maintain aspect ratio */
+    max-width: 10%; /* Ensure it does not exceed a certain width */
+    width: auto; /* Maintain aspect ratio */
+}
+
+footer {
+    display: flex;
+    align-items: center; /* Center content vertically */
+    position: relative;
 }
 
