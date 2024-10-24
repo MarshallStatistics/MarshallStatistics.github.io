@@ -14,10 +14,10 @@ $masthead-link-color: $text-color !default;
 $masthead-link-color-hover: $text-color !default;
 $navicon-link-color-hover: mix(#fff, $text-color, 80%) !default;
 
-.page__footer {
+.page__footer .social-icons  {
   color: #fff !important; // override
 }
 
-.page__footer-follow .social-icons .svg-inline--fa {
+.page__footer-follow .svg-inline--fa {
   color: inherit;
 }
