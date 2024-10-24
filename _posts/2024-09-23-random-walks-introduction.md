@@ -91,13 +91,13 @@ plt.grid()   # This creates a set of gridlines on our plot.
 Here is my output below:
 
 <figure>
-  <img src="/assets/rw_example.png">
+  <img src="/assets/rw_sim (1).png">
 </figure>
 
 If you wish to save your image in Python, append your code with a line stating:
 
-```Python
-plt.savefig('rw_sim (1).png')
+```python
+plt.savefig('random_walk_image.png')
 ```
 
 Pretty cool, eh?
