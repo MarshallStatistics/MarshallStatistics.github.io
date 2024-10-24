@@ -66,11 +66,12 @@ for i in range(1, number_of_steps): # For each step...
 
 print(x)
 ```
-This will return an array, $x$, of the values after each step of the random walk. In my case, this returned an $x$ array of:
+This will return an array, $$x$$, of the values after each step of the random walk. In my case, this returned an $$x$$ array of:
 
 ```
 [ 0 -1 -2 -1 -2 ]
 ```
+This means that the walk starts at 0, then moves to -1 in the second step, then to -2, then to -1, then to -2. Notice that each step either increases or decreases by 1.
 
 Let's now take a look at how to plot it!
 
