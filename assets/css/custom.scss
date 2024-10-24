@@ -16,10 +16,10 @@
     display: flex;
     justify-content: flex-end; /* Align to the right */
     align-items: flex-end; /* Align to the bottom */
-    height: 1.5em; /* Make sure the logo fits the height */
+    max-height: 1.5em; /* Make sure the logo fits the height */
 }
 
 .footer-logo img {
-    height: 1.5em; /* Scale to 95% of the footer's height */
+    max-height: 1.5em;
     width: auto;
 }
