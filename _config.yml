@@ -121,7 +121,7 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:daniel.marshall@brunel.ac.uk"
+      # url: "mailto:daniel.marshall@brunel.ac.uk"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://www.brunel.ac.uk/people/daniel-marshall"
