@@ -15,12 +15,12 @@
     position: absolute; /* Make it absolute within the footer */
     bottom: 0; /* Align to the bottom of the footer */
     right: 0; /* Align to the right of the footer */
-    height: 95%; /* Make the div take up 95% of the footer height */
+    height: 10px; /* Make the div take up 95% of the footer height */
 }
 
 #footer-logo {
     max-height: 100%; /* Scale the image to fit within its parent */
-    height: 100%; /* Set image height to fill parent */
+    height: 10px; /* Set image height to fill parent */
     width: auto; /* Maintain aspect ratio */
 }
 
