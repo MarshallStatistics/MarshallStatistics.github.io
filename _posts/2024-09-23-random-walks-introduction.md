@@ -51,13 +51,55 @@ One may of course generalise this by changing the step size from one metre and b
 
 Let's start with the basics; we shall first implement our above definition in Python:
 
+```python
+# Imported libraries:
+import matplotlib.pyplot as plt # # matplotlib enables us to produce and customise many of the plots visible throughout the code.  
+import numpy as np # NumPy is a library which contains multiple methods required for data manipulation, particularly when working with arrays.
 
+number_of_steps = 5 # How many steps does the random walk take. In this case, it is five. 
+x = np.zeros(number_of_steps) # This creates an array of zeros to store the value of the random walk.
+
+for i in range(1, number_of_steps): # For each step...
+    step = np.random.choice([-1, 1])  # This chooses either 1 or -1 with equal probability
+    x[i] = x[i-1] + step # This calculates the displacement of the random walk at time i.
+
+print(x)
+```
+This will return an array, $x$, of the values after each step of the random walk. In my case, this returned an $x$ array of:
+
+```
+[ 0 -1 -2 -1 -2 ]
+```
+
+Let's now take a look at how to plot it!
+
+```python
+# Imported libraries:
+import matplotlib.pyplot as plt # matplotlib enables us to produce and customise many of the plots visible throughout the code.  
+
+plt.plot( x,               # This first argument is the thing we want to plot.
+          marker='o',      # The second argument specifies the shape of each data point.
+          mec = 'black',   # The third argument gives a nice outline around the marker
+          linestyle='-')   # Linestyle allows you to specify whether you want a dashed line or not.
+    
+plt.title('Simple Random Walk') # Provides a title
+plt.xlabel('Step') # Labels x-axis
+plt.ylabel('Position') # Labels y-axis
+plt.grid()   # This creates a set of gridlines on our plot.
+```
+Here is my output below:
 
 <figure>
-  <img src="/assets/LV_GIF1.gif" alt="A stable predator-prey system described by the Lotka-Volterra equations." title="A stable predator-prey system described by the Lotka-Volterra equations over time.">
-  <figcaption style="font-size: small;"> Figure 1: A stable predator-prey system described by the Lotka-Volterra equations. Source: Self-produced using Python. </figcaption>
+  <img src="/assets/rw_example.png">
 </figure>
 
+If you wish to save your image in Python, append your code with a line stating:
+
+```Python
+plt.savefig('random_walk.png')
+```
+
+Pretty cool, eh?
 
 ## **References**
 * P. R´ev´esz. Random walk in random and non-random environments. World Scientific, 2013.
