@@ -180,6 +180,8 @@ include:
   - ["_pages"]
   - _includes/head/custom.html
   - _includes/footer/custom.html
+  - /assets/css/custom.css
+
 
 exclude:
   - "*.sublime-project"
