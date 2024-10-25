@@ -11,23 +11,9 @@
   overflow: hidden; /* Ensure particles don't overflow */
 }
 
-.footer-logo {
-    position: absolute; /* Make it absolute within the footer */
-    bottom: 0; /* Align to the bottom of the footer */
-    right: 0; /* Align to the right of the footer */
-    height: 10px; /* Make the div take up 95% of the footer height */
-}
-
-#footer-logo {
-    max-height: 10px; /* Scale the image to fit within its parent */
-    height: 10px; /* Set image height to fill parent */
-    width: auto; /* Maintain aspect ratio */
-}
-
-footer {
-    position: relative; /* Ensure footer is the positioning reference */
-    display: flex;
-    align-items: center; /* Center other footer content vertically */
+.page__footer .social-icons i,
+.page__footer .social-icons .svg-inline--fa {
+  color: #ffffff; /* Set the color to white */
 }
 
 
