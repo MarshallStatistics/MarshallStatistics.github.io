@@ -12,7 +12,7 @@ author_profile: true
 include: _includes/head/custom.html
 favicon: "/favicon.ico"
 ---
-This is my weekly PhD diary, where I informally discuss what I have learned both technically and personally.
+Please see notes on Python below.
 {% for post in site.tags.python %}
   <article class="post">
     <div class="post-content-thumbnail">
