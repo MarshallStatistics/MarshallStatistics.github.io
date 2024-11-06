@@ -12,7 +12,7 @@ author_profile: true
 include: _includes/head/custom.html
 favicon: "/favicon.ico"
 ---
-
+<div style="text-align: right;"> <img src="/assets/back_to_home_button.png" alt="custom emoji" width="50px" height="50px"> <a href="/">Return to home page</a> </div>
 Please see below my various undergraduate and postgraduate academic projects in reverse chronological order.
 
 ## 📝 MSc thesis, *Queen Mary, University of London* (2023/2024)
@@ -83,3 +83,5 @@ _The PDF of this thesis can be found below._
 <object data="/assets/MMath Dissertation.pdf" type="application/pdf" width="100%" height="50px">
     <p>It appears you don't have a PDF plugin installed. You can download the PDF from <a href="/assets/MMath Dissertation.pdf">here</a>.</p>
 </object>
+<p></p>
+<div style="text-align: right;"> <img src="/assets/back_to_home_button.png" alt="custom emoji" width="50px" height="50px"> <a href="/">Return to home page</a> </div>
