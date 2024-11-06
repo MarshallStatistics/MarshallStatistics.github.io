@@ -12,7 +12,7 @@ author_profile: true
 include: _includes/head/custom.html
 favicon: "/favicon.ico"
 ---
-<img src="assets/back_to_home_button.png" alt="custom emoji" width="30px" height="30px"> Return to home page
+<a href="/"><img src="assets/back_to_home_button.png" alt="custom emoji" width="30px" height="30px"> Return to home page </a>
 
 <figure>
   <img src="/assets/IMG-20240720-WA0048.jpg" alt="Me in Norway, near the Briksdal glacier." title="In Norway, near the Briksdal glacier." style="width=100%;">
