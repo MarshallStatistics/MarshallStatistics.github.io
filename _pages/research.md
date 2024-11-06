@@ -19,7 +19,8 @@ Please see below my various undergraduate and postgraduate academic projects in 
 
 MSc thesis supervised by Dr Rainer Klages. Abstract below:
 
- > The statistical analysis of marine life foraging patterns is of contemporary significance, in view of the global pursuit to conserve oceanic biodiversity. This thesis seeks to understand sea turtle foraging patterns by applying the theory of Brownian motion to empirical data. Firstly, we explore a hierarchy of stochastic processes, ranging from the simple random walk to Langevin dynamics, in order to motivate the statistical analysis. The established theory is then applied to satellite telemetry data of three loggerhead sea turtles, foraging off the coast of West Africa. The data analysis revealed that the turtle foraging patterns do not strictly obey the theory of Brownian motion, shedding light on the complexity of animal movement.
+ > <p style="font-size: 10px;">The statistical analysis of marine life foraging patterns is of contemporary significance, in view of the global pursuit to conserve oceanic biodiversity. This thesis seeks to understand sea turtle foraging patterns by applying the theory of Brownian motion to empirical data. Firstly, we explore a hierarchy of stochastic processes, ranging from the simple random walk to Langevin dynamics, in order to motivate the statistical analysis. The established theory is then applied to satellite telemetry data of three loggerhead sea turtles, foraging off the coast of West Africa. The data analysis revealed that the turtle foraging patterns do not strictly obey the theory of Brownian motion, shedding light on the complexity of animal movement.</p>
+
 
 _The PDF of this thesis can be found below._
 
