@@ -195,7 +195,7 @@ $text-alignments: left, right, start, end, center, justify;
   .fab,
   .far,
   .fal {
-    color: $textcolor;
+    color: $text-color;
   }
 
   @each $color, $icons in (
