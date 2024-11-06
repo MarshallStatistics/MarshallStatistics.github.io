@@ -45,7 +45,12 @@ search: false
   z-index: 1; /* Ensure it stays above the particles container */
 }
 
-.page__footer-follow .social-icons .svg-inline--fa {
-    color: #fff
-    fill: #fff
+.page__footer-follow .social-icons a {
+    color: #fff !important; /* Ensure the color is set to white */
+    fill: #fff !important; /* Ensure the SVG fill color is set to white */
 }
+
+.social-icons .fa {
+    color: #fff !important; /* Set the color of FontAwesome icons to white */
+}
+
