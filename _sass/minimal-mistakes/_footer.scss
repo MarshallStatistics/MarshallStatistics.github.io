@@ -30,6 +30,7 @@
 
   a {
     color: #fff;
+     fill: #fff;
     text-decoration: none;
 
     &:hover {
@@ -42,6 +43,7 @@
   .far,
   .fal {
     color: #fff;
+     fill: #fff;
   }
 }
 
@@ -78,7 +80,7 @@
 
   .social-icons {
     a {
-      fill: #fff;
+      fill: #fff; !important
        color: #fff; !important
       white-space: nowrap;
     }
