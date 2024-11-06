@@ -4,8 +4,8 @@ main:
     url: /about/
   - title: "&#x1F34E; Teaching"
     url: /teaching/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
+  - title: ":writing_hand: Research"
+    url: /research/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
