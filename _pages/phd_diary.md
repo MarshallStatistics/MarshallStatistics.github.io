@@ -12,6 +12,7 @@ author_profile: true
 include: _includes/head/custom.html
 favicon: "/favicon.ico"
 ---
+<div style="text-align: right;"> <img src="/assets/back_to_home_button.png" alt="custom emoji" width="50px" height="50px"> <a href="/">Return to home page</a> </div>
 This is my weekly PhD diary, where I informally discuss what I have learned both technically and personally.
 {% for post in site.tags.phd-diary %}
   <article class="post">
@@ -31,3 +32,5 @@ This is my weekly PhD diary, where I informally discuss what I have learned both
     </div>
   </article>
 {% endfor %}
+
+<div style="text-align: right;"> <img src="/assets/back_to_home_button.png" alt="custom emoji" width="50px" height="50px"> <a href="/">Return to home page</a> </div>
