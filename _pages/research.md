@@ -12,13 +12,11 @@ author_profile: true
 include: _includes/head/custom.html
 favicon: "/favicon.ico"
 ---
-<figure>
-  <img src="/assets/IMG-20240720-WA0048.jpg" alt="Me in Norway, near the Briksdal glacier." title="In Norway, near the Briksdal glacier." style="width=100%;">
-</figure>
 
 Please see below my various undergraduate and postgraduate academic projects in reverse chronological order.
 
-## MSc thesis, *Queen Mary, University of London* (2023/2024)
+<details>
+<summary> ## MSc thesis, *Queen Mary, University of London* (2023/2024) ## </summary>
 
 MSc thesis supervised by Dr Rainer Klages. Abstract below:
 
@@ -29,6 +27,7 @@ _The PDF of this thesis can be found below._
 <object data="/assets/230793835_MSc_Dissertation.pdf" type="application/pdf" width="100%" height="600px">
     <p>It appears you don't have a PDF plugin installed. You can download the PDF from <a href="/assets/DMarshall 4-week review document.pdf">here</a>.</p>
 </object>
+</details>
 
 ## MSc presentation, *Queen Mary, University of London* (2023/2024)
 
