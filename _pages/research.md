@@ -82,6 +82,6 @@ MMath thesis supervised by Dr Leon Loveridge. Abstract below:
 
 _The PDF of this thesis can be found below._
 
-<object data="/assets/230793835_MSc_Dissertation.pdf" type="application/pdf" width="100%" height="600px">
+<object data="/assets/MMath Dissertation" type="application/pdf" width="100%" height="600px">
     <p>It appears you don't have a PDF plugin installed. You can download the PDF from <a href="/assets/DMarshall 4-week review document.pdf">here</a>.</p>
 </object>
