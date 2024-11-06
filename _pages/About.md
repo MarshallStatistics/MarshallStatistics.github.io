@@ -12,8 +12,6 @@ author_profile: true
 include: _includes/head/custom.html
 favicon: "/favicon.ico"
 ---
-<img src="/assets/back_to_home_button.png" alt="custom emoji" width="50px" height="50px"><a href="/">Return to home page </a>
-
 <figure>
   <img src="/assets/IMG-20240720-WA0048.jpg" alt="Me in Norway, near the Briksdal glacier." title="In Norway, near the Briksdal glacier." style="width=100%;">
 </figure>
@@ -34,4 +32,5 @@ I have an integrated masters degree in Mathematics from the University of York, 
 - MSc Research Methods Presentation: A 10-minute LaTeX/Beamer presentation discussing the Paradox of the Pesticides; an interesting result one observes when introducing pesticide to a system of Lotka-Volterra equations. I used Python to visualise this result and provide animations in the presentation. 
 - MSc Thesis: An analysis of sea turtle foraging patterns alongside a discussion of the hierarchy of stochastic processes. I used quantile-quantile plots, log-log plots, semi-log plots, and simple fits to determine to what extent the foraging patterns adhered to the theory of Brownian motion. 
 
+<img src="/assets/back_to_home_button.png" alt="custom emoji" width="50px" height="50px"><a href="/">Return to home page </a>
 
