@@ -67,8 +67,7 @@ _The PDF of this report can be found below._
 <object data="/assets/CfEM GeoGebra Report.pdf" type="application/pdf" width="100%" height="50px">
     <p>It appears you don't have a PDF plugin installed. You can download the PDF from <a href="/assets/CfEM GeoGebra Report.pdf">here</a>.</p>
 </object>
-
-
+<p></p>
 _We also presented the findings online. Please see the video below._
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/kFlcjwVEzRI?si=Wew-k2rknULrIVdv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
