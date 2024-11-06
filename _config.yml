@@ -115,7 +115,7 @@ analytics:
 # Site Author
 author:
   name             : "Daniel Marshall"
-  avatar           : "assets/2448130.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "assets/Design 11.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : PhD student @ <a href="https://www.brunel.ac.uk/mathematics">Brunel</a>, synthesising network science with Design of Experiment theory.
   email            :
   links:
