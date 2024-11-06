@@ -40,7 +40,7 @@ _The PDF of this presentation can be found below. Please download the PDF to see
     <p>It appears you don't have a PDF plugin installed. You can download the PDF from <a href="/assets/Research_Methods_Presentation_230793835 FINAL (1).pdf">here</a>.</p>
 </object>
 
-## 📝 2021 Action Research Report, *Centre for Excellence in Mathematics* (2020/2021)
+## 📝 2021 Report, *Centre for Excellence in Mathematics* (2020/2021)
 
 An action research project to assess the impact of tutor feedback tone on students' motivation to study mathematics. Abstract below:
 
@@ -52,11 +52,12 @@ _The PDF of this report can be found below._
     <p>It appears you don't have a PDF plugin installed. You can download the PDF from <a href="/assets/CfEM Tone of Feedback Report.pdf">here</a>.</p>
 </object>
 
+
 _We also presented the findings online. Please see the video below._
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/WAes6cTSc_0?si=o9ijKO51IPjnr-gk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-## 📝 2020 Action Research Report, *Centre for Excellence in Mathematics* (2019/2020)
+## 📝 2020 Report, *Centre for Excellence in Mathematics* (2019/2020)
 
 An action research project to assess the impact of introducing EdTech graphical software (e.g., GeoGebra or Desmos) to GCSE-resit Mathematics lessons on students' motivation to attain a pass in the subject. Abstract below:
 
@@ -67,6 +68,7 @@ _The PDF of this report can be found below._
 <object data="/assets/CfEM GeoGebra Report.pdf" type="application/pdf" width="100%" height="50px">
     <p>It appears you don't have a PDF plugin installed. You can download the PDF from <a href="/assets/CfEM GeoGebra Report.pdf">here</a>.</p>
 </object>
+
 
 _We also presented the findings online. Please see the video below._
 
