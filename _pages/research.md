@@ -11,6 +11,9 @@ layout: single
 author_profile: true
 include: _includes/head/custom.html
 favicon: "/favicon.ico"
+toc: true
+toc_label: "Unique Title"
+toc_icon: "heart"  # corresponding Font Awesome icon name (without fa prefix)
 ---
 <div style="text-align: right;"> <img src="/assets/back_to_home_button.png" alt="custom emoji" width="50px" height="50px"> <a href="/">Return to home page</a> </div>
 Please see below my various undergraduate and postgraduate academic projects in reverse chronological order.
