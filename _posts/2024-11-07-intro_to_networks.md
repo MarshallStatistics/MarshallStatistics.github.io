@@ -37,7 +37,12 @@ A graph can consist of more than one node, you may wish to construct a network b
 
 Now we have this intuition, let's define a simple, undirected graph.
 
+> ### Definition 1: Undirected Graph
+> An undirected network is a set of nodes, $$\nu = \{\nu_1, \nu_2, \ldots, \nu_N\}$$, and a set of edges, $$\epsilon = \{\epsilon_1, \epsilon_2, \ldots, \epsilon_K\}$$, for $K, N \in \mathbb{N}$ such that each edge in $$\mathcal{E}$$ connects an element in $\mathcal{N}$ to another (not necessarily distinct) element of $$\nu$$.
 
+This definition implies there is a directed graph. In fact, our edges can be directed in a single direction. 
+
+However, for the rest of this post, we will consider undirected graphs. I may create a future post on directed graphs at a later date.
 
 It is almost always important to consider the connectivity of nodes. This is where the real *magic* of networks reveals itself. Fortunately, there is a super legible way to convey the interconnectivity of nodes - this is known as the adjacency matrix.
 
