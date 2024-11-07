@@ -2,7 +2,7 @@
 layout: single
 title: "Introduction to Networks"
 date: 2024-11-07
-thumbnail: "/assets/pexels-orhanveliakbaba-23247806.jpg"
+thumbnail: "/assets/network_intro_2.png"
 excerpt: "An introduction to the basics of networks and graph theory."
 tags: ['networks']
 read_time: true
@@ -13,10 +13,6 @@ read_time: true
 <script type="text/javascript" async
   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
 </script>
-<figure>
-  <img src="/assets/pexels-orhanveliakbaba-23247806.jpg" alt="A tractor dispensing pesticide on a farm." title="A tractor dispensing pesticide on a farm." style="width=100%;">
-  <figcaption style="font-size: small;">Source: Orhan Akbaba on <a href = "https://www.pexels.com/photo/tractor-spraying-pesticide-on-green-field-23247806/">Pexels</a> </figcaption>
-</figure>
 Networks are used to describe many real-world phenomena such as the interaction within social structures and the mapping of transport links connecting cities. In this post, we shall introduce the fundamental concepts of network theory.
 
 # Nodes and edges
@@ -26,7 +22,7 @@ In the same way that we can portray a function with a plot, we can model a netwo
 We can create a graph of the network between you and a friend; there are two nodes (you and your friend) connected by an edge (a straight line representing your friendship):
 
 <figure>
-  <img src="/assets/pexels-orhanveliakbaba-23247806.jpg" alt="A simple graph of the network between you and a friend." title="A simple graph of the network between you and a friend." style="width=50%;">
+  <img src="/assets/network_intro_1.png" alt="A simple graph of the network between you and a friend." title="A simple graph of the network between you and a friend." style="width=50%;">
   <figcaption style="font-size: small;">"Figure 1: A simple graph of the network between you and a friend. </figcaption>
 </figure>
 
@@ -35,8 +31,8 @@ It is customary to call nodes $$\nu$$ with a subscript to differentiate between 
 A graph can consist of more than one node, you may wish to construct a network between you, your friend group, and an acquaintance of yours.
 
 <figure>
-  <img src="/assets/pexels-orhanveliakbaba-23247806.jpg" alt="A simple graph of the network between you and a friend." title="A simple graph of the network between you and a friend." style="width=50%;">
-  <figcaption style="font-size: small;">"Figure 1: A simple graph of the network between you and a friend. </figcaption>
+  <img src="/assets/network_intro_2.png" alt="A simple graph of the network between you, your friend group, and an acquaintance of yours." title="A simple graph of the network between you, your friend group, and an acquaintance of yours." style="width=50%;">
+  <figcaption style="font-size: small;">"Figure 2: A simple graph of the network between you, your friend group, and an acquaintance of yours. </figcaption>
 </figure>
 
 It is almost always important to consider the connectivity of nodes. This is where the real *magic* of networks reveals itself. Fortunately, there is a super legible way to convey the interconnectivity of nodes - this is known as the adjacency matrix.
