@@ -2,7 +2,7 @@
 layout: single
 title: "Introduction to Networks"
 date: 2024-11-07
-thumbnail: "/assets/network_intro_2.png"
+thumbnail: "/assets/network_intro_1.png"
 excerpt: "An introduction to the basics of networks and graph theory."
 tags: ['networks']
 read_time: true
@@ -34,6 +34,10 @@ A graph can consist of more than one node, you may wish to construct a network b
   <img src="/assets/network_intro_2.png" alt="A simple graph of the network between you, your friend group, and an acquaintance of yours." title="A simple graph of the network between you, your friend group, and an acquaintance of yours." style="width=50%;">
   <figcaption style="font-size: small;">"Figure 2: A simple graph of the network between you, your friend group, and an acquaintance of yours. </figcaption>
 </figure>
+
+Now we have this intuition, let's define a simple, undirected graph.
+
+
 
 It is almost always important to consider the connectivity of nodes. This is where the real *magic* of networks reveals itself. Fortunately, there is a super legible way to convey the interconnectivity of nodes - this is known as the adjacency matrix.
 
