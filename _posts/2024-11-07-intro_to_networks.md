@@ -4,6 +4,7 @@ title: "Introduction to Networks"
 date: 2024-11-07
 thumbnail: "/assets/pexels-orhanveliakbaba-23247806.jpg"
 excerpt: "An introduction to the basics of networks and graph theory."
+tags: ['networks']
 read_time: true
 ---
 
