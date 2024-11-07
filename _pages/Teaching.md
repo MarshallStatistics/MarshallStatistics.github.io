@@ -11,6 +11,8 @@ layout: single
 author_profile: true
 include: _includes/head/custom.html
 favicon: "/favicon.ico"
+toc: true
+toc_label: " Contents"
 ---
 <figure>
   <img src="/assets/pexels-lum3n-44775-167682.jpg" alt="Black pen on white paper" title="Black pen on white paper" style="width=100%;">
