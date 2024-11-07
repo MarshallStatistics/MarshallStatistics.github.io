@@ -51,6 +51,6 @@ I also have experience teaching in a Higher Education institution, teaching Leve
 
 I was also module leader over two years for an Introduction to Numeracy, Data & IT and Using Numeracy, Data & IT. These were introductory modules on mathematics and basic data analysis, preparing students for their future courses.
 
-{: .notice} I am a fellow of the HEA, in recognition of my dedication toward quality learning and teaching. {: .notice}
+{% include notice.html content="I am a fellow of the HEA, in recognition of my dedication toward quality learning and teaching." %}
 
 <div style="text-align: right;"> <img src="/assets/back_to_home_button.png" alt="custom emoji" width="50px" height="50px"> <a href="/">Return to home page</a> </div>
