@@ -123,7 +123,7 @@ author:
       icon: "fas fa-fw fa-envelope-square"
       # url: "mailto:daniel.marshall@brunel.ac.uk"
     - label: "Website"
-      icon: "fas fa-fw fa-link"
+      icon: "fas fa-fw fa-globe"
       url: "https://www.brunel.ac.uk/people/daniel-marshall"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
@@ -146,6 +146,9 @@ author:
 # Site Footer
 footer:
   links:
+    - label: "Website"
+      icon: "fas fa-fw fa-globe"
+      url: "https://www.brunel.ac.uk/people/daniel-marshall"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/marshallstatistics/"
