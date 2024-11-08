@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "An Introduction to Undirected Networks"
+title: "1.0 What are networks? (nodes and edges)"
 date: 2024-11-07
 thumbnail: "/assets/network_intro_1.png"
 excerpt: "An introduction to the basics of networks and graph theory."
