@@ -21,7 +21,8 @@ Networks are used to describe many real-world phenomena such as the interaction 
 
 For the purposes of this section, we shall solely discuss undirected networks. You do not need to know what undirected means at this stage.
 
-{% for post in site.tags.networks %}
+{% assign sorted_posts = site.tags.networks | sort: 'post.title' %} 
+{% for post in sorted_posts %}
   <article class="post">
     <div class="post-content-thumbnail">
       {% if post.thumbnail %}
