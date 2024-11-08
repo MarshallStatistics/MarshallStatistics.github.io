@@ -37,7 +37,7 @@ A graph can consist of more than one node, you may wish to construct a network b
 
 The set of nodes $$\nu$$, in this example, is given by: 
 
-$$\nu = {\nu_1, \nu_2, \nu_3, \nu_4, \nu_5}$$.
+$$\begin{equation}\nu = {\nu_1, \nu_2, \nu_3, \nu_4, \nu_5}\end{equation}$$.
 
 The set of edges $$\epsilon$$, in this example is given by: 
 
