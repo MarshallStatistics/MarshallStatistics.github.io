@@ -21,7 +21,7 @@ We will also reconsider our second example from the first post:
 
 <figure>
   <img src="/assets/network_intro_2.png" alt="A simple graph of the network between you, your friend group, and an acquaintance of yours." title="A simple graph of the network between you, your friend group, and an acquaintance of yours." style="width=50%;">
-  <figcaption style="font-size: small;">Figure 2: A simple graph of the network between you, your friend group, and an acquaintance of yours. </figcaption>
+  <figcaption style="font-size: small;">Figure 1: A simple graph of the network between you, your friend group, and an acquaintance of yours. </figcaption>
 </figure>
 
 It is almost always important to consider the connectivity of nodes. This is where the real *magic* of networks reveals itself. Fortunately, there is a super legible way to convey the interconnectivity of nodes - this is known as the adjacency matrix.
@@ -47,7 +47,7 @@ The adjacency matrix tells us what nodes are connected to each node in a legible
 
 From this definition, one can see that there is a $$1$$ in the $$ij$$-th element of the adjacency matrix if nodes $$\nu_i$$ and $$\nu_j$$ are connected. 
 
-As an example, consider the graph in Figure 2. One can create its adjacency matrix:
+As an example, consider the graph in Figure 1. One can create its adjacency matrix:
 
 $$A = \begin{pmatrix}
 0 & 1 & 1 & 1 & 1 \\
@@ -61,7 +61,7 @@ To see this a bit more clearly, I have annotated which node is connected to each
 
 <figure>
   <img src="/assets/network_intro_3.png" alt="An adjacency matrix, annotated." title="An adjacency matrix, annotated." style="width=50%;">
-  <figcaption style="font-size: small;">Figure 3: An adjacency matrix, annotated. </figcaption>
+  <figcaption style="font-size: small;">Figure 2: An adjacency matrix, annotated. </figcaption>
 </figure>
 
-As you can see, in congruence with Figure 2, everybody knows everybody in your friend group, and your acquaintance is only known by you. The adjacency matrix allows us to represent the connectivity of a given network without having to draw the graph. It is easy to imagine that drawing a graph with a large number of nodes and/or edges can become quite a headache.
+As you can see, in congruence with Figure 1, everybody knows everybody in your friend group, and your acquaintance is only known by you. The adjacency matrix allows us to represent the connectivity of a given network without having to draw the graph. It is easy to imagine that drawing a graph with a large number of nodes and/or edges can become quite a headache.
