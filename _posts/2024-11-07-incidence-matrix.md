@@ -27,7 +27,7 @@ We will also reconsider our second example from the first post:
 
 We may wish to consider the connectivity of a graph from the perspective of its edges. This is known as the incidence matrix; a way of capturing how each node is incident (connected) to each edge.
 
-> ### Definition 3: Incidence Matrix
+> ### Definition 2: Incidence Matrix
 > Given an undirected network (as in Definition 1), the incidence matrix, $$E$$, is defined as an $$N \times K$$ matrix where:
 > 
 > $$\begin{equation}
