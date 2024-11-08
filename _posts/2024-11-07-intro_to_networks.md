@@ -51,15 +51,14 @@ It is almost always important to consider the connectivity of nodes. This is whe
 The adjacency matrix tells us what nodes are connected to each node in a legible format.
 
 > ### Definition 2: Adjacency Matrix
-> Given an undirected network (as in Definition 1), the adjacency matrix, \(A\), is defined as a symmetric \(N \times N\) matrix where:
->
+> Given an undirected network (as in Definition 1), the adjacency matrix, $$A$$, is defined as a symmetric $$N \times N$$ matrix where:
 > $$
-> \begin{equation*}
->     A_{ij} = \begin{cases*}
+> \begin{equation}
+>     A_{ij} = \begin{cases}
 >     1 & \text{if } (i, j) \in \epsilon \\
 >     0 & \text{if } (i, j) \notin \epsilon
->     \end{cases*}
-> \end{equation*}
+>     \end{cases}
+> \end{equation}
 > $$
 
 
