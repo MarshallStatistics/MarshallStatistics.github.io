@@ -42,8 +42,8 @@ $$\nu = {\nu_1, \nu_2, \nu_3, \nu_4, \nu_5}$$.
 
 The set of edges $$\epsilon$$, in this example is given by: 
 
-$$\begin{align}\epsilon = {& \epsilon_1 = (\nu_1, \nu_2), // 
-& \epsilon_2 = (\nu_2, \nu_4), // & \epsilon_3 = (\nu_2, \nu_3), // & \epsilon_4 = (\nu_1, \nu_3), // & \epsilon_5 = (\nu_3, \nu_4), // & \epsilon_6 = (\nu_1, \nu_4), // & \epsilon_7= (\nu_1, \nu_5)}\end{align}$$
+$$\begin{align}\epsilon = {& \epsilon_1 = (\nu_1, \nu_2), \\
+& \epsilon_2 = (\nu_2, \nu_4), \\ & \epsilon_3 = (\nu_2, \nu_3), \\ & \epsilon_4 = (\nu_1, \nu_3), \\ & \epsilon_5 = (\nu_3, \nu_4), \\ & \epsilon_6 = (\nu_1, \nu_4), \\ & \epsilon_7= (\nu_1, \nu_5)}\end{align}$$
 
 Now we have this intuition, let's define a simple, undirected graph.
 
