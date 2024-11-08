@@ -19,6 +19,8 @@ I am currently in the process of putting some notes together on networks and gra
 
 Networks are used to describe many real-world phenomena such as the interaction within social structures and the mapping of transport links connecting cities. Throughout this section, we shall introduce the fundamental concepts of network theory.
 
+For the purposes of this section, we shall solely discuss undirected networks. You need not know what undirected means at this stage.
+
 {% for post in site.tags.networks %}
   <article class="post">
     <div class="post-content-thumbnail">
