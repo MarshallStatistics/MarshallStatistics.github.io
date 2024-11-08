@@ -1,7 +1,7 @@
 ---
 defaults:
 layout: archive
-title: "Networks"
+title: "Notes on Networks"
 permalink: /networks/
 scope:
 path: ""
@@ -24,9 +24,6 @@ I am currently in the process of putting some notes together on networks and gra
       {% endif %}
       <div class="post-content">
         <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-        <p class="post-meta">
-          <i class="fa fa-calendar"></i> <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>
-        </p>  
         {% if post.excerpt %}
           <p>{{ post.excerpt }}</p>
         {% endif %}
