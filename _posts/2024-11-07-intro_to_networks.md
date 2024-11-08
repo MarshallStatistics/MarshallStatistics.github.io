@@ -144,7 +144,7 @@ This is an alternative way to portray the connectivity of the network and become
 Another important measure of connectivity is the node degree of a given node within a network. A formal definition of the node degree can be found below.
 
 > ### Definition 4: Node Degree
-> Given an undirected network, $$G = {\nu, \epsilon}$$, with $N$ nodes (as in Definition 1), the node degree of a given node $$\nu_i$$ can be defined by the adjacency matrix:
+> Given an undirected network, $$G = \left\{ \nu, \epsilon \right\}$$, with $N$ nodes (as in Definition 1), the node degree of a given node $$\nu_i$$ can be defined by the adjacency matrix:
 > 
 > $$\begin{equation}
 > \text{deg}(\nu_i) = \sum_{j = 1}^{N} A_{ij}
