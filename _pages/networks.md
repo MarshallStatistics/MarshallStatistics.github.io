@@ -21,7 +21,14 @@ Networks are used to describe many real-world phenomena such as the interaction 
 
 For the purposes of this section, we shall solely discuss undirected networks. You do not need to know what undirected means at this stage.
 
-{% assign sorted_posts = site.tags.networks | sort: 'post.title' %} 
+{% assign sorted_posts = site.tags.networks | sort: 'numeric_title' %}
+{% for post in site.tags.networks %}
+  {% assign numeric_title = post.title | remove: " " | split: "." %}
+  {% assign post.numeric_title = numeric_title[0] | plus: 0 %}
+  {% if numeric_title.size > 1 %}
+    {% assign post.numeric_title = post.numeric_title | append: "." | append: numeric_title[1] %}
+  {% endif %}
+{% endfor %}
 {% for post in sorted_posts %}
   <article class="post">
     <div class="post-content-thumbnail">
@@ -37,6 +44,7 @@ For the purposes of this section, we shall solely discuss undirected networks. Y
     </div>
   </article>
 {% endfor %}
+
 
 <div style="text-align: right;"> <img src="/assets/back_to_home_button.png" alt="custom emoji" width="50px" height="50px"> <a href="/">Return to home page</a> </div>
 
