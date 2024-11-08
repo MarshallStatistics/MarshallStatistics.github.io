@@ -65,7 +65,13 @@ The adjacency matrix tells us what nodes are connected to each node in a legible
 
 If we consider the graph in Figure 2, one can create its adjacency matrix:
 
-$$$$
+$$A = \begin{pmatrix}
+0 & 1 & 1 & 1 & 1 \\
+1 & 0 & 1 & 1 & 0 \\
+1 & 1 & 0 & 1 & 0 \\
+1 & 1 & 1 & 0  & 0 \\
+1 & 0 & 0 & 0 & 0 \\
+\end{pmatrix}$$
 
 To see this a bit more clearly, I have annotated which node is connected to each node by labelling the rows and columns respectively.
 
