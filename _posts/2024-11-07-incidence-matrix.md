@@ -2,8 +2,8 @@
 layout: single
 title: "1.2 Incidence matrix"
 date: 2024-11-07
-thumbnail: "/assets/network_intro_1.png"
-excerpt: "An introduction to the basics of networks and graph theory."
+thumbnail: "/assets/network_intro_4.png"
+excerpt: "A definition of the incidence matrix, complete with an example."
 tags: ['networks']
 read_time: true
 ---
