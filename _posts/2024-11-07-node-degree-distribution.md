@@ -2,8 +2,8 @@
 layout: single
 title: "1.4 Node degree distribution"
 date: 2024-11-07
-thumbnail: "/assets/network_intro_1.png"
-excerpt: "The probability distribution of choosing a node with degree $$k$$"
+thumbnail: "/assets/network_intro_5.png"
+excerpt: "The probability distribution of choosing a node with degree $$k$$ out of the total nodes of a network."
 tags: ['networks']
 read_time: true
 ---
@@ -50,3 +50,10 @@ $$
  $$
 
 It is customary to exclude the values of degree value $$k$$ in the degree distribution for which there are no nodes present. Notice in our previous calculations that there was one node with degree one, three nodes with degree three, and one node with degree four. The node degree distribution is a probability distribution that encompasses the proportion of node degrees seen throughout the network.
+
+I have plotted the relative frequency of each degree as a bar chart below:
+
+<figure>
+  <img src="/assets/network_intro_5.png" alt="A plot of the node degree distribution of the network portrayed in Figure 1." title="A plot of the node degree distribution of the network portrayed in Figure 1." style="width=50%;">
+  <figcaption style="font-size: small;">Figure 2: A plot of the node degree distribution of the network portrayed in Figure 1.</figcaption>
+</figure>
