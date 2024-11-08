@@ -12,7 +12,7 @@ author_profile: true
 include: _includes/head/custom.html
 favicon: "/favicon.ico"
 ---
-I am currently in the process of putting some notes together on networks and graph theory. Please do let me know your thoughts or improvements either via email or LinkedIn. I hope these notes are useful!
+I am currently in the process of putting some notes together on networks and graph theory. Please do let me know your thoughts or improvements either via X / Twitter or LinkedIn. I hope these notes are useful!
 
 <p style="font-family: 'Brush Script MT', cursive; text-align: right; font-size: 24px;">- Dan</p>
 
