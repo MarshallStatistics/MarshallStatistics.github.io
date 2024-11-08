@@ -52,6 +52,7 @@ The adjacency matrix tells us what nodes are connected to each node in a legible
 
 > ### Definition 2: Adjacency Matrix
 > Given an undirected network (as in Definition 1), the adjacency matrix, $$A$$, is defined as a symmetric $$N \times N$$ matrix where:
+> 
 > $$
 > \begin{equation}
 >     A_{ij} = \begin{cases}
