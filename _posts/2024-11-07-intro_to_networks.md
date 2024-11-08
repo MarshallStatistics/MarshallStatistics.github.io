@@ -62,8 +62,9 @@ The adjacency matrix tells us what nodes are connected to each node in a legible
 > \end{equation}
 > $$
 
+From this definition, one can see that there is a $$1$$ in the $$ij$$-th element of the adjacency matrix if nodes $\nu_i$$ and $$\nu_j$$ are connected. 
 
-If we consider the graph in Figure 2, one can create its adjacency matrix:
+As an example, consider the graph in Figure 2. One can create its adjacency matrix:
 
 $$A = \begin{pmatrix}
 0 & 1 & 1 & 1 & 1 \\
@@ -73,7 +74,7 @@ $$A = \begin{pmatrix}
 1 & 0 & 0 & 0 & 0 \\
 \end{pmatrix}$$
 
-To see this a bit more clearly, I have annotated which node is connected to each node by labelling the rows and columns respectively.
+To see this a bit more clearly, I have annotated which node is connected to each node by labelling the rows and columns of the above adjacency matrix.
 
 <figure>
   <img src="/assets/network_intro_3.png" alt="An adjacency matrix, annotated." title="An adjacency matrix, annotated." style="width=50%;">
@@ -97,10 +98,19 @@ We may wish to consider the connectivity of a graph from the perspective of its 
 
 If we consider the graph in Figure 2, one can create its incidence matrix:
 
-$$$$
+$$E = \begin{pmatrix}
+1 & 0 & 0 & 1& 0 & 1& 1 \\
+1 & 1 & 1 &  0& 0 & 0 & 0\\
+0 & 0 & 1 &  1& 1 & 0 & 0\\
+0 & 1 & 0 &  0& 1 & 1 & 0\\
+0 &  0& 0 &  0& 0 & 0 & 1\\
+\end{pmatrix}$$
 
 To see this a bit more clearly, I have annotated which edge is incident to each node by labelling the columns and rows respectively.
 
-**annotated incidence matrix here**
+<figure>
+  <img src="/assets/network_intro_4.png" alt="An incidence matrix, annotated." title="An incidence matrix, annotated." style="width=50%;">
+  <figcaption style="font-size: small;">Figure 4: An incidence matrix, annotated. </figcaption>
+</figure>
 
 This is an alternative way to portray the connectivity of the network and becomes very useful if your focus is on the edges between specific units. In transport networks, the edges are often the primary focal points of investigation.
