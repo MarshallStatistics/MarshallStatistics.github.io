@@ -26,7 +26,7 @@ We can create a graph of the network between you and a friend; there are two nod
   <figcaption style="font-size: small;">Figure 1: A simple graph of the network between you and a friend. </figcaption>
 </figure>
 
-It is customary to call nodes $$\nu$$ with a subscript to differentiate between each node. You can see here that 'you' are labelled $$\nu_1$$ and 'your friend' is represented as $$\nu_2$$. The edge connecting them is denoted by $$\epsilon$$, following the same subscript rules as our nodes.
+It is customary to call nodes $$\nu$$ with a subscript to differentiate between each node. You can see here that 'you' are labelled $$\nu_1$$ and 'your friend' is represented as $$\nu_2$$. The edge connecting them is denoted by $$\epsilon_1$$, following the same subscript rules as our nodes.
 
 A graph can consist of more than one node, you may wish to construct a network between you, your friend group, and an acquaintance of yours.
 
