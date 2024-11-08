@@ -3,7 +3,7 @@ layout: single
 title: "1.4 Node degree distribution"
 date: 2024-11-07
 thumbnail: "/assets/network_intro_6.png"
-excerpt: "The probability distribution of choosing a node with degree $$k$$ out of the total nodes of a network."
+excerpt: "The probability distribution of choosing a node with degree $k$ out of all possible nodes."
 tags: ['networks']
 read_time: true
 ---
