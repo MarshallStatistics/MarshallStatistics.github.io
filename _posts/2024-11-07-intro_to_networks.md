@@ -115,8 +115,8 @@ We may wish to consider the connectivity of a graph from the perspective of its 
 > Given an undirected network (as in Definition 1), the incidence matrix, $$E$$, is defined as an $$N \times K$$ matrix where:
 > 
 > $$\begin{equation}
->	 	E_{ij} = \begin{cases} 1 \text{ if node } \nu_i \text{ is incident to edge } \epsilon_j\\
->	 		0 \text{ otherwise }
+>	 	E_{ij} = \begin{cases} 1 \text{ if } \nu_i \in \epsilon_j\\
+>	 		0 \text{ if } \nu_i \notin \epsilon_j\
 >	 		\end{cases}
 >	 \end{equation}$$
 
@@ -194,12 +194,12 @@ By counting the number of nodes with degree $$k$$ and dividing by the total numb
 $$
  \begin{equation}
      P(k) = \begin{cases}
-     \frac{1}{5} & \text{ if } k = 1 \\
-     \frac{3}{5} & \text{ if } k = 3 \\
-     \frac{1}{5} & \text{ if } k = 4 \\
-     0 \text{ otherwise }
+     \frac{1}{5} & \text{if } k = 1 \\
+     \frac{3}{5} & \text{if } k = 3 \\
+     \frac{1}{5} & \text{if } k = 4 \\
+     0 & \text{ otherwise }
      \end{cases}
  \end{equation}
  $$
 
-It is customary to exclude the values of degree value $$k$$ in the degree distribution for which there are no nodes present. Notice in our previous calculations that there was one node with degree one, three nodes with degree three, and one node with degree four. The node degree distribution is a probability distribution which encompasses the proportion of node degrees seen throughout the network.
+It is customary to exclude the values of degree value $$k$$ in the degree distribution for which there are no nodes present. Notice in our previous calculations that there was one node with degree one, three nodes with degree three, and one node with degree four. The node degree distribution is a probability distribution that encompasses the proportion of node degrees seen throughout the network.
