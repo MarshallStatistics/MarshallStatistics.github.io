@@ -154,24 +154,24 @@ One can think of the node degree as the number of connections that the node in q
 
 In the network portrayed in Figure 2, we can count the node degree by either using the adjacency matrix or by counting how many edges are attached to each node. Check that you can do this by confirming my results below with the graph in Figure 2:
 
-$$\begin{align}\text{deg}(\nu_1) &= A_{11} + A_{12} + A_{13} + A_{14} + A_{15} //
-&= 0 + 1 + 1 + 1 + 1 //
+$$\begin{align}\text{deg}(\nu_1) &= A_{11} + A_{12} + A_{13} + A_{14} + A_{15} \\
+&= 0 + 1 + 1 + 1 + 1 \\
 &= 4 \end{align}$$
 
-$$\begin{align}\text{deg}(\nu_2) &= A_{21} + A_{22} + A_{23} + A_{24} + A_{25} //
-&= 1 + 0 + 1 + 1 + 0 //
+$$\begin{align}\text{deg}(\nu_2) &= A_{21} + A_{22} + A_{23} + A_{24} + A_{25} \\
+&= 1 + 0 + 1 + 1 + 0 \\
 &= 3 \end{align}$$
 
-$$\begin{align}\text{deg}(\nu_3) &= A_{31} + A_{32} + A_{33} + A_{34} + A_{35} //
-&= 1 + 1 + 0 + 1 + 0 //
+$$\begin{align}\text{deg}(\nu_3) &= A_{31} + A_{32} + A_{33} + A_{34} + A_{35} \\
+&= 1 + 1 + 0 + 1 + 0 \\
 &= 3 \end{align}$$
 
-$$\begin{align}\text{deg}(\nu_4) &= A_{41} + A_{42} + A_{43} + A_{44} + A_{45} //
-&= 1 + 1 + 1 + 0 + 0 //
+$$\begin{align}\text{deg}(\nu_4) &= A_{41} + A_{42} + A_{43} + A_{44} + A_{45} \\
+&= 1 + 1 + 1 + 0 + 0 \\
 &= 3 \end{align}$$
 
-$$\begin{align}\text{deg}(\nu_5) &= A_{51} + A_{52} + A_{53} + A_{54} + A_{55} //
-&= 1 + 0 + 0 + 0 + 0 //
+$$\begin{align}\text{deg}(\nu_5) &= A_{51} + A_{52} + A_{53} + A_{54} + A_{55} \\
+&= 1 + 0 + 0 + 0 + 0 \\
 &= 1 \end{align}$$
 
 This tells us that node $$\nu_1$$ has the highest node degree and is therefore the most connected node in this network. In the next section, we will discuss what we can do with this information to infer global properties of the network. 
@@ -181,7 +181,7 @@ This tells us that node $$\nu_1$$ has the highest node degree and is therefore t
 When looking at the global properties of networks, we often like to determine the node degree of each node within our network. It is then convenient for us to determine the probability distribution of node degrees (i.e., the probability of choosing a node with degree $$k$$ out of all possible nodes $$N$$). Please see a formal definition of this distribution below:
 
 > ### Definition 5: Node Degree Distribution
-> Given an undirected network, $$G = {\nu, \epsilon}$$, with $N$ nodes (as in Definition 1), the node degree distribution is a probability distribution, $$P(k)$$, such that:
+> Given an undirected network, $$G = {\nu, \epsilon}$$, with $$N$$ nodes (as in Definition 1), the node degree distribution is a probability distribution, $$P(k)$$, such that:
 > 
 > $$\begin{equation}
 > P(k) = \frac{n_k}{N}
