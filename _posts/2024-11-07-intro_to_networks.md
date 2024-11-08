@@ -85,6 +85,8 @@ The adjacency matrix tells us what nodes are connected to each node in a legible
 >     \end{cases}
 > \end{equation}
 > $$
+> 
+> for integers $$i, j \in \left\{1, \ldots, N \right\}$$
 
 From this definition, one can see that there is a $$1$$ in the $$ij$$-th element of the adjacency matrix if nodes $$\nu_i$$ and $$\nu_j$$ are connected. 
 
@@ -119,6 +121,8 @@ We may wish to consider the connectivity of a graph from the perspective of its 
 >	 		0 \text{ if } \nu_i \notin \epsilon_j\
 >	 		\end{cases}
 >	 \end{equation}$$
+> 
+> for integers $$i \in \left\{1, \ldots, N \right\}$$ and $$j \in \left\{1, \ldots, K \right\}$$
 
 If we consider the graph in Figure 2, one can create its incidence matrix:
 
@@ -149,6 +153,8 @@ Another important measure of connectivity is the node degree of a given node wit
 > $$\begin{equation}
 > \text{deg}(\nu_i) = \sum_{j = 1}^{N} A_{ij}
 >	 \end{equation}$$
+> 
+> for integer $$i \in \left\{1, \ldots, N \right\}$$
 
 One can think of the node degree as the number of connections that the node in question has. This can be a useful quantifier of a person's popularity or a measure of how accessible an area is by transport links.
 
