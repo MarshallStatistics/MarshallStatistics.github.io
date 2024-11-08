@@ -14,7 +14,7 @@ favicon: "/favicon.ico"
 ---
 I am currently in the process of putting some notes together on networks and graph theory. Please do let me know your thoughts or improvements either via email or LinkedIn. I hope these notes are useful!
 
-<p style="font-family: 'Brush Script MT', cursive; text-align: right; font-size: 24px;">This is calligraphic text!</p>
+<p style="font-family: 'Brush Script MT', cursive; text-align: right; font-size: 24px;">- Dan</p>
 
 {% for post in site.tags.networks %}
   <article class="post">
