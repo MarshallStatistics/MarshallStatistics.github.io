@@ -191,15 +191,15 @@ When looking at the global properties of networks, we often like to determine th
 
 By counting the number of nodes with degree $$k$$ and dividing by the total number of nodes, we are able to generate a discrete probability distribution for the node degree. Please see the node degree distribution for the network portrayed in Figure 2 below:
 
-> $$
-> \begin{equation}
->     P(k) = \begin{cases}
->     \frac{1}{5} & \text{ if } k = 1 \\
->     \frac{3}{5} & \text{ if } k = 3 \\
->     \frac{1}{5} & \text{ if } k = 4 \\
->     0 \text{ otherwise }
->     \end{cases}
-> \end{equation}
-> $$
+$$
+ \begin{equation}
+     P(k) = \begin{cases}
+     \frac{1}{5} & \text{ if } k = 1 \\
+     \frac{3}{5} & \text{ if } k = 3 \\
+     \frac{1}{5} & \text{ if } k = 4 \\
+     0 \text{ otherwise }
+     \end{cases}
+ \end{equation}
+ $$
 
 It is customary to exclude the values of degree value $$k$$ in the degree distribution for which there are no nodes present. Notice in our previous calculations that there was one node with degree one, three nodes with degree three, and one node with degree four. The node degree distribution is a probability distribution which encompasses the proportion of node degrees seen throughout the network.
