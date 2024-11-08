@@ -1,7 +1,7 @@
 ---
 defaults:
 layout: archive
-title: "Notes on Networks"
+title: "Notes on networks"
 permalink: /networks/
 scope:
 path: ""
@@ -13,8 +13,11 @@ include: _includes/head/custom.html
 favicon: "/favicon.ico"
 ---
 I am currently in the process of putting some notes together on networks and graph theory. Please do let me know your thoughts or improvements either via X / Twitter or LinkedIn. I hope these notes are useful!
-
 <p style="font-family: 'Brush Script MT', cursive; text-align: right; font-size: 24px;">- Dan</p>
+
+# An introduction to undirected networks
+
+Networks are used to describe many real-world phenomena such as the interaction within social structures and the mapping of transport links connecting cities. Throughout this section, we shall introduce the fundamental concepts of network theory.
 
 {% for post in site.tags.networks %}
   <article class="post">
