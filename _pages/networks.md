@@ -12,9 +12,10 @@ author_profile: true
 include: _includes/head/custom.html
 favicon: "/favicon.ico"
 ---
-<div style="text-align: right;"> <img src="/assets/back_to_home_button.png" alt="custom emoji" width="50px" height="50px"> <a href="/">Return to home page</a> </div>
+I am currently in the process of putting some notes together on networks and graph theory. Please do let me know your thoughts or improvements either via email or LinkedIn. I hope these notes are useful!
 
-Please see notes on networks below.
+<p style="font-family: 'Brush Script MT', cursive; text-align: right;">- Dan</p>
+
 {% for post in site.tags.networks %}
   <article class="post">
     <div class="post-content-thumbnail">
