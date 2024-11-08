@@ -79,11 +79,12 @@ We may wish to consider the connectivity of a graph from the perspective of its 
 
 > ### Definition 3: Incidence Matrix
 > Given an undirected network (as in Definition 1), the incidence matrix, $$E$$, is defined as an $$N \times K$$ matrix where:
-	 $$\begin{equation*}
-	 	E_{ij} = \begin{cases*} 1 \text{ if node } \nu_i \text{ is incident to edge } \epsilon_j\\
-	 		0 \text{ otherwise }
-	 		\end{cases*}
-	 \end{equation*}$$
+> 
+> $$\begin{equation}
+>	 	E_{ij} = \begin{cases} 1 \text{ if node } \nu_i \text{ is incident to edge } \epsilon_j\\
+>	 		0 \text{ otherwise }
+>	 		\end{cases}
+>	 \end{equation}$$
 
 If we consider the graph in Figure 2, one can create its incidence matrix:
 
