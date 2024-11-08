@@ -14,8 +14,6 @@ tags: ['networks']
 </script>
 Networks are used to describe many real-world phenomena such as the interaction within social structures and the mapping of transport links connecting cities. In this post, we shall introduce the fundamental concepts of network theory.
 
-# Nodes and edges
-
 Recall, our definition of an undirected graph.
 
 > ### Definition 1: Undirected Graph
