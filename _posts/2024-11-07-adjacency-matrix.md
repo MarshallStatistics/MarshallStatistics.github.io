@@ -67,10 +67,54 @@ To see this a bit more clearly, I have annotated which node is connected to each
 
 As you can see, in congruence with Figure 1, everybody knows everybody in your friend group, and your acquaintance is only known by you. The adjacency matrix allows us to represent the connectivity of a given network without having to draw the graph. It is easy to imagine that drawing a graph with a large number of nodes and/or edges can become quite a headache.
 
+<div class="notice--info"> {{ page.notice }} ## Question 1 
+Consider an undirected graph with node set $$/nu = {1, 2, 3, 4}$$ and edge set $$\epsilon = {(1, 2), (1, 3), (2, 4), (3, 4), (3, 2)}$$.
+
+Construct the adjacency matrix for this graph.
+</div>
+
 <!-- Button and hidden answer -->
 <button id="reveal-answer-btn">Show Answer</button>
 <div id="answer" style="display: none;">
-  <p>This is the answer to the question!</p>
+  <p>List the Nodes:
+
+Nodes: A, B, C, D
+
+Create an Empty Adjacency Matrix:
+
+The matrix will have a size of 4x4 (since there are 4 nodes).
+$$
+     A B C D
+   A 0 0 0 0
+   B 0 0 0 0
+   C 0 0 0 0
+   D 0 0 0 0
+$$
+
+Fill in the Matrix Based on the Edges:
+
+For each edge, place a 1 in the corresponding row and column. We know that nodes 1 and 2 are connected. Hence,
+
+$$
+     A B C D
+   A 0 1 0 0
+   B 1 0 0 0
+   C 0 0 0 0
+   D 0 0 0 0
+$$
+
+Now, fill in the rest of th ematrix by reading across the edge list. You should end up with this:
+
+$$
+     A B C D
+   A 0 1 1 0
+   B 1 0 1 1
+   C 1 1 0 1
+   D 0 1 1 0
+$$
+
+This matrix represents the connections between nodes in the graph. Each 1 indicates an edge between two nodes, while 0 indicates no edge.
+</p>
 </div>
 
 <script>
