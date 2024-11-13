@@ -38,4 +38,3 @@ with open('_data/random_post.yml', 'w') as file:
     yaml.dump({'random_post_url': random_post_url}, file)
 
 print(f"Random Post URL: {random_post_url}")
-
