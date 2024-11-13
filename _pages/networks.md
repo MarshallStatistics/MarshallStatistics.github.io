@@ -1,11 +1,11 @@
 ---
-layout: single
 title: "Notes on networks"
 permalink: /networks/
 scope:
   path: ""
   type: pages
 toc: true
+author_profile: true
 values:
   layout: single
   author_profile: true
