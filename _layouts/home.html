@@ -156,6 +156,16 @@ body {
 }
 
 </style>
+<meta charset="UTF-8">
+  <title>Random Post Image Link</title>
+    <script>
+        async function goToRandomPost() {
+            const response = await fetch('{{ site.baseurl }}/_data/random_post.yml');
+            const data = await response.text();
+            const url = data.match(/random_post_url: (.*)/)[1].trim();
+            window.location.href = url;
+        }
+    </script>
 </head>
 {% endraw %}
 
@@ -238,7 +248,7 @@ body {
 </div>
 <div class="poker-chip-container">
 <div class="poker-chip">
-  <img src="/assets/dice_flat.png" alt="flat dice" class="poker-chip-img">
+  <img src="/assets/dice_flat.png" alt="Random post" class="poker-chip-img" onclick="goToRandomPost()" style="cursor: pointer;">
   <p class="poker-chip-text"> &#x2199; Random post</p>
 </div>
 <div class="poker-chip">
