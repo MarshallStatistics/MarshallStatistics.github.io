@@ -1,16 +1,17 @@
 ---
-title: "Notes on networks"
+defaults:
+layout: archive
+title: "Notes on Network"
 permalink: /networks/
 scope:
-  path: ""
-  type: pages
+path: ""
 toc: true
-author_profile: true
+type: pages
 values:
-  layout: single
-  author_profile: true
-  include: _includes/head/custom.html
-  favicon: "/favicon.ico"
+layout: single
+author_profile: true
+include: _includes/head/custom.html
+favicon: "/favicon.ico"
 ---
 
 I am currently in the process of putting some notes together on networks and graph theory. Please do let me know your thoughts or improvements either via X / Twitter or LinkedIn. I hope these notes are useful!
