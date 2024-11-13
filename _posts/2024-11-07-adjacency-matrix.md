@@ -65,3 +65,22 @@ To see this a bit more clearly, I have annotated which node is connected to each
 </figure>
 
 As you can see, in congruence with Figure 1, everybody knows everybody in your friend group, and your acquaintance is only known by you. The adjacency matrix allows us to represent the connectivity of a given network without having to draw the graph. It is easy to imagine that drawing a graph with a large number of nodes and/or edges can become quite a headache.
+
+<script>
+document.getElementById('reveal-answer-btn').addEventListener('click', function() {
+  var answer = document.getElementById('answer');
+  if (answer.style.display === 'none') {
+    answer.style.display = 'block';
+    this.textContent = 'Hide Answer';
+  } else {
+    answer.style.display = 'none';
+    this.textContent = 'Show Answer';
+  }
+});
+</script>
+
+<!-- Button and hidden answer -->
+<button id="reveal-answer-btn">Show Answer</button>
+<div id="answer" style="display: none;">
+  <p>This is the answer to the question!</p>
+</div>
