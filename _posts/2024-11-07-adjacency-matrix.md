@@ -67,9 +67,11 @@ To see this a bit more clearly, I have annotated which node is connected to each
 
 As you can see, in congruence with Figure 1, everybody knows everybody in your friend group, and your acquaintance is only known by you. The adjacency matrix allows us to represent the connectivity of a given network without having to draw the graph. It is easy to imagine that drawing a graph with a large number of nodes and/or edges can become quite a headache.
 
-<div class="notice" markdown="1">
-#### Headline for the Notice
-Text for the notice
+<div class="notice--info" markdown="1">
+#### Question 1
+Consider an undirected graph with node set $$\nu = {1, 2, 3, 4}$$ and edge set $$\epsilon = {(1, 2), (1, 3), (2, 4), (3, 4), (3, 2)}$$
+
+Construct the adjacency matrix for this graph.
 </div>
 
 <div class="notice--info"> {{ page.notice }} 
