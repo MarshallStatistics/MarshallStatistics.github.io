@@ -183,7 +183,8 @@ include:
   - ["_pages"]
   - _includes/head/custom.html
   - _includes/footer/custom.html
-  - /assets/css/custom.css
+  - /assets/css/custom.scss
+  - /assets/css/main.scss
 
 exclude:
   - "*.sublime-project"
