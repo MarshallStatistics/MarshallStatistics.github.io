@@ -5,6 +5,7 @@ permalink: /networks/
 scope:
   path: ""
   type: pages
+toc: true
 values:
   layout: single
   author_profile: true
