@@ -184,8 +184,6 @@ include:
   - _includes/head/custom.html
   - _includes/footer/custom.html
   - /assets/css/custom.css
-  - _scripts
-
 
 exclude:
   - "*.sublime-project"
