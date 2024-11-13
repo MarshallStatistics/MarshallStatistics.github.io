@@ -76,7 +76,7 @@ Construct the adjacency matrix for this graph.
 <!-- Button and hidden answer -->
 <button id="reveal-answer-btn">Show Answer</button>
 <div id="answer" style="display: none;">
-  <p>List the Nodes:
+ List the Nodes:
 
 Nodes: A, B, C, D
 
@@ -114,7 +114,6 @@ $$
 $$
 
 This matrix represents the connections between nodes in the graph. Each 1 indicates an edge between two nodes, while 0 indicates no edge.
-</p>
 </div>
 
 <script>
