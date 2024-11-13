@@ -109,6 +109,8 @@ $$A = \begin{pmatrix}
 This matrix represents the connections between nodes in the graph. Each 1 indicates an edge between two nodes, while 0 indicates no edge. Notice the symmetry here - this is a direct consequence of the graph being undirected. We shall explore what undirected means in the next chapter.
 </div>
 
+<p></p>
+
 <div class="notice--info" markdown="1">
 #### Question 2
 Consider an undirected graph with node set 
