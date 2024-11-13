@@ -21,29 +21,45 @@ Networks are used to describe many real-world phenomena such as the interaction 
 
 For the purposes of this section, we shall solely discuss undirected networks. You do not need to know what undirected means at this stage.
 
-{% assign sorted_posts = site.tags.networks | sort: 'numeric_title' %}
-{% for post in site.tags.networks %}
-  {% assign numeric_title = post.title | remove: " " | split: "." %}
-  {% assign post.numeric_title = numeric_title[0] | plus: 0 %}
-  {% if numeric_title.size > 1 %}
-    {% assign post.numeric_title = post.numeric_title | append: "." | append: numeric_title[1] %}
-  {% endif %}
-{% endfor %}
-{% for post in sorted_posts %}
-  <article class="post">
-    <div class="post-content-thumbnail">
-      {% if post.thumbnail %}
-        <img src="{{ post.thumbnail }}" alt="Thumbnail for {{ post.title }}" class="post-thumbnail">
-      {% endif %}
-      <div class="post-content">
-        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-        {% if post.excerpt %}
-          <p>{{ post.excerpt }}</p>
-        {% endif %}
-      </div>
-    </div>
-  </article>
-{% endfor %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sorted Posts</title>
+</head>
+<body>
+    <ul>
+        {% assign posts_with_numeric_title = site.tags.networks | map: 'post' %}
+
+        {% for post in posts_with_numeric_title %}
+          {% assign numeric_title_parts = post.title | remove: " " | split: "." %}
+          {% assign numeric_title = numeric_title_parts[0] | plus: 0 %}
+          {% if numeric_title_parts.size > 1 %}
+            {% assign numeric_title = numeric_title | append: "." | append: numeric_title_parts[1] %}
+          {% endif %}
+          {% assign post.numeric_title = numeric_title %}
+        {% endfor %}
+
+        {% assign sorted_posts = posts_with_numeric_title | sort: 'numeric_title' %}
+
+        {% for post in sorted_posts %}
+          <article class="post">
+            <div class="post-content-thumbnail">
+              {% if post.thumbnail %}
+                <img src="{{ post.thumbnail }}" alt="Thumbnail for {{ post.title }}" class="post-thumbnail">
+              {% endif %}
+              <div class="post-content">
+                <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+                {% if post.excerpt %}
+                  <p>{{ post.excerpt }}</p>
+                {% endif %}
+              </div>
+            </div>
+          </article>
+        {% endfor %}
+    </ul>
+</body>
+</html>
 
 
 <div style="text-align: right;"> <img src="/assets/back_to_home_button.png" alt="custom emoji" width="50px" height="50px"> <a href="/">Return to home page</a> </div>
