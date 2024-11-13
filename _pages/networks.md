@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: single
 title: "Notes on networks"
 permalink: /networks/
 scope:
