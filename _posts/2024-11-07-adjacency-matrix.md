@@ -12,18 +12,7 @@ tags: ['networks']
 <script type="text/javascript" async
   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
 </script>
-<script>
-document.getElementById('reveal-answer-btn').addEventListener('click', function() {
-  var answer = document.getElementById('answer');
-  if (answer.style.display === 'none') {
-    answer.style.display = 'block';
-    this.textContent = 'Hide Answer';
-  } else {
-    answer.style.display = 'none';
-    this.textContent = 'Show Answer';
-  }
-});
-</script>
+
 Recall, our definition of an undirected graph.
 
 > ### Definition 1: Undirected Graph
@@ -83,3 +72,17 @@ As you can see, in congruence with Figure 1, everybody knows everybody in your f
 <div id="answer" style="display: none;">
   <p>This is the answer to the question!</p>
 </div>
+
+<script>
+document.getElementById('reveal-answer-btn').addEventListener('click', function() {
+  var answer = document.getElementById('answer');
+  if (answer.style.display === 'none') {
+    answer.style.display = 'block';
+    this.textContent = 'Hide Answer';
+  } else {
+    answer.style.display = 'none';
+    this.textContent = 'Show Answer';
+  }
+});
+</script>
+
