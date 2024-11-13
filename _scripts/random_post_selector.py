@@ -4,7 +4,7 @@ import yaml
 
 def get_post_urls(posts_dir='_posts'):
     posts = []
-    for filename in os.listdir(posts_dir)):
+    for filename in os.listdir(posts_dir):
         if filename.endswith('.md') or filename.endswith('.html'):
             post_path = os.path.join(posts_dir, filename)
             with open(post_path, 'r') as file:
@@ -33,8 +33,9 @@ posts_dir = '_posts'
 post_urls = get_post_urls(posts_dir)
 random_post_url = select_random_post(post_urls)
 
-# Save the random post URL to a YAML file
-with open('_data/random_post.yml', 'w') as file:
-    yaml.dump({'random_post_url': random_post_url}, file)
+# Save the random post URL to an HTML snippet
+html_snippet = f'<script>var randomPostURL = "{random_post_url}";</script>'
+with open('_includes/random_post.html', 'w') as file:
+    file.write(html_snippet)
 
 print(f"Random Post URL: {random_post_url}")
