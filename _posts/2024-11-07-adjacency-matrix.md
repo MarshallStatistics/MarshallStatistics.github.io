@@ -69,7 +69,7 @@ As you can see, in congruence with Figure 1, everybody knows everybody in your f
 
 <div class="notice--info" markdown="1">
 #### Question 1
-Consider an undirected graph with node set 
+Consider an undirected graph with node set
   
 $$\nu = \left\{1, 2, 3\right\}$$ 
 
@@ -80,9 +80,9 @@ $$\epsilon = \left\{(1, 2), (1, 3), (2, 3)\right\}$$
 Construct the adjacency matrix for this graph.
 </div>
 <!-- Button and hidden answer -->
-<button id="reveal-answer-btn">Show Answer</button>
-<div id="answer">
-Firstly, list the nodes: 1, 2, 3.  Then, we shall set up an empty adjacency matrix. The matrix will have a size of 3x3 (since there are 3 nodes).
+<button id="reveal-answer-btn-1">Show Answer</button>
+<div id="answer-1" style="display: none;">
+Firstly, list the nodes: 1, 2, 3. Then, we shall set up an empty adjacency matrix. The matrix will have a size of 3x3 (since there are 3 nodes).
 
 $$A = \begin{pmatrix}
 0 & 0 & 0 \\
@@ -111,8 +111,8 @@ This matrix represents the connections between nodes in the graph. Each 1 indica
 
 <p></p>
 <script>
-document.getElementById('reveal-answer-btn').addEventListener('click', function() {
-  var answer = document.getElementById('answer');
+document.getElementById('reveal-answer-btn-1').addEventListener('click', function() {
+  var answer = document.getElementById('answer-1');
   if (answer.style.display === 'none') {
     answer.style.display = 'block';
     this.textContent = 'Hide Solution';
@@ -125,7 +125,7 @@ document.getElementById('reveal-answer-btn').addEventListener('click', function(
 
 <div class="notice--info" markdown="1">
 #### Question 2
-Consider an undirected graph with node set 
+Consider an undirected graph with node set
   
 $$\nu = \left\{1, 2, 3, 4\right\}$$ 
 
@@ -136,9 +136,9 @@ $$\epsilon = \left\{(1, 2), (1, 3), (2, 4), (3, 4), (3, 2)\right\}$$
 Construct the adjacency matrix for this graph.
 </div>
 <!-- Button and hidden answer -->
-<button id="reveal-answer-btn">Show Answer</button>
-<div id="answer">
-Firstly, list the nodes: 1, 2, 3, 4.  Then, we shall set up an empty adjacency matrix. The matrix will have a size of 4x4 (since there are 4 nodes).
+<button id="reveal-answer-btn-2">Show Answer</button>
+<div id="answer-2" style="display: none;">
+Firstly, list the nodes: 1, 2, 3, 4. Then, we shall set up an empty adjacency matrix. The matrix will have a size of 4x4 (since there are 4 nodes).
 
 $$A = \begin{pmatrix}
 0 & 0 & 0 & 0 \\
@@ -169,8 +169,8 @@ This matrix represents the connections between nodes in the graph. Each 1 indica
 </div>
 
 <script>
-document.getElementById('reveal-answer-btn').addEventListener('click', function() {
-  var answer = document.getElementById('answer');
+document.getElementById('reveal-answer-btn-2').addEventListener('click', function() {
+  var answer = document.getElementById('answer-2');
   if (answer.style.display === 'none') {
     answer.style.display = 'block';
     this.textContent = 'Hide Solution';
@@ -180,4 +180,3 @@ document.getElementById('reveal-answer-btn').addEventListener('click', function(
   }
 });
 </script>
-
