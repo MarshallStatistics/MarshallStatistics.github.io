@@ -29,12 +29,6 @@ For the purposes of this section, we shall solely discuss undirected networks. Y
 
 <ul>
 {% for post in sorted_posts %}
-  {% assign numeric_title_parts = post.title | remove: " " | split: "." %}
-  {% assign numeric_title = numeric_title_parts[0] | plus: 0 %}
-  {% if numeric_title_parts.size > 1 %}
-    {% assign numeric_title = numeric_title | append: "." | append: numeric_title_parts[1] %}
-  {% endif %}
-  {% assign post.numeric_title = numeric_title %}
   <li>
     <article class="post">
       <div class="post-content-thumbnail">
