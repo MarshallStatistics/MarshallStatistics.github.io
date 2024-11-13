@@ -18,6 +18,7 @@ toc: true
 
 <meta charset="UTF-8">
 <title>Random Post Image Link</title>
+  {% include _data/random_post.yml %}
   <script>
       async function goToRandomPost() {
       const response = await fetch('{{ site.baseurl }}/_data/random_post.yml');
