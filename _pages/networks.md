@@ -29,7 +29,6 @@ For the purposes of this section, we shall solely discuss undirected networks. Y
 
 <ul>
 {% for post in sorted_posts %}
-  <li>
     <article class="post">
       <div class="post-content-thumbnail">
         {% if post.thumbnail %}
@@ -43,7 +42,6 @@ For the purposes of this section, we shall solely discuss undirected networks. Y
         </div>
       </div>
     </article>
-  </li>
 {% endfor %}
 </ul>
 
