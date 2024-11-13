@@ -80,7 +80,7 @@ $$\epsilon = \left\{(1, 2), (1, 3), (2, 3)\right\}$$
 Construct the adjacency matrix for this graph.
 </div>
 <!-- Button and hidden answer -->
-<button id="reveal-answer-btn-1">Show Answer</button>
+<button id="reveal-answer-btn-1">Show Solution</button>
 <div id="answer-1" style="display: none;">
 Firstly, list the nodes: 1, 2, 3. Then, we shall set up an empty adjacency matrix. The matrix will have a size of 3x3 (since there are 3 nodes).
 
@@ -136,7 +136,7 @@ $$\epsilon = \left\{(1, 2), (1, 3), (2, 4), (3, 4), (3, 2)\right\}$$
 Construct the adjacency matrix for this graph.
 </div>
 <!-- Button and hidden answer -->
-<button id="reveal-answer-btn-2">Show Answer</button>
+<button id="reveal-answer-btn-2">Show Solution</button>
 <div id="answer-2" style="display: none;">
 Firstly, list the nodes: 1, 2, 3, 4. Then, we shall set up an empty adjacency matrix. The matrix will have a size of 4x4 (since there are 4 nodes).
 
