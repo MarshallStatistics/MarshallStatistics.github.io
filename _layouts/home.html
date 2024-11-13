@@ -3,7 +3,6 @@ layout: single
 title: Card Flip
 toc: true
 ---
-{% include random_post.html %}
 {% assign network_posts_count = site.posts | where: "tags", "networks" | size %}
 {% assign doe_posts_count = site.posts | where: "tags", "doe" | size %}
 {% assign python_posts_count = site.posts | where: "tags", "python" | size %}
@@ -16,17 +15,6 @@ toc: true
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-
-    <title>Random Post Image Link</title>
-    <script>
-        function goToRandomPost() {
-            if (typeof randomPostURL !== 'undefined') {
-                window.location.href = randomPostURL;
-            } else {
-                console.error('Random Post URL is not defined.');
-            }
-        }
-    </script>
 <style>
 body {
   font-family: Arial, Helvetica, sans-serif;
