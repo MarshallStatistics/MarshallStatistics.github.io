@@ -69,19 +69,16 @@ As you can see, in congruence with Figure 1, everybody knows everybody in your f
 
 <div class="notice--info" markdown="1">
 #### Question 1
-Consider an undirected graph with node set $$\nu = {1, 2, 3, 4}$$ and edge set $$\epsilon = {(1, 2), (1, 3), (2, 4), (3, 4), (3, 2)}$$
-
-Construct the adjacency matrix for this graph.
-</div>
-
-<div class="notice--info"> {{ page.notice }} 
-#### Question 1 
+Consider an undirected graph with node set 
   
-Consider an undirected graph with node set $$\nu = {1, 2, 3, 4}$$ and edge set $$\epsilon = {(1, 2), (1, 3), (2, 4), (3, 4), (3, 2)}$$
+$$\nu = {1, 2, 3, 4}$$ 
+
+and edge set
+
+$$\epsilon = {(1, 2), (1, 3), (2, 4), (3, 4), (3, 2)}$$
 
 Construct the adjacency matrix for this graph.
 </div>
-
 <!-- Button and hidden answer -->
 <button id="reveal-answer-btn">Show Answer</button>
 <div id="answer" style="display: none;">
