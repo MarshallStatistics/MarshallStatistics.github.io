@@ -21,6 +21,7 @@ Networks are used to describe many real-world phenomena such as the interaction 
 
 For the purposes of this section, we shall solely discuss undirected networks. You do not need to know what undirected means at this stage.
 
+---
 {% assign posts_with_numeric_title = site.tags.networks %}
 
 {% assign sorted_posts = posts_with_numeric_title | sort: 'title' %}
