@@ -110,6 +110,18 @@ This matrix represents the connections between nodes in the graph. Each 1 indica
 </div>
 
 <p></p>
+<script>
+document.getElementById('reveal-answer-btn').addEventListener('click', function() {
+  var answer = document.getElementById('answer');
+  if (answer.style.display === 'none') {
+    answer.style.display = 'block';
+    this.textContent = 'Hide Solution';
+  } else {
+    answer.style.display = 'none';
+    this.textContent = 'Show Solution';
+  }
+});
+</script>
 
 <div class="notice--info" markdown="1">
 #### Question 2
