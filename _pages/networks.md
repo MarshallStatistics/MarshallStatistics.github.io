@@ -1,16 +1,15 @@
 ---
-defaults:
 layout: archive
 title: "Notes on networks"
 permalink: /networks/
 scope:
-path: ""
-type: pages
+  path: ""
+  type: pages
 values:
-layout: single
-author_profile: true
-include: _includes/head/custom.html
-favicon: "/favicon.ico"
+  layout: single
+  author_profile: true
+  include: _includes/head/custom.html
+  favicon: "/favicon.ico"
 ---
 I am currently in the process of putting some notes together on networks and graph theory. Please do let me know your thoughts or improvements either via X / Twitter or LinkedIn. I hope these notes are useful!
 <p style="font-family: 'Brush Script MT', cursive; text-align: right; font-size: 28px;">- Dan</p>
@@ -61,6 +60,12 @@ For the purposes of this section, we shall solely discuss undirected networks. Y
 </body>
 </html>
 
+<div style="text-align: right;"> 
+    <a href="/">
+        <img src="/assets/back_to_home_button.png" alt="custom emoji" width="50px" height="50px">
+        Return to home page
+    </a>
+</div>
 
 <div style="text-align: right;"> <img src="/assets/back_to_home_button.png" alt="custom emoji" width="50px" height="50px"> <a href="/">Return to home page</a> </div>
 
