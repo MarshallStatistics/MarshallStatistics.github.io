@@ -84,37 +84,36 @@ Construct the adjacency matrix for this graph.
 <div id="answer" style="display: none;">
 List the Nodes:
 
-Nodes: 1, 2, 3, 4
+1, 2, 3, 4
 
 Create an Empty Adjacency Matrix:
 
 The matrix will have a size of 4x4 (since there are 4 nodes).
-$$
-    0 0 0 0
-    0 0 0 0
-    0 0 0 0
-    0 0 0 0
-$$
 
-Fill in the Matrix Based on the Edges:
+$$A = \begin{pmatrix}
+0 & 0 & 0 & 0 \\
+0 & 0 & 0 & 0 \\
+0 & 0 & 0 & 0 \\
+0 & 0 & 0 & 0  \\
+\end{pmatrix}$$
 
 For each edge, place a 1 in the corresponding row and column. We know that nodes 1 and 2 are connected. Hence,
 
-$$
-   0 1 0 0
-   1 0 0 0
-   0 0 0 0
-   0 0 0 0
-$$
+$$A = \begin{pmatrix}
+0 & 1 & 0 & 0 \\
+1 & 0 & 0 & 0 \\
+0 & 0 & 0 & 0 \\
+0 & 0 & 0 & 0  \\
+\end{pmatrix}$$
 
 Now, fill in the rest of the matrix by reading across the edge list. You should end up with this:
 
-$$
-   0 1 1 0
-   1 0 1 1
-   1 1 0 1
-   0 1 1 0
-$$
+$$ A = \begin{pmatrix}
+   0 & 1& 1 &0 \\
+   1 &0 &1 &1 \\
+   1 &1 &0 &1 \\
+   0 &1 &1 &0 \\
+\end{pmatrix}$$
 
 This matrix represents the connections between nodes in the graph. Each 1 indicates an edge between two nodes, while 0 indicates no edge.
 </div>
@@ -124,10 +123,10 @@ document.getElementById('reveal-answer-btn').addEventListener('click', function(
   var answer = document.getElementById('answer');
   if (answer.style.display === 'none') {
     answer.style.display = 'block';
-    this.textContent = 'Hide Answer';
+    this.textContent = 'Hide Solution';
   } else {
     answer.style.display = 'none';
-    this.textContent = 'Show Answer';
+    this.textContent = 'Show Solution';
   }
 });
 </script>
