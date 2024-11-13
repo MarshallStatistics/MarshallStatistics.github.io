@@ -53,3 +53,28 @@ search: false
     color: #fff; /* Set the color of FontAwesome icons to white */
 }
 
+<style>
+/* Custom CSS for the button and answer */
+#reveal-answer-btn {
+  background-color: #4CAF50; /* Green */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#reveal-answer-btn:hover {
+  background-color: #45a049; /* Darker green */
+}
+
+/* Custom CSS for the answer section with faint background color */
+#answer {
+  padding: 1em;
+  background-color: rgba(240, 240, 240, 0.5); /* Faint grey background */
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+</style>
+
+
