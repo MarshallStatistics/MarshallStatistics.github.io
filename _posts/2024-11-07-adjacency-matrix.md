@@ -71,17 +71,17 @@ As you can see, in congruence with Figure 1, everybody knows everybody in your f
 #### Question 1
 Consider an undirected graph with node set 
   
-$$\nu = {1, 2, 3, 4}$$ 
+$$\nu = \left\{1, 2, 3, 4\right\}$$ 
 
 and edge set
 
-$$\epsilon = {(1, 2), (1, 3), (2, 4), (3, 4), (3, 2)}$$
+$$\epsilon = \left\{(1, 2), (1, 3), (2, 4), (3, 4), (3, 2)\right\}$$
 
 Construct the adjacency matrix for this graph.
 </div>
 <!-- Button and hidden answer -->
 <button id="reveal-answer-btn">Show Answer</button>
-<div id="answer" style="display: none;">
+<div id="answer">
 List the Nodes:
 
 1, 2, 3, 4
