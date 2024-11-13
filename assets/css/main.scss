@@ -67,7 +67,14 @@ search: false
   background-color: #45a049; /* Darker green */
 }
 
-#answer {
+#answer-1 {
+  padding: 1em;
+  background-color: rgba(240, 240, 240, 0.5); /* Faint grey background */
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+#answer-2 {
   padding: 1em;
   background-color: rgba(240, 240, 240, 0.5); /* Faint grey background */
   border: 1px solid #ddd;
