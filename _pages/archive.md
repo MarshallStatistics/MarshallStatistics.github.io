@@ -34,4 +34,4 @@ Admittedly, this is a bit messy. I am aiming to fix this once I establish sensib
   </article>
 {% endfor %}
 
-<div style="text-align: right;"> <img src="/assets/back_to_home_button.png" alt="custom emoji" width="50px" height="50px">
+<div style="text-align: right;"> <img src="/assets/back_to_home_button.png" alt="custom emoji" width="50px" height="50px"> <a href="/">Return to home page</a> </div>
