@@ -71,6 +71,48 @@ As you can see, in congruence with Figure 1, everybody knows everybody in your f
 #### Question 1
 Consider an undirected graph with node set 
   
+$$\nu = \left\{1, 2, 3\right\}$$ 
+
+and edge set
+
+$$\epsilon = \left\{(1, 2), (1, 3), (2, 3)\right\}$$
+
+Construct the adjacency matrix for this graph.
+</div>
+<!-- Button and hidden answer -->
+<button id="reveal-answer-btn">Show Answer</button>
+<div id="answer">
+Firstly, list the nodes: 1, 2, 3.  Then, we shall set up an empty adjacency matrix. The matrix will have a size of 3x3 (since there are 3 nodes).
+
+$$A = \begin{pmatrix}
+0 & 0 & 0 \\
+0 & 0 & 0 \\
+0 & 0 & 0 \\
+\end{pmatrix}$$
+
+For each edge, place a 1 in the corresponding row and column. We know that nodes 1 and 2 are connected. Hence,
+
+$$A = \begin{pmatrix}
+0 & 1 & 0 \\
+1 & 0 & 0 \\
+0 & 0 & 0 \\
+\end{pmatrix}$$
+
+Now, fill in the rest of the matrix by reading across the edge list. You should end up with this:
+
+$$A = \begin{pmatrix}
+0 & 1 & 1 \\
+1 & 0 & 1 \\
+1 & 1 & 0 \\
+\end{pmatrix}$$
+
+This matrix represents the connections between nodes in the graph. Each 1 indicates an edge between two nodes, while 0 indicates no edge. Notice the symmetry here - this is a direct consequence of the graph being undirected. We shall explore what undirected means in the next chapter.
+</div>
+
+<div class="notice--info" markdown="1">
+#### Question 2
+Consider an undirected graph with node set 
+  
 $$\nu = \left\{1, 2, 3, 4\right\}$$ 
 
 and edge set
@@ -82,13 +124,7 @@ Construct the adjacency matrix for this graph.
 <!-- Button and hidden answer -->
 <button id="reveal-answer-btn">Show Answer</button>
 <div id="answer">
-List the Nodes:
-
-1, 2, 3, 4
-
-Create an Empty Adjacency Matrix:
-
-The matrix will have a size of 4x4 (since there are 4 nodes).
+Firstly, list the nodes: 1, 2, 3, 4.  Then, we shall set up an empty adjacency matrix. The matrix will have a size of 4x4 (since there are 4 nodes).
 
 $$A = \begin{pmatrix}
 0 & 0 & 0 & 0 \\
