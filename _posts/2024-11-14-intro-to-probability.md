@@ -52,5 +52,16 @@ Let us now delve into the notation of probability. I would like to preface this 
 
 We shall first start by introducing some concepts:
 
-* An *outcome* is any result from a single run of your experiment. In a coin flip, the outcome could be either 'coin landing heads' or 'coin landing tails'. In our notation, we may wish to denote the outcome by a letter (e.g., $A$ or $B$). This is for brevity and to save us writing out what the event is - I would much rather write $A$ than provide a long description of the event each time I wish to refer to it.
-* An *event* is a collection of one or more outcomes. 
+* An *outcome* is any result from a single run of your experiment. In a coin flip, the outcome could be either 'coin landing heads' or 'coin landing tails'. In our notation, we may wish to denote an outcome by a letter (e.g., $H$ for heads or $T$ for tails) or a number (e.g., $1$ for 'dice landed on one' or $6$ for 'dice landed on six'). This is for brevity and to save us writing out what the event is - I would much rather write $A$ than provide a long description of the event each time I wish to refer to it.
+* An *event* is a collection of one or more outcomes. For instance, I may wish to find out the probability of heads landing twice. This could be described as the event comprised of the outcome 'coin landing heads' once and the outcome 'coin landing heads' again. Just like I did with the event, I can denote the event by a letter (e.g., $S$) and I can show using notation that $S$ is the event that I get two heads by writing $$S = \left\{H, H\right\}$$. The curly brackets mean a set in mathematics. Without going into too much detail, you can think of these curly brackets as representing a collection of outcomes, with the letters inside the curly brackets representing individual outcomes.
+
+Now, if I wanted to write 'the probability of outcome $H$ occuring is 0.5' I would write this with a $$\mathbb{P}$$ for probability, as in:
+
+$$\mathbb{P}(H) = 0.5$$
+
+This is a much more concise way of writing our probability statements. We shall now reframe Example 1 using this notation:
+
+> ### Example 1 (again, but fancier):
+> dhusiahf
+
+
