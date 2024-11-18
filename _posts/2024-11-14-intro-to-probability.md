@@ -30,6 +30,7 @@ where the fraction bar of course denotes division. Consider the following motiva
 > We first calculate the number of ways that outcome could occur. To do this, we acknowledge that there are two different ways that this chosen outcome could occur. Namely,
 >
 > **Way 1:** I could roll a one from the first die and a two from the second die.
+> 
 > **Way 2:** I could roll a two from the first die and a one from the second die.
 >
 > This means that there are two different ways that I could get my desired outcome.
@@ -39,7 +40,7 @@ where the fraction bar of course denotes division. Consider the following motiva
 > We have all the information we need, so let's use our informal equation above:
 >
 > \begin{align}
-> \text{The probability of an outcome occuring} &= \frac{\text{The number of ways that outcome could occur}}{\text{The total number of outcomes of my experiment}}\\
+> \text{\small The probability of an outcome occuring} &= \frac{\text{\small The number of ways that outcome could occur}}{\text{\small The total number of outcomes of my experiment}}\\
 > & = \frac{2}{36}
 > \end{align}
 >
