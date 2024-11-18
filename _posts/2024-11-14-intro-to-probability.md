@@ -39,10 +39,10 @@ where the fraction bar of course denotes division. Consider the following motiva
 >
 > We have all the information we need, so let's use our informal equation above:
 >
-> \begin{align}
-> \text{\small The probability of an outcome occuring} &= \frac{\text{\small The number of ways that outcome could occur}}{\text{\small The total number of outcomes of my experiment}}\\
+> $$\begin{align}
+> \text{The probability of an outcome occuring} &= \frac{\text{The number of ways that outcome could occur}}{\text{The total number of outcomes of my experiment}}\\
 > & = \frac{2}{36}
-> \end{align}
+> \end{align}$$
 >
 > Hence, the total probability of our desired outcome is \frac{2}{36}. Converting this fraction to a percentage reveals that we have a 5.6% chance to get our desired outcome. 
 
