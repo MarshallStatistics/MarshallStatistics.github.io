@@ -82,17 +82,23 @@ As an example, let us refer back to our time studied and test score investigatio
 $$
 \begin{align}
 &x = \left\{1, 2, 3, 4, 5\right\} \qquad & \leftarrow \text{hours studied} \\
-&y = \left\{2, 3, 5, 7, 11\right\} \qquad & \leftarrow \text{test scores}
+&y = \left\{3, 5, 8, 9, 10\right\} \qquad & \leftarrow \text{test scores}
 \end{align}
 $$
 
 Let's plot this on a scatter graph:
 
-FIGURE HERE!!!
+<figure>
+  <img src="/assets/network_intro_3.png" alt="An adjacency matrix, annotated." title="An adjacency matrix, annotated." style="width=50%;">
+  <figcaption style="font-size: small;">Figure 1: A scatter plot showing test scores and time studied for five students. </figcaption>
+</figure>
 
 Below, I have annotated this chart to show the role of $$\beta_0$$ and $$\beta_1$$ in the line of best fit.
 
-ANNOTATED FIGURE HERE!!!
+<figure>
+  <img src="/assets/network_intro_3.png" alt="An adjacency matrix, annotated." title="An adjacency matrix, annotated." style="width=50%;">
+  <figcaption style="font-size: small;">Figure 2: The above scatter graph, annotated. </figcaption>
+</figure>
 
 However, how do I know what the "best" $$\beta_0$$ and $$\beta_1$$ are for this model?
 
