@@ -15,7 +15,7 @@ read_time: true
 
 Imagine we have collected data on the amount of time students have studied for a test and their respective scores from that test. Simple linear regression allows us to model the relationship between time spent studying and test scores. The phrase *simple linear regression* is a bit of a mouthful, so let's first break down its etymology: 
 
-- The term 'regression' was used by early statisticians working on data modelling to describe the moving trend of data with respect to the independent variable. It is stated that Francis Galton used the term to describe how heights of children regressed to the population average. He noticed that the children's heights tended to "regress" towards the average height of the population, rather than staying as extreme as their parents' height. Today, we use the term regression to describe the relationship between variables.
+- The term 'regression' was used by early statisticians working on data modelling to describe the moving trend of data with respect to the independent variable. It is stated that Francis Galton used the term to describe how heights of children regressed; he noticed that the children's heights tended to "regress" towards the average height of the population, rather than staying as extreme as their parents' height. Today, we use the term regression to describe the relationship between variables.
 - The term 'simple' refers to the fact that we are (in this post) only dealing with one independent variable.
 - The term 'linear' points to the linearity of the model, in that we wish to represent the relationship with a straight line. This will make more sense later.
 
@@ -29,7 +29,7 @@ $$
 
 where $$\beta_0, \beta_1 \in \mathbb{R}$$ are coefficients indicating the intercept and gradient of our straight line respectively. We also have an error term $$\epsilon_i \sim \mathcal{N}(0, \sigma^2)$$ which accounts for the dispersion of the observed values about the straight line.
 
-We interpret this model by recognising that a one-unit change in $$x_i$$ will result in an approximate $$\beta_1$$ increase in $$y_i$$. To see this more clearly, we can write this model out fully for each $$y_i$$ for $$i = 0, 1, \ldots, n$$:
+We interpret this model by recognising that a one-unit change in $$x_i$$ will result in an approximate $$\beta_1$$ increase in $$y_i$$. To see this more clearly, we can write this model out fully for each $$y_i$$ for $$i = 0, 1, 2, 3, \ldots, n$$:
 
 $$
 \begin{equation}
@@ -65,21 +65,43 @@ From here, we can easily see that this model can be written as a matrix equation
 
 $$
 \begin{equation}
-y_i = \beta_0 + \beta_1 x_i + \epsilon_i
-\end{equation}
+\begin{pmatrix}
+y_1 \\
+y_2 \\
+y_3 \\
+\vdots \\
+y_n
+\end{pmatrix} = \begin{pmatrix}
+1 & x_1 \\
+1 & x_2 \\
+1 & x_3 \\
+\vdots \\
+1 & x_n
+\end{pmatrix}\end{equation} \begin{pmatrix}
+\beta_0 \\
+\beta_1 \\
+\end{pmatrix}
++
+\begin{pmatrix}
+\epsilon_1 \\
+\epsilon_2 \\
+\epsilon_3 \\
+\vdots \\
+\epsilon_n
+\end{pmatrix}
 $$
 
 Or, more compactly:
 
 $$
 \begin{equation}
-\underline{y} = \underline{F}\underline{\beta} + \underline{\epsilon}
+\underline{y} = \underline{\underline{F}} \underline{\beta} + \underline{\epsilon}
 \end{equation}
 $$
 
-F is sometimes referred to as the design matrix. We shall use this nomenclature going forward.
+$$\underline{\underline{F}}$$ is sometimes referred to as the design matrix. We shall use this nomenclature going forward.
 
-Let's now consider the meaning of this model and, more importantly, what it can tell us. One may imagine linear regression as a tool to plot a line of best fit between our set of independent variable values $$\left\{x_i\right\}$$ and their respective responses $$\left\{y_i\right\}$$. This can be illustrated by plotting a set of coordinates for each $$i = 0, 1, \ldots, n$$.
+Let's now consider the meaning of this model and, more importantly, what it can tell us. One may imagine linear regression as a tool to plot a line of best fit between our set of independent variable values $$\left\{x_i\right\}$$ and their respective responses $$\left\{y_i\right\}$$. This can be illustrated by plotting a set of coordinates for each $$i = 0, 1, 2, 3, \ldots, n$$.
 
 As an example, let us refer back to our time studied and test score investigation. After the test, I gathered the following results:
 
