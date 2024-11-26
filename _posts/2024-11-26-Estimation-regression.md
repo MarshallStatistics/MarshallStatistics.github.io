@@ -166,7 +166,7 @@ $$
 >
 > Therefore, $$\hat{\beta_0} = 1.6$$ and $$\hat{\beta_1} = 1.8$$. As such, our line of best fit would have the equation $$y = 1.6 + 1.8x$$. According to this model, an extra hour of revision would (on average) improve the student test score by 1.8.
 
-The values contained within $$\boldsymbol{\hat{\beta}}$$ allow us to estimate the expedted value of $$\mathbf{y}$$ (i.e., $$\mathbb{E}\left\[\mathbf{y}\right\]$$). This predictor is commonly known as $$\mathbf{\hat{y}}$$ and is defined:
+The values contained within $$\boldsymbol{\hat{\beta}}$$ allow us to estimate the expedted value of $$\mathbf{y}$$ (i.e., $$\mathbb{E}[\mathbf{y}]$$). This predictor is commonly known as $$\mathbf{\hat{y}}$$ and is defined:
 
 $$\mathbf{\hat{y}} = \hat{\beta_0} + \hat{\beta_1}x$$
 
