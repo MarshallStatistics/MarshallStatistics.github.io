@@ -2,7 +2,7 @@
 layout: single
 title: "1.0 Simple Linear Regression"
 date: 2024-11-26
-thumbnail: "/assets/network_intro_6.png"
+thumbnail: "/assets/scatter_graph_annotated.png"
 excerpt: "An introduction to simple linear regression; an approach to model a relationship between values of an independent variable and values of a dependent variable."
 tags: ['doe']
 read_time: true
@@ -36,21 +36,25 @@ $$
 y_1 = \beta_0 + \beta_1 x_1 + \epsilon_1
 \end{equation}
 $$
+
 $$
 \begin{equation}
 y_2 = \beta_0 + \beta_1 x_2 + \epsilon_2
 \end{equation}
 $$
+
 $$
 \begin{equation}
 y_3 = \beta_0 + \beta_1 x_3 + \epsilon_3
 \end{equation}
 $$
+
 $$
 \begin{equation}
 \vdots
 \end{equation}
 $$
+
 $$
 \begin{equation}
 y_n = \beta_0 + \beta_1 x_n + \epsilon_n
@@ -81,25 +85,25 @@ As an example, let us refer back to our time studied and test score investigatio
 
 $$
 \begin{align}
-&x = \left\{1, 2, 3, 4, 5\right\} \qquad & \leftarrow \text{hours studied} \\
-&y = \left\{3, 5, 8, 9, 10\right\} \qquad & \leftarrow \text{test scores}
+&x = \left\{1, 2, 3, 4, 5\right\} \ \leftarrow \text{hours studied} \\
+&y = \left\{3, 5, 8, 9, 10\right\} \ \leftarrow \text{test scores}
 \end{align}
 $$
 
 Let's plot this on a scatter graph:
 
 <figure>
-  <img src="/assets/network_intro_3.png" alt="An adjacency matrix, annotated." title="An adjacency matrix, annotated." style="width=50%;">
+  <img src="/assets/scatter_graph.png" alt="An adjacency matrix, annotated." title="An adjacency matrix, annotated." style="width=50%;">
   <figcaption style="font-size: small;">Figure 1: A scatter plot showing test scores and time studied for five students. </figcaption>
 </figure>
 
 Below, I have annotated this chart to show the role of $$\beta_0$$ and $$\beta_1$$ in the line of best fit.
 
 <figure>
-  <img src="/assets/network_intro_3.png" alt="An adjacency matrix, annotated." title="An adjacency matrix, annotated." style="width=50%;">
+  <img src="/assets/scatter_graph_annotated.png" alt="An adjacency matrix, annotated." title="An adjacency matrix, annotated." style="width=50%;">
   <figcaption style="font-size: small;">Figure 2: The above scatter graph, annotated. </figcaption>
 </figure>
 
 However, how do I know what the "best" $$\beta_0$$ and $$\beta_1$$ are for this model?
 
-The aim of simple linear regression is to find $$\beta_0$$ and $$\beta_1$$ such that our line of best fit indeed fits the relationship as best as possible. This notion forms the baiss of our next post: Estimating $$\beta_0$$ and $$\beta_1$$ using something called least squares estimation. I will explain what this means in the next post - see you there! :)
+The aim of simple linear regression is to find $$\beta_0$$ and $$\beta_1$$ such that our line of best fit indeed fits the relationship as best as possible. This notion forms the basis of our next post: Estimating $$\beta_0$$ and $$\beta_1$$ using something called least squares estimation. I will explain what this means in the next post - see you there! :)
