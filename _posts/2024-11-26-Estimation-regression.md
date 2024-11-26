@@ -29,7 +29,7 @@ We were also able to represent it using matrices:
 
 $$
 \begin{equation}
-\underline{y} = \underline{\underline{F}} \underline{\beta} + \underline{\epsilon}
+\underline{y} = \underline{\underline{F}} \underline{\beta} + \boldsymbol{\epsilon}
 \end{equation}
 $$
 
@@ -52,7 +52,7 @@ y_n
 \end{pmatrix}\end{equation}, \text{      }\underline{\beta} = \begin{pmatrix}
 \beta_0 \\
 \beta_1 \\
-\end{pmatrix}, \text{   and   } \underline{\epsilon} = \begin{pmatrix}
+\end{pmatrix}, \text{   and   } \boldsymbol{\epsilon} = \begin{pmatrix}
 \epsilon_1 \\
 \epsilon_2 \\
 \epsilon_3 \\
@@ -61,17 +61,17 @@ y_n
 \end{pmatrix}
 $$
 
-As mentioned in our previous post, we wish to estimate our coefficients contained in \underline{\beta}. Also, recall that we defined \underline{\epsilon} to be the deviations from the straight line. Hence, if we seek to find values for \underline{\beta} which minimise \underline{\epsilon}, we will obtain a model which most accurately represents the linear relationship between the values of our independent variable (\underline{x}) and those of our dependent variable (\underline{y}).
+As mentioned in our previous post, we wish to estimate our coefficients contained in \underline{\beta}. Also, recall that we defined \boldsymbol{\epsilon} to be the deviations from the straight line. Hence, if we seek to find values for \underline{\beta} which minimise $$\boldsymbol{\epsilon}$$, we will obtain a model which most accurately represents the linear relationship between the values of our independent variable (\underline{x}) and those of our dependent variable (\underline{y}).
 
-To do this, we must first construct a function for the errors (\underline{\epsilon}) and then find the value of \underline{\beta} which minimises the function. It is most sensible to square the errors, as each element of \underline{\epsilon} may be either negative or positive. If we consider the squared errors, we are only really taking into account how much the absolute value of each element of \underline{\epsilon} is contributing to the overall error. Cool, eh? Let's take a look at constructing this function (recall that to sum the squared elements of a column vector we multiply the vector with its transpose). Thus, our function starts as:
+To do this, we must first construct a function for the errors (\boldsymbol{\epsilon}) and then find the value of \underline{\beta} which minimises the function. It is most sensible to square the errors, as each element of \boldsymbol{\epsilon} may be either negative or positive. If we consider the squared errors, we are only really taking into account how much the absolute value of each element of \boldsymbol{\epsilon} is contributing to the overall error. Cool, eh? Let's take a look at constructing this function (recall that to sum the squared elements of a column vector we multiply the vector with its transpose). Thus, our function starts as:
 
-$$\underline{\epsilon}^T\underline{\epsilon}$$
+$$\boldsymbol{\epsilon}^T\boldsymbol{\epsilon}$$
 
-Now, we use the model to recognise that $$\underline{\epsilon} = \underline{y} - \underline{\underline{F}} \underline{\beta}$$/. Let's substitute this expression for $$\underline{\epsilon}$$ in and try to expand the brackets:
+Now, we use the model to recognise that $$\boldsymbol{\epsilon} = \underline{y} - \underline{\underline{F}} \underline{\beta}$$/. Let's substitute this expression for $$\boldsymbol{\epsilon}$$ in and try to expand the brackets:
 
 $$
 \begin{align}
-\underline{\epsilon}^T\underline{\epsilon} &= (\underline{y} - \underline{\underline{F}} \underline{\beta})^T(\underline{y} - \underline{\underline{F}} \underline{\beta})//
+\boldsymbol{\epsilon}^T\boldsymbol{\epsilon} &= (\underline{y} - \underline{\underline{F}} \underline{\beta})^T(\underline{y} - \underline{\underline{F}} \underline{\beta})//
 &= \underline{y}^T \underline{y} - 2\underline{y}^T \underline{\underline{F}} \underline{\beta} + \underline{\beta}^T \underline{\underline{F}}^T \underline{\underline{F}} \underline{\beta}
 \end{align}
 $$
@@ -82,7 +82,7 @@ Deriving matrix equations can get a bit tricky, so we will explain afterwards wh
 
 $$
 \begin{align}
-\frac{\mathrm{d} \underline{\epsilon}^T\underline{\epsilon}}{\mathrm{d} \underline{\beta}} = 0 - 2\underline{\underline{F}}^T \underline{y} + 2 \underline{\underline{F}}^T \underline{\underline{F}} \underline{\beta}
+\frac{\mathrm{d} \boldsymbol{\epsilon}^T\boldsymbol{\epsilon}}{\mathrm{d} \underline{\beta}} = 0 - 2\underline{\underline{F}}^T \underline{y} + 2 \underline{\underline{F}}^T \underline{\underline{F}} \underline{\beta}
 \end{align}
 $$
 
