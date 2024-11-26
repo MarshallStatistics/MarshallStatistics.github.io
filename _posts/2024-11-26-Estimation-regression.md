@@ -98,7 +98,7 @@ $$
 \end{align}
 $$
 
-Therefore, using this equation, we can find the value of \boldsymbol{\beta} which minimises the overall absolute value error as much as possible. As such, this approach is referred to as "least squares estimation", since it is the estimation which minimises the squares (of the errors). Let's ground this with an example.
+Therefore, using this equation, we can find the value of \boldsymbol{\beta} which minimises the overall absolute value error as much as possible. As such, this approach is referred to as "least squares estimation", since it is the estimation that minimises the squares (of the errors). Let's ground this with an example.
 
 > ### Example 1: Least Squares Estimation
 > Let us refer back to our test scores investigation. Recall, our data collected was as follows:
@@ -164,4 +164,10 @@ $$
 > \end{align}
 > $$
 >
-> Therefore, $$\hat{\beta_0} = 1.6$$ and $$\hat{\beta_1} = 1.8$$. As such, our line of best fit would have the equation $$y = 1.6 + 1.8x$$. According to this model, an extra hour of revision would (approximately) improve the student test score by 1.8.
+> Therefore, $$\hat{\beta_0} = 1.6$$ and $$\hat{\beta_1} = 1.8$$. As such, our line of best fit would have the equation $$y = 1.6 + 1.8x$$. According to this model, an extra hour of revision would (on average) improve the student test score by 1.8.
+
+The values contained within $$\boldsymbol{\hat{\beta}}$$ allow us to estimate the expedted value of $$\mathbf{y}$$ (i.e., $$\mathbb{E}\left\[\mathbf{y}\right\]$$). This predictor is commonly known as $$\mathbf{\hat{y}}$$ and is defined:
+
+$$\mathbf{\hat{y}} = \hat{\beta_0} + \hat{\beta_1}x$$
+
+In the next post, we shall extend our understanding of simple linear regression to quadratic regression. In quadratic regression, we seek to fit a parabola to our data rather than a straight line. Fortunately for us, the theory is not too much more advanced. See you in the next post! 
