@@ -63,8 +63,17 @@ $$
 Quadratic regression is used when a scatter graph of the data shows a nonlinear relationship that can be well-approximated by a parabolic curve. In order to illustrate this concept, please see the following example:
 
 > ### Example 1: Non-linear relationships
-> I wish to see how increasing the amount of fertiliser alters the yield I get from my crops. It's known that small amounts of fertilizer can improve yield significantly, but after a certain point, adding more fertilizer doesn't help much and might even decrease the yield due to over-fertilization. To test this, I have collected the following data:
+> I wish to see how increasing the amount of fertiliser alters the yield I get from my crops. It's known that small amounts of fertilizer can improve yield significantly, but after a certain point, adding more fertiliser doesn't help much and might even decrease the yield due to over-fertilisation. To test this, I have collected the following data:
 > 
+>$$
+>\begin{align}
+>&x = \left\{0, 1, 2, 3, 4\right\} \ \leftarrow \texttt{Amount of fertiliser (kilograms)} \\
+>&y = \left\{2, 4, 7, 8, 6\right\} \ \leftarrow \texttt{Yield (tonnes)}
+>\end{align}
+>$$
+>
+> Just like we did with the linear example, I have plotted this as a scatter graph below:
+>
 
 
 
