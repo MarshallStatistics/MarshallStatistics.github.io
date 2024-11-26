@@ -27,3 +27,77 @@ where $$\beta_0, \beta_1 \in \mathbb{R}$$ are coefficients indicating the interc
 
 We were also able to represent it using matrices:
 
+$$
+\begin{equation}
+\underline{y} = \underline{\underline{F}} \underline{\beta} + \underline{\epsilon}
+\end{equation}
+$$
+
+where:
+
+$$
+\underline{y} = \begin{equation}
+\begin{pmatrix}
+y_1 \\
+y_2 \\
+y_3 \\
+\vdots \\
+y_n
+\end{pmatrix}, \text{      } \underline{\underline{F}} = \begin{pmatrix}
+1 & x_1 \\
+1 & x_2 \\
+1 & x_3 \\
+\vdots & \vdots \\
+1 & x_n
+\end{pmatrix}\end{equation}, \text{      }\underline{\beta} = \begin{pmatrix}
+\beta_0 \\
+\beta_1 \\
+\end{pmatrix}, \text{   and   } \underline{\epsilon} = \begin{pmatrix}
+\epsilon_1 \\
+\epsilon_2 \\
+\epsilon_3 \\
+\vdots \\
+\epsilon_n
+\end{pmatrix}
+$$
+
+As mentioned in our previous post, we wish to estimate our coefficients contained in \underline{\beta}. Also, recall that we defined \underline{\epsilon} to be the deviations from the straight line. Hence, if we seek to find values for \underline{\beta} which minimise \underline{\epsilon}, we will obtain a model which most accurately represents the linear relationship between the values of our independent variable (\underline{x}) and those of our dependent variable (\underline{y}).
+
+To do this, we must first construct a function for the errors (\underline{\epsilon}) and then find the value of \underline{\beta} which minimises the function. It is most sensible to square the errors, as each element of \underline{\epsilon} may be either negative or positive. If we consider the squared errors, we are only really taking into account how much the absolute value of each element of \underline{\epsilon} is contributing to the overall error. Cool, eh? Let's take a look at constructing this function (recall that to sum the squared elements of a column vector we multiply the vector with its transpose). Thus, our function starts as:
+
+$$\underline{\epsilon}^T\underline{\epsilon}$$
+
+Now, we use the model to recognise that $$\underline{\epsilon} = \underline{y} - \underline{\underline{F}} \underline{\beta}$$/. Let's substitute this expression for $$\underline{\epsilon}$$ in and try to expand the brackets:
+
+$$
+\begin{align}
+\underline{\epsilon}^T\underline{\epsilon} &= (\underline{y} - \underline{\underline{F}} \underline{\beta})^T(\underline{y} - \underline{\underline{F}} \underline{\beta})//
+&= \underline{y}^T \underline{y} - 2\underline{y}^T \underline{\underline{F}} \underline{\beta} + \underline{\beta}^T \underline{\underline{F}}^T \underline{\underline{F}} \underline{\beta}
+\end{align}
+$$
+
+Remember, we are looking to find the value of $$\underline{\beta}$$ which minimises our squared error function. Therefore, we must differentiate our squared error once with respect to $$\underline{\beta}$$, set this result equal to zero and solve for $$\underline{\beta}$$. This will give us the value of $$\underline{\beta}$$ which best fits our data (as it minimises the absolute value of the errors as much as possible).
+
+Deriving matrix equations can get a bit tricky, so we will explain afterwards what has happened:
+
+$$
+\begin{align}
+\frac{\mathrm{d} \underline{\epsilon}^T\underline{\epsilon}}{\mathrm{d} \underline{\beta}} = 0 - 2\underline{\underline{F}}^T \underline{y} + 2 \underline{\underline{F}}^T \underline{\underline{F}} \underline{\beta}
+\end{align}
+$$
+
+The first term vanishes, since $$\underline{y}^T \underline{y}$$ will return a constant. Thus, its derivative will be zero. The second term appears as though \underline{y} and \underline{\beta} swap places. This is because when taking the derivative of a scalar product involving matrices, the differentiation results in transposing the matrix \underline{\underline{F}}. The third term is written in quadratic form, so we use the fact that the derivative of a quadratic form $$\underline{\beta}^T \underline{\underline{A}} \underline{\beta}$$ with respect to $$\underline{\beta}$$ is $$2 \underline{\underline{A}} \underline{\beta}$$, where A is a symmetric matrix. In this case $$\underline{\underline{A}} = \underline{\underline{F}}^T \underline{\underline{F}}$$.
+
+Now we have our derivative, we shall now set it to zero and solve for $$\underline{\hat{\beta}}$$ which are our values of $$\underline{\beta}$$ which minimise our squared error function. Thus, our above equation becomes:
+
+$$
+\begin{align}
+0 &= - 2\underline{\underline{F}}^T \underline{y} + 2 \underline{\underline{F}}^T \underline{\underline{F}} \underline{\hat{\beta}} \\
+\Rightarrow \ \underline{\underline{F}}^T \underline{\underline{F}} \underline{\hat{\beta}} &= \underline{\underline{F}}^T \underline{y}
+\Rightarrow \ \underline{\hat{\beta}} &=  \left(\underline{\underline{F}}^T \underline{\underline{F}}\right)^(-1) \underline{\underline{F}}^T \underline{y}
+\end{align}
+$$
+
+Therefore, using this equation, we can find the value of \underline{\beta} which minimises the overall absolute value error as much as possible. Let's ground this with an example.
+
+
