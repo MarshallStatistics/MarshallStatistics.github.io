@@ -157,7 +157,7 @@ $$
 > 
 > Now, the parameters for the line of best fit which minimise the squared errors can be found by the following formula:
 >
-{% raw %}
+> $$
 \begin{align}
 \boldsymbol{\hat{\beta}} &=  \left(\mathbf{F}^T \mathbf{F}\right)^{-1} \mathbf{F}^T \mathbf{y} \
 
@@ -207,6 +207,6 @@ $$
 1.8
 \end{pmatrix}
 \end{align}
-{% endraw %}
+$$
 >
 > Therefore, $$\hat{\beta_0} = 1.6$$ and $$\hat{\beta_1} = 1.8$$. As such, our line of best fit would have the equation $$y = 1.6 + 1.8x$$. According to this model, an extra hour of revision would (approximately) improve the student test score by 1.8.
