@@ -1,9 +1,9 @@
 ---
 layout: single
-title: "1.1 Estimating $$\beta_0$$ and $$\beta_1$$ using least squares estimation"
+title: "1.1 Estimating `$\beta_0$` and `$\beta_1$` using least squares estimation"
 date: 2024-11-26
 thumbnail: "/assets/scatter_graph_annotated.png"
-excerpt: "We shall introduce least squares regression as a means to estimate $$\beta_0$$ and $$\beta_1$$."
+excerpt: "We shall introduce least squares regression as a means to estimate `$\beta_0$` and `$\beta_1$`."
 tags: ['doe']
 read_time: true
 ---
@@ -88,13 +88,13 @@ $$
 
 The first term vanishes, since $$\mathbf{y}^T \mathbf{y}$$ will return a constant. Thus, its derivative will be zero. The second term appears as though \mathbf{y} and \boldsymbol{\beta} swap places. This is because when taking the derivative of a scalar product involving matrices, the differentiation results in transposing the matrix \mathbf{F}. The third term is written in quadratic form, so we use the fact that the derivative of a quadratic form $$\boldsymbol{\beta}^T \underline{\underline{A}} \boldsymbol{\beta}$$ with respect to $$\boldsymbol{\beta}$$ is $$2 \mathbf{A}\boldsymbol{\beta}$$, where A is a symmetric matrix. In this case $$\mathbf{A} = \mathbf{F}^T \mathbf{F}$$.
 
-Now we have our derivative, we shall now set it to zero and solve for $$\underline{\hat{\beta}}$$ which are our values of $$\boldsymbol{\beta}$$ which minimise our squared error function. Thus, our above equation becomes:
+Now we have our derivative, we shall now set it to zero and solve for $$\boldsymbol{\hat{\beta}}$$ which are our values of $$\boldsymbol{\beta}$$ which minimise our squared error function. Thus, our above equation becomes:
 
 $$
 \begin{align}
-0 &= - 2\mathbf{F}^T \mathbf{y} + 2 \mathbf{F}^T \mathbf{F} \underline{\hat{\beta}} \\
-\Rightarrow \ \mathbf{F}^T \mathbf{F} \underline{\hat{\beta}} &= \mathbf{F}^T \mathbf{y} \\
-\Rightarrow \ \underline{\hat{\beta}} &=  \left(\mathbf{F}^T \mathbf{F}\right)^(-1) \mathbf{F}^T \mathbf{y}
+0 &= - 2\mathbf{F}^T \mathbf{y} + 2 \mathbf{F}^T \mathbf{F} \boldsymbol{\hat{\beta}} \\
+\Rightarrow \ \mathbf{F}^T \mathbf{F} \boldsymbol{\hat{\beta}} &= \mathbf{F}^T \mathbf{y} \\
+\Rightarrow \ \boldsymbol{\hat{\beta}} &=  \left(\mathbf{F}^T \mathbf{F}\right)^(-1) \mathbf{F}^T \mathbf{y}
 \end{align}
 $$
 
