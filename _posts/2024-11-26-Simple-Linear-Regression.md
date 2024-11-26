@@ -75,7 +75,7 @@ y_n
 1 & x_1 \\
 1 & x_2 \\
 1 & x_3 \\
-\vdots \\
+\vdots & \vdots \\
 1 & x_n
 \end{pmatrix}\end{equation} \begin{pmatrix}
 \beta_0 \\
@@ -99,7 +99,7 @@ $$
 \end{equation}
 $$
 
-$$\underline{\underline{F}}$$ is sometimes referred to as the design matrix. We shall use this nomenclature going forward.
+$$\doubleunderline{F}$$ is sometimes referred to as the design matrix. We shall use this nomenclature going forward.
 
 Let's now consider the meaning of this model and, more importantly, what it can tell us. One may imagine linear regression as a tool to plot a line of best fit between our set of independent variable values $$\left\{x_i\right\}$$ and their respective responses $$\left\{y_i\right\}$$. This can be illustrated by plotting a set of coordinates for each $$i = 0, 1, 2, 3, \ldots, n$$.
 
