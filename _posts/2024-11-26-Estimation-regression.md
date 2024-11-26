@@ -71,7 +71,7 @@ Now, we use the model to recognise that $$\boldsymbol{\epsilon} = \mathbf{y} - \
 
 $$
 \begin{align}
-\boldsymbol{\epsilon}^T\boldsymbol{\epsilon} &= (\mathbf{y} - \mathbf{F} \boldsymbol{\beta})^T(\mathbf{y} - \mathbf{F} \boldsymbol{\beta})//
+\boldsymbol{\epsilon}^T\boldsymbol{\epsilon} &= (\mathbf{y} - \mathbf{F} \boldsymbol{\beta})^T(\mathbf{y} - \mathbf{F} \boldsymbol{\beta}) \\
 &= \mathbf{y}^T \mathbf{y} - 2\mathbf{y}^T \mathbf{F} \boldsymbol{\beta} + \boldsymbol{\beta}^T \mathbf{F}^T \mathbf{F} \boldsymbol{\beta}
 \end{align}
 $$
@@ -93,7 +93,7 @@ Now we have our derivative, we shall now set it to zero and solve for $$\underli
 $$
 \begin{align}
 0 &= - 2\mathbf{F}^T \mathbf{y} + 2 \mathbf{F}^T \mathbf{F} \underline{\hat{\beta}} \\
-\Rightarrow \ \mathbf{F}^T \mathbf{F} \underline{\hat{\beta}} &= \mathbf{F}^T \mathbf{y}
+\Rightarrow \ \mathbf{F}^T \mathbf{F} \underline{\hat{\beta}} &= \mathbf{F}^T \mathbf{y} \\
 \Rightarrow \ \underline{\hat{\beta}} &=  \left(\mathbf{F}^T \mathbf{F}\right)^(-1) \mathbf{F}^T \mathbf{y}
 \end{align}
 $$
