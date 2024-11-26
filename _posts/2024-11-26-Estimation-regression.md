@@ -17,3 +17,13 @@ Estimation forms the cornerstone of linear regression; we are interested in appr
 
 Recall, our linear model (from the previous post) is given by:
 
+$$
+\begin{equation}
+y_i = \beta_0 + \beta_1 x_i + \epsilon_i
+\end{equation}
+$$
+
+where $$\beta_0, \beta_1 \in \mathbb{R}$$ are coefficients indicating the intercept and gradient of our straight line respectively. We also have an error term $$\epsilon_i \sim \mathcal{N}(0, \sigma^2)$$ which accounts for the dispersion of the observed values about the straight line.
+
+We were also able to represent it using matrices:
+
