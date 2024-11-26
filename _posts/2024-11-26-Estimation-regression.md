@@ -61,7 +61,7 @@ y_n
 \end{pmatrix}
 $$
 
-As mentioned in our previous post, we wish to estimate our coefficients contained in \boldsymbol{\beta}. Also, recall that we defined \boldsymbol{\epsilon} to be the deviations from the straight line. Hence, if we seek to find values for \boldsymbol{\beta} which minimise $$\boldsymbol{\epsilon}$$, we will obtain a model which most accurately represents the linear relationship between the values of our independent variable (\mathbf{x}) and those of our dependent variable (\mathbf{y}).
+As mentioned in our previous post, we wish to estimate our coefficients contained in \boldsymbol{\beta}. Also, recall that we defined \boldsymbol{\epsilon} to be the deviations from the straight line. Hence, if we seek to find values for \boldsymbol{\beta} which minimise $$\boldsymbol{\epsilon}$$, we will obtain a model which most accurately represents the linear relationship between the values of our independent variable ($$\mathbf{x}$$) and those of our dependent variable ($$\mathbf{y}$$).
 
 To do this, we must first construct a function for the errors ($$\boldsymbol{\epsilon}$$) and then find the value of $$\boldsymbol{\beta}$$ which minimises the function. It is most sensible to square the errors, as each element of $$\boldsymbol{\epsilon}$$ may be either negative or positive. If we consider the squared errors, we are only really taking into account how much the absolute value of each element of $$\boldsymbol{\epsilon}$$ is contributing to the overall error. Cool, eh? Let's take a look at constructing this function (recall that to sum the squared elements of a column vector we multiply the vector with its transpose). Thus, our function starts as:
 
@@ -76,7 +76,7 @@ $$
 \end{align}
 $$
 
-Remember, we are looking to find the value of $$\boldsymbol{\beta}$$ which minimises our squared error function. Therefore, we must differentiate our squared error once with respect to $$\boldsymbol{\beta}$$, set this result equal to zero and solve for $$\boldsymbol{\beta}$$. This will give us the value of $$\boldsymbol{\beta}$$ which best fits our data (as it minimises the absolute value of the errors as much as possible).
+Remember, we are looking to find the value of $$\boldsymbol{\beta}$$ which minimises our squared error function. Therefore, we must differentiate our squared error once with respect to $$\boldsymbol{\beta}$$, set this result equal to zero, and solve for $$\boldsymbol{\beta}$$. This will give us the value of $$\boldsymbol{\beta}$$ which best fits our data (as it minimises the absolute value of the errors as much as possible).
 
 Deriving matrix equations can get a bit tricky, so we will explain afterwards what has happened:
 
