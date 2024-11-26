@@ -98,6 +98,33 @@ $$
 \end{align}
 $$
 
-Therefore, using this equation, we can find the value of \boldsymbol{\beta} which minimises the overall absolute value error as much as possible. Let's ground this with an example.
+Therefore, using this equation, we can find the value of \boldsymbol{\beta} which minimises the overall absolute value error as much as possible. As such, this approach is referred to as "least squares estimation", since it is the estimation which minimises the squares (of the errors). Let's ground this with an example.
 
-
+> ### Example 1: Least Squares Estimation
+> Let us refer back to our test scores investigation. Recall, our data collected was as follows:
+>$$
+> \begin{equation}
+> \mathbf{x} = \begin{equation}
+\begin{pmatrix}
+1 \\
+2 \\
+3 \\
+4 \\
+5
+\end{pmatrix}, \qquad
+> \mathbf{y} = \begin{equation}
+\begin{pmatrix}
+3 \\
+5 \\
+8 \\
+9 \\
+10
+\end{pmatrix}
+> \end{equation}
+> $$
+>
+> We can plug this into our linear model:
+>
+> 
+> 
+> Therefore, the parameters for the line of best fit which minimise the squared errors can be found by the following formula:
