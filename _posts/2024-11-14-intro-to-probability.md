@@ -4,7 +4,7 @@ title: "1.0 Introduction to Probability in Fair Experiments"
 date: 2024-11-08
 thumbnail: "/assets/network_intro_6.png"
 excerpt: "An introduction to probability. This is a core prerequisite to be able to understand statistical theory."
-tags: ['doe']
+tags:
 read_time: true
 ---
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
