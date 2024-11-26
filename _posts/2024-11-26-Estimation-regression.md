@@ -63,15 +63,15 @@ $$
 
 As mentioned in our previous post, we wish to estimate our coefficients contained in \boldsymbol{\beta}. Also, recall that we defined \boldsymbol{\epsilon} to be the deviations from the straight line. Hence, if we seek to find values for \boldsymbol{\beta} which minimise $$\boldsymbol{\epsilon}$$, we will obtain a model which most accurately represents the linear relationship between the values of our independent variable (\mathbf{x}) and those of our dependent variable (\mathbf{y}).
 
-To do this, we must first construct a function for the errors (\boldsymbol{\epsilon}) and then find the value of \boldsymbol{\beta} which minimises the function. It is most sensible to square the errors, as each element of \boldsymbol{\epsilon} may be either negative or positive. If we consider the squared errors, we are only really taking into account how much the absolute value of each element of \boldsymbol{\epsilon} is contributing to the overall error. Cool, eh? Let's take a look at constructing this function (recall that to sum the squared elements of a column vector we multiply the vector with its transpose). Thus, our function starts as:
+To do this, we must first construct a function for the errors ($$\boldsymbol{\epsilon}$$) and then find the value of $$\boldsymbol{\beta}$$ which minimises the function. It is most sensible to square the errors, as each element of $$\boldsymbol{\epsilon}$$ may be either negative or positive. If we consider the squared errors, we are only really taking into account how much the absolute value of each element of $$\boldsymbol{\epsilon}$$ is contributing to the overall error. Cool, eh? Let's take a look at constructing this function (recall that to sum the squared elements of a column vector we multiply the vector with its transpose). Thus, our function starts as:
 
 $$\boldsymbol{\epsilon}^T\boldsymbol{\epsilon}$$
 
-Now, we use the model to recognise that $$\boldsymbol{\epsilon} = \mathbf{y} - \mathbf{F} \boldsymbol{\beta}$$/. Let's substitute this expression for $$\boldsymbol{\epsilon}$$ in and try to expand the brackets:
+Now, we use the model to recognise that $$\boldsymbol{\epsilon} = \mathbf{y} - \mathbf{F} \boldsymbol{\beta}$$. Let's substitute this expression for $$\boldsymbol{\epsilon}$$ in and try to expand the brackets:
 
 $$
 \begin{align}
-\boldsymbol{\epsilon}^T\boldsymbol{\epsilon} &= (\mathbf{y} - \mathbf{F} \boldsymbol{\beta})^T(\mathbf{y} - \mathbf{F} \boldsymbol{\beta}) \\
+\boldsymbol{\epsilon}^T\boldsymbol{\epsilon} &= (\mathbf{y} - \mathbf{F} \boldsymbol{\beta})^T(\mathbf{y} - \mathbf{F} \boldsymbol{\beta}) \\ \\
 &= \mathbf{y}^T \mathbf{y} - 2\mathbf{y}^T \mathbf{F} \boldsymbol{\beta} + \boldsymbol{\beta}^T \mathbf{F}^T \mathbf{F} \boldsymbol{\beta}
 \end{align}
 $$
@@ -86,14 +86,14 @@ $$
 \end{align}
 $$
 
-The first term vanishes, since $$\mathbf{y}^T \mathbf{y}$$ will return a constant. Thus, its derivative will be zero. The second term appears as though \mathbf{y} and \boldsymbol{\beta} swap places. This is because when taking the derivative of a scalar product involving matrices, the differentiation results in transposing the matrix \mathbf{F}. The third term is written in quadratic form, so we use the fact that the derivative of a quadratic form $$\boldsymbol{\beta}^T \mathbf{A} \boldsymbol{\beta}$$ with respect to $$\boldsymbol{\beta}$$ is $$2 \mathbf{A}\boldsymbol{\beta}$$, where A is a symmetric matrix. In this case $$\mathbf{A} = \mathbf{F}^T \mathbf{F}$$.
+The first term vanishes, since $$\mathbf{y}^T \mathbf{y}$$ will return a constant. Thus, its derivative will be zero. The second term appears as though $$\mathbf{y}$$ and $$\boldsymbol{\beta}$$ swap places. This is because when taking the derivative of a scalar product involving matrices, the differentiation results in transposing the matrix $$\mathbf{F}$$. The third term is written in quadratic form, so we use the fact that the derivative of a quadratic form $$\boldsymbol{\beta}^T \mathbf{A} \boldsymbol{\beta}$$ with respect to $$\boldsymbol{\beta}$$ is $$2 \mathbf{A}\boldsymbol{\beta}$$, where $$\mathbf{A}$$ is a symmetric matrix. In this case $$\mathbf{A} = \mathbf{F}^T \mathbf{F}$$.
 
 Now we have our derivative, we shall now set it to zero and solve for $$\boldsymbol{\hat{\beta}}$$ which are our values of $$\boldsymbol{\beta}$$ which minimise our squared error function. Thus, our above equation becomes:
 
 $$
 \begin{align}
-0 &= - 2\mathbf{F}^T \mathbf{y} + 2 \mathbf{F}^T \mathbf{F} \boldsymbol{\hat{\beta}} \\
-\Rightarrow \ \mathbf{F}^T \mathbf{F} \boldsymbol{\hat{\beta}} &= \mathbf{F}^T \mathbf{y} \\
+0 &= - 2\mathbf{F}^T \mathbf{y} + 2 \mathbf{F}^T \mathbf{F} \boldsymbol{\hat{\beta}} \\ \\
+\Rightarrow \ \mathbf{F}^T \mathbf{F} \boldsymbol{\hat{\beta}} &= \mathbf{F}^T \mathbf{y} \\ \\
 \Rightarrow \ \boldsymbol{\hat{\beta}} &=  \left(\mathbf{F}^T \mathbf{F}\right)^{-1} \mathbf{F}^T \mathbf{y}
 \end{align}
 $$
