@@ -115,14 +115,14 @@ $$
 Let's plot this on a scatter graph:
 
 <figure>
-  <img src="/assets/scatter_graph.png" alt="An adjacency matrix, annotated." title="An adjacency matrix, annotated." style="width=50%;">
+  <img src="/assets/scatter_graph.png" alt="A scatter plot showing test scores and time studied for five students." title="A scatter plot showing test scores and time studied for five students." style="width=50%;">
   <figcaption style="font-size: small;">Figure 1: A scatter plot showing test scores and time studied for five students. </figcaption>
 </figure>
 
 Below, I have annotated this chart to show the role of $$\beta_0$$ and $$\beta_1$$ in the line of best fit.
 
 <figure>
-  <img src="/assets/scatter_graph_annotated.png" alt="An adjacency matrix, annotated." title="An adjacency matrix, annotated." style="width=50%;">
+  <img src="/assets/scatter_graph_annotated.png" alt="The above scatter graph, annotated." title="The above scatter graph, annotated." style="width=50%;">
   <figcaption style="font-size: small;">Figure 2: The above scatter graph, annotated. </figcaption>
 </figure>
 
