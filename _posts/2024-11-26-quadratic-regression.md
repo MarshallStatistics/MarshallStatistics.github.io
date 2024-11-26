@@ -75,12 +75,12 @@ Quadratic regression is used when a scatter graph of the data shows a nonlinear 
 > Just like we did with the linear example, I have plotted this as a scatter graph below:
 >
 > <figure>
->  <img src="/assets/scatter_quad_reg.png" alt="A scatter plot showing the relationship between amount of fertiliser and >crop yield" title="A scatter plot showing the relationship between amount of fertiliser and crop yield"> <figcaption style="font-size: small;">Figure 1: A scatter plot showing the relationship between >amount of fertiliser and crop yield. </figcaption>
+>  <img src="/assets/scatter_quad_reg.png" alt="A scatter plot showing the relationship between amount of fertiliser and >crop yield" title="A scatter plot showing the relationship between amount of fertiliser and crop yield"> <figcaption style="font-size: small;">Figure 1: A scatter plot showing the relationship between amount of fertiliser and crop yield. </figcaption>
 ></figure>
 > Notice that we have a non-linear relationship that looks quadratic. In the next section, we shall develop the theory of least squares estimation for the quadratic case.
 
 
-Fortunately, the least squares estmation theory which we discussed in our previous post (about the linear case) holds true in the quadratic case. We just need to remember that the design matrix has an extra column!
+Fortunately, the least squares estimation theory which we discussed in our previous post (about the linear case) holds true in the quadratic case. We just need to remember that the design matrix has an extra column!
 
 Using the least squares theory discussed in the previous post, we shall now seek to find the "best" value for $$\boldsymbol{\beta}$$ which best models this (presumably) quadratic relationship.
 
