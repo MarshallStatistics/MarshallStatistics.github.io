@@ -145,7 +145,7 @@ $$
 > $$
 > \begin{align}
 > \boldsymbol{\hat{\beta}} &= \left(\mathbf{F}^T \mathbf{F}\right)^{-1} \mathbf{F}^T \mathbf{y} \\
-> &= \left[ \begin{pmatrix} 1 & 1 & 1 & 1 & 1 \\ 0 & 1 & 2 & 3 & 4 \\ 0 & 1 & 4 & 9 & 16 \end{pmatrix} \begin{pmatrix} 1 & 0 & 0 \\ 1 & 2 \\ 1 & 3 \\ 1 & 4 \\ 1 & 5 \end{pmatrix}\right]^{-1} \begin{pmatrix} 1 & 1 & 1 & 1 & 1 \\ 0 & 1 & 2 & 3 & 4 \\ 0 & 1 & 4 & 9 & 16 \end{pmatrix} \begin{pmatrix} 2 \\ 4 \\ 7 \\ 8 \\ 6 \end{pmatrix} \\ & = \left[\begin{pmatrix}
+> &= \left[ \begin{pmatrix} 1 & 1 & 1 & 1 & 1 \\ 0 & 1 & 2 & 3 & 4 \\ 0 & 1 & 4 & 9 & 16 \end{pmatrix} \begin{pmatrix} 1 & 0 & 0 \\ 1 & 1 & 1\\ 1 & 2 & 4 \\ 1 & 3 & 9 \\ 1 & 4 & 16 \end{pmatrix}\right]^{-1} \begin{pmatrix} 1 & 1 & 1 & 1 & 1 \\ 0 & 1 & 2 & 3 & 4 \\ 0 & 1 & 4 & 9 & 16 \end{pmatrix} \begin{pmatrix} 2 \\ 4 \\ 7 \\ 8 \\ 6 \end{pmatrix} \\ & = \left[\begin{pmatrix}
 5 & 10 & 30 \\
 10 & 30 & 100 \\
 30 & 100 & 354
