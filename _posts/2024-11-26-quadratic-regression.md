@@ -75,9 +75,8 @@ Quadratic regression is used when a scatter graph of the data shows a nonlinear 
 > Just like we did with the linear example, I have plotted this as a scatter graph below:
 >
 > <figure>
-  <img src="/assets/scatter_quad_reg.png" alt="A scatter plot showing the relationship between amount of fertiliser and crop yield" title="A scatter plot showing the relationship between amount of fertiliser and crop yield" style="width=50%;">
-  <figcaption style="font-size: small;">Figure 1: A scatter plot showing the relationship between amount of fertiliser and crop yield. </figcaption>
-</figure>
+>  <img src="/assets/scatter_quad_reg.png" alt="A scatter plot showing the relationship between amount of fertiliser and >crop yield" title="A scatter plot showing the relationship between amount of fertiliser and crop yield" >style="width=50%;"> <figcaption style="font-size: small;">Figure 1: A scatter plot showing the relationship between >amount of fertiliser and crop yield. </figcaption>
+></figure>
 > Notice that we have a non-linear relationship that looks quadratic. In the next section, we shall develop the theory of least squares estimation for the quadratic case.
 
 
