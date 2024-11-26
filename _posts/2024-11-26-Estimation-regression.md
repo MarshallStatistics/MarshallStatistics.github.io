@@ -2,7 +2,7 @@
 layout: single
 title: "1.1 Estimating `β_0` and `β_1` using least squares estimation"
 date: 2024-11-26
-thumbnail: "/assets/scatter_graph_annotated.png"
+thumbnail: "/assets/beta_0_beta_1_thumbnail.png"
 excerpt: "We shall introduce least squares regression as a means to estimate `β_0` and `β_1`."
 tags: ['doe']
 read_time: true
