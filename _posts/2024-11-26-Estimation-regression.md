@@ -104,7 +104,7 @@ Therefore, using this equation, we can find the value of \boldsymbol{\beta} whic
 > Let us refer back to our test scores investigation. Recall, our data collected was as follows:
 >$$
 > \begin{equation}
-> \mathbf{x} = \begin{equation}
+> \mathbf{x} =
 \begin{pmatrix}
 1 \\
 2 \\
@@ -112,7 +112,7 @@ Therefore, using this equation, we can find the value of \boldsymbol{\beta} whic
 4 \\
 5
 \end{pmatrix}, \qquad
-> \mathbf{y} = \begin{equation}
+> \mathbf{y} =
 \begin{pmatrix}
 3 \\
 5 \\
@@ -139,7 +139,7 @@ Therefore, using this equation, we can find the value of \boldsymbol{\beta} whic
 1 & 3 \\
 1 & 4 \\
 1 & 5
-\end{pmatrix}\end{equation} \begin{pmatrix}
+\end{pmatrix} \begin{pmatrix}
 \beta_0 \\
 \beta_1 \\
 \end{pmatrix}
@@ -151,6 +151,7 @@ Therefore, using this equation, we can find the value of \boldsymbol{\beta} whic
 \vdots \\
 \epsilon_n
 \end{pmatrix}
+> \end{equation}
 $$
 > 
 > Now, the parameters for the line of best fit which minimise the squared errors can be found by the following formula:
@@ -161,7 +162,7 @@ $$
 1 & 1 & 1 & 1 & 1 \\
 1 & 2 & 3 & 4 & 5
 \end{pmatrix}
- \begin{pmatrix}
+\begin{pmatrix}
 1 & 1 \\
 1 & 2 \\
 1 & 3 \\
@@ -191,10 +192,10 @@ $$
 35 \\
 123
 \end{pmatrix} \\ \\
-> 7 = \begin{pmatrix}
+7 = \begin{pmatrix}
 1.6 \\
 1.8
 \end{pmatrix}
 > \end{align}
 >
-> Therefore, $$\hat{\beta_0} = 1.6$$ and $$\hat{\beta_1} = 1.8$$. As such, our line of best fit would have the equation $$y = 1.6 + 1.8x$$. According to this model, an extra hour of revision would improve student test score by 1.8.
+> Therefore, $$\hat{\beta_0} = 1.6$$ and $$\hat{\beta_1} = 1.8$$. As such, our line of best fit would have the equation $$y = 1.6 + 1.8x$$. According to this model, an extra hour of revision would (approximately) improve the student test score by 1.8.
