@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "1.1 Estimating `\beta_0` and `\beta_1` using least squares estimation"
+title: "1.1 Estimating <span>$\beta_0$</span> and <span>$\beta_1$</span> using least squares estimation"
 date: 2024-11-26
 thumbnail: "/assets/scatter_graph_annotated.png"
 excerpt: "We shall introduce least squares regression as a means to estimate `\beta_0` and `\beta_1`."
