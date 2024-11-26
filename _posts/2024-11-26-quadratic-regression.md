@@ -1,8 +1,8 @@
 ---
 layout: single
-title: "1.2 Introduction to Quadratic regression"
+title: "1.2 Introduction to quadratic regression"
 date: 2024-11-26
-thumbnail: "/assets/beta_0_beta_1_thumbnail.png"
+thumbnail: "/assets/scatter_quad_reg_annotated.png"
 excerpt: "Extending our understanding of linear regression to the quadratic case."
 tags: ['doe']
 read_time: true
@@ -169,8 +169,4 @@ $$
 >
 > Therefore, $$\hat{\beta_0} \approx 1.571$$, $$\hat{\beta_1} \approx 36.629$$, and $$\hat{\beta_2} \approx -0.714$$.
 
-The values contained within $$\boldsymbol{\hat{\beta}}$$ allow us to estimate the expected value of $$\mathbf{y}$$ (i.e., $$\mathbb{E}[\mathbf{y}]$$). This predictor is commonly known as $$\mathbf{\hat{y}}$$ and is defined:
-
-$$\mathbf{\hat{y}} = \hat{\beta_0} + \hat{\beta_1}\mathbf{x}$$
-
-In the next post, we shall extend our understanding of simple linear regression to quadratic regression. In quadratic regression, we seek to fit a parabola to our data rather than a straight line. Fortunately for us, the theory is not too much more advanced. See you in the next post! 
+This method simply extends to higher-order regression too; we would just simply add another term to the model. 
