@@ -99,7 +99,7 @@ $$
 \end{equation}
 $$
 
-$$\doubleunderline{F}$$ is sometimes referred to as the design matrix. We shall use this nomenclature going forward.
+$$\underline{\underline{F}}$$ is sometimes referred to as the design matrix. We shall use this nomenclature going forward.
 
 Let's now consider the meaning of this model and, more importantly, what it can tell us. One may imagine linear regression as a tool to plot a line of best fit between our set of independent variable values $$\left\{x_i\right\}$$ and their respective responses $$\left\{y_i\right\}$$. This can be illustrated by plotting a set of coordinates for each $$i = 0, 1, 2, 3, \ldots, n$$.
 
@@ -107,8 +107,8 @@ As an example, let us refer back to our time studied and test score investigatio
 
 $$
 \begin{align}
-&x = \left\{1, 2, 3, 4, 5\right\} \ \leftarrow \text{hours studied} \\
-&y = \left\{3, 5, 8, 9, 10\right\} \ \leftarrow \text{test scores}
+&x = \left\{1, 2, 3, 4, 5\right\} \ \leftarrow \texttt{hours studied} \\
+&y = \left\{3, 5, 8, 9, 10\right\} \ \leftarrow \texttt{test scores}
 \end{align}
 $$
 
