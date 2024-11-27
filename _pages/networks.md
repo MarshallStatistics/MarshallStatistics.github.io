@@ -45,26 +45,6 @@ For the purposes of this section, we shall solely discuss undirected networks. Y
     {% endif %}
   {% endfor %}
 
-  <!-- List remaining posts with the "networks" tag -->
-  {% for post in sorted_posts %}
-    {% if post.tags contains "networks" %}
-      <article class="post">
-        <div class="post-content-thumbnail">
-          {% if post.thumbnail %}
-            <img src="{{ post.thumbnail }}" alt="Thumbnail for {{ post.title }}" class="post-thumbnail">
-          {% endif %}
-          <div class="post-content">
-            <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-            {% if post.excerpt %}
-              <p>{{ post.excerpt }}</p>
-            {% endif %}
-          </div>
-        </div>
-      </article>
-    {% endif %}
-  {% endfor %}
-</div>
-
 
 
 
