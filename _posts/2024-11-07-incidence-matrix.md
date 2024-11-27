@@ -6,8 +6,6 @@ thumbnail: "/assets/network_intro_4.png"
 excerpt: "A definition of the incidence matrix, complete with an example."
 tags: ['networks']
 read_time: true
-header:
-  teaser: "/assets/network_intro_4.png"
 ---
 
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
