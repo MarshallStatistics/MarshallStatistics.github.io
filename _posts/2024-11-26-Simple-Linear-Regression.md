@@ -3,6 +3,7 @@ layout: single
 title: "1.0 Simple Linear Regression"
 date: 2024-11-26
 thumbnail: "/assets/scatter_graph_annotated.png"
+teaser: "/assets/scatter_graph_annotated.png"
 excerpt: "An introduction to simple linear regression; an approach to model a relationship between values of an independent variable and values of a dependent variable."
 tags: ['doe']
 read_time: true
