@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "1.3 Determining the Precision of Estimating `β_0` and `β_1`"
+title: "1.3 Determining the Precision of Estimating `β_j`"
 date: 2024-11-27
 thumbnail: "/assets/var_parameter_thumbnail.png"
 excerpt: "We shall introduce how we determine how precise our estimators are."
@@ -13,7 +13,7 @@ read_time: true
   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
 </script>
 
-Whenever, we estimate a measurement in real life (e.g., the length of an object) it is normally a good idea to have in mind how precise you think you are with that estimation. In a sense, we are evaluating our own measurement. Therefore, in the context of regression, it makes sense to be able to detrmine how precise our estimators for $$\boldsymbol{\hat{\beta}}$$ are. In this post, we shall establish the framework for which precision of parameter estimation can be determined.  
+Whenever, we estimate a measurement in real life (e.g., the length of an object) it is normally a good idea to have in mind how precise you think you are with that estimation. In a sense, we are evaluating our own measurement. Therefore, in the context of regression, it makes sense to be able to determine how precise our estimators for $$\boldsymbol{\hat{\beta}}$$ are. In this post, we shall establish the framework for which precision of parameter estimation can be determined.  
 
 Recall, our linear model is given by:
 
