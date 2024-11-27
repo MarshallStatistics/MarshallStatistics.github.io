@@ -5,6 +5,8 @@ date: 2024-11-07
 thumbnail: "/assets/network_intro_3.png"
 excerpt: "A definition of the adjacency matrix, illustrated with examples."
 tags: ['networks']
+header:
+  teaser: "/assets/network_intro_3.png"
 ---
 
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
