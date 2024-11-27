@@ -5,6 +5,8 @@ date: 2024-09-06
 thumbnail: "/assets/pexels-orhanveliakbaba-23247806.jpg"
 excerpt: "A brief look at my first MSc presentation assignment and the pesticide paradox."
 read_time: true
+header:
+  teaser: "/assets/pexels-orhanveliakbaba-23247806.jpg"
 ---
 
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
