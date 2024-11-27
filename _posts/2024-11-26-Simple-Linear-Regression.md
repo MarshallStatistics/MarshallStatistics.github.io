@@ -6,8 +6,6 @@ thumbnail: "/assets/scatter_graph_annotated.png"
 excerpt: "An introduction to simple linear regression; an approach to model a relationship between values of an independent variable and values of a dependent variable."
 tags: ['doe']
 read_time: true
-header:
-  teaser: "/assets/scatter_graph_annotated.png"
 ---
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
