@@ -98,5 +98,5 @@ Once we recall that $$\sigma^2$$ is uncorrelated with the coefficients contained
 
 These remarks extend to larger (but finite-dimensional) collection of regression parameters,  $$\boldsymbol{\hat{\beta}}$$.
 
-Furthermore, the matrix $$\mathbf{F}^T \mathbf{F}$$ is known as the Fisher Information matrix and is extremely important in experimental design; much of the work around optimising experiments requires us to minimise the variance of predictors and as such requires the maximisation of $$\mathbf{F}^T \mathbf{F}$$.
+Furthermore, the matrix $$\mathbf{F}^T \mathbf{F}$$ is known as the Fisher Information matrix and is extremely important in experimental design; much of the work around optimising experiments requires us to minimise the variance of predictors and as such requires the maximisation of $$\mathbf{F}^T \mathbf{F}$$
 
