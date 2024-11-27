@@ -6,8 +6,6 @@ thumbnail: "/assets/rw_sim.png"
 excerpt: "A quick guide on plotting random walks in Python and how to make your plots nice in Matplotlib for beginners."
 read_time: true
 tags: "python"
-header:
-  teaser: "/assets/rw_sim.png"
 ---
 
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
