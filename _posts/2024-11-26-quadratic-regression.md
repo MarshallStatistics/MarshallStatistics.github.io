@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "1.2 Introduction to quadratic regression"
+title: "1.2 Introduction to non-linear polynomial regression"
 date: 2024-11-26
 thumbnail: "/assets/scatter_quad_reg_annotated.png"
 excerpt: "Extending our understanding of linear regression to the quadratic case."
