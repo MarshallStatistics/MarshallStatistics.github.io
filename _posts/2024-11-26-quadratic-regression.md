@@ -168,4 +168,4 @@ $$
 >
 > Therefore, $$\hat{\beta_0} \approx 1.571$$, $$\hat{\beta_1} \approx 36.629$$, and $$\hat{\beta_2} \approx -0.714$$.
 
-This method simply extends to higher-order regression too; we would just simply add another term to the model. 
+This method simply extends to higher-order regression too; we would just simply add another term to the model
