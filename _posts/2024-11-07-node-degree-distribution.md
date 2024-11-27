@@ -6,8 +6,6 @@ thumbnail: "/assets/network_intro_6.png"
 excerpt: "The probability distribution of choosing a node with degree k out of all possible nodes."
 tags: ['networks']
 read_time: true
-header:
-  teaser: "/assets/network_intro_6.png"
 ---
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
