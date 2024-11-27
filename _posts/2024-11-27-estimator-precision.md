@@ -51,7 +51,7 @@ y_n
 \end{pmatrix}
 $$
 
-Previously, we were able to derive a formula for the estimator, $$\boldsymbol{\hat{\beta}}$$, of the vector of parameters, $$\boldsymbol{\beta}}$$:
+Previously, we were able to derive a formula for the estimator, $$\boldsymbol{\hat{\beta}}$$, of the vector of parameters, $$\boldsymbol{\beta}$$:
 
 $$
 \boldsymbol{\hat{\beta}} =  \left(\mathbf{F}^T \mathbf{F}\right)^{-1} \mathbf{F}^T \mathbf{y}
