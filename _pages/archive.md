@@ -7,6 +7,7 @@ scope:
 path: ""
 type: pages
 values:
+search: false
 layout: archive
 author_profile: true
 include: _includes/head/custom.html
