@@ -15,6 +15,10 @@ favicon: "/favicon.ico"
 search: false
 ---
 
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
 I am currently in the process of putting some notes together on networks and graph theory. Please do let me know your thoughts or improvements either via X / Twitter or LinkedIn. I hope these notes are useful!
 <p style="font-family: 'Brush Script MT', cursive; text-align: right; font-size: 28px;">- Dan</p>
 
