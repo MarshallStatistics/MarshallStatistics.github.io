@@ -2,7 +2,7 @@
 layout: single
 title: "1.3 Determining the Precision of Estimating `β_0` and `β_1`"
 date: 2024-11-27
-thumbnail: "/assets/beta_0_beta_1_thumbnail.png"
+thumbnail: "/assets/var_parameter_thumbnail.png"
 excerpt: "We shall introduce how we determine how precise our estimators are."
 tags: ['doe']
 read_time: true
@@ -78,7 +78,7 @@ $$
 &= \text{Var}\left(\boldsymbol{\beta}\right) + \text{Var}\left(\left(\mathbf{F}^T \mathbf{F}\right)^{-1} \mathbf{F}^T \boldsymbol{\epsilon}\right) \\ \\
 &= \text{Var}\left(\left(\mathbf{F}^T \mathbf{F}\right)^{-1} \mathbf{F}^T \boldsymbol{\epsilon}\right) \\ \\
 &= \left(\mathbf{F}^T \mathbf{F}\right)^{-1} \mathbf{F}^T \text{Var}\left(\boldsymbol{\epsilon}\right) \mathbf{F} \left(\mathbf{F}^T \mathbf{F}\right)^{-1} \\ \\
-&= \left(\mathbf{F}^T \mathbf{F}\right)^{-1} \mathbf{F}^T \text{Var}\left(\boldsymbol{\epsilon}\right) \mathbf{F} \left(\mathbf{F}^T \mathbf{F}\right)^{-1} \\ \\
+&= \left(\mathbf{F}^T \mathbf{F}\right)^{-1} \mathbf{F}^T \sigma^2 \mathbf{F} \left(\mathbf{F}^T \mathbf{F}\right)^{-1} \\ \\
 &= \sigma^2 \left(\mathbf{F}^T \mathbf{F}\right)^{-1} \mathbf{F}^T \mathbf{F} \left(\mathbf{F}^T \mathbf{F}\right)^{-1} \\ \\
 &= \sigma^2 \left(\mathbf{F}^T \mathbf{F}\right)^{-1}
 \end{align}
