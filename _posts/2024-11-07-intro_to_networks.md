@@ -6,8 +6,6 @@ thumbnail: "/assets/network_intro_1.png"
 excerpt: "An introduction to the basics of networks and graph theory."
 tags: ['networks']
 read_time: true
-header:
-  teaser: "/assets/network_intro_1.png"
 ---
 
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
