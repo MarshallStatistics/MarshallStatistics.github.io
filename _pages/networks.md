@@ -28,25 +28,27 @@ For the purposes of this section, we shall solely discuss undirected networks. Y
   {% assign sorted_posts = site.posts | sort: "title" %}
 
   <!-- List posts with titles starting with "1." -->
-  {% for post in filtered_posts %}
-    <article class="post">
-      <div class="post-content-thumbnail">
-        {% if post.thumbnail %}
-          <img src="{{ post.thumbnail }}" alt="Thumbnail for {{ post.title }}" class="post-thumbnail">
-        {% endif %}
-        <div class="post-content">
-          <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-          {% if post.excerpt %}
-            <p>{{ post.excerpt }}</p>
+  {% for post in sorted_posts %}
+    {% if post.title contains "1." %}
+      <article class="post">
+        <div class="post-content-thumbnail">
+          {% if post.thumbnail %}
+            <img src="{{ post.thumbnail }}" alt="Thumbnail for {{ post.title }}" class="post-thumbnail">
           {% endif %}
+          <div class="post-content">
+            <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+            {% if post.excerpt %}
+              <p>{{ post.excerpt }}</p>
+            {% endif %}
+          </div>
         </div>
-      </div>
-    </article>
+      </article>
+    {% endif %}
   {% endfor %}
 
   <!-- List remaining posts -->
   {% for post in sorted_posts %}
-    {% unless post.title starts with "1." %}
+    {% unless post.title contains "1." %}
       <article class="post">
         <div class="post-content-thumbnail">
           {% if post.thumbnail %}
