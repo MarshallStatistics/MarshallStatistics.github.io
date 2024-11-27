@@ -7,6 +7,7 @@ scope:
 path: ""
 type: pages
 values:
+toc: true
 layout: single
 author_profile: true
 include: _includes/head/custom.html
