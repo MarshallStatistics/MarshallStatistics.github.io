@@ -46,7 +46,7 @@ y_n
 1 & x_2 & x_2^2 \\
 1 & x_3 & x_3^2 \\
 \vdots & \vdots & \vdots\\
-1 & x_n & & x_n^2 \\
+1 & x_n & x_n^2 \\
 \end{pmatrix}\end{equation}, \text{      }\boldsymbol{\beta} = \begin{pmatrix}
 \beta_0 \\
 \beta_1 \\
