@@ -1,7 +1,7 @@
 ---
 defaults:
 layout: archive
-title: "Notes on Network"
+title: "Notes on Networks"
 permalink: /networks/
 scope:
 path: ""
@@ -24,11 +24,12 @@ Networks are used to describe many real-world phenomena such as the interaction 
 
 For the purposes of this section, we shall solely discuss undirected networks. You do not need to know what undirected means at this stage.
 
-{% assign posts_with_numeric_title = site.tags.networks %}
+<div class="posts-list">
+  {% assign filtered_posts = site.posts | where: "title", "1." %}
+  {% assign sorted_posts = site.posts | sort: "title" %}
 
-{% assign sorted_posts = posts_with_numeric_title | sort: 'title' %}
-
-{% for post in sorted_posts %}
+  <!-- List posts with titles starting with "1." -->
+  {% for post in filtered_posts %}
     <article class="post">
       <div class="post-content-thumbnail">
         {% if post.thumbnail %}
@@ -42,7 +43,29 @@ For the purposes of this section, we shall solely discuss undirected networks. Y
         </div>
       </div>
     </article>
-{% endfor %}
+  {% endfor %}
+
+  <!-- List remaining posts -->
+  {% for post in sorted_posts %}
+    {% unless post.title starts with "1." %}
+      <article class="post">
+        <div class="post-content-thumbnail">
+          {% if post.thumbnail %}
+            <img src="{{ post.thumbnail }}" alt="Thumbnail for {{ post.title }}" class="post-thumbnail">
+          {% endif %}
+          <div class="post-content">
+            <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+            {% if post.excerpt %}
+              <p>{{ post.excerpt }}</p>
+            {% endif %}
+          </div>
+        </div>
+      </article>
+    {% endunless %}
+  {% endfor %}
+</div>
+
+
 
 
 <div style="text-align: right;"> <img src="/assets/back_to_home_button.png" alt="custom emoji" width="50px" height="50px"> <a href="/">Return to home page</a> </div>
