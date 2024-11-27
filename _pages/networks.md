@@ -24,12 +24,11 @@ Networks are used to describe many real-world phenomena such as the interaction 
 For the purposes of this section, we shall solely discuss undirected networks. You do not need to know what undirected means at this stage.
 
 <div class="posts-list">
-  {% assign filtered_posts = site.posts | where: "title", "1." %}
   {% assign sorted_posts = site.posts | sort: "title" %}
 
-  <!-- List posts with titles starting with "1." -->
+  <!-- List posts with titles starting with "1." and the "networks" tag -->
   {% for post in sorted_posts %}
-    {% if post.title contains "1." %}
+    {% if post.title contains "1." and post.tags contains "networks" %}
       <article class="post">
         <div class="post-content-thumbnail">
           {% if post.thumbnail %}
@@ -46,9 +45,9 @@ For the purposes of this section, we shall solely discuss undirected networks. Y
     {% endif %}
   {% endfor %}
 
-  <!-- List remaining posts -->
+  <!-- List remaining posts with the "networks" tag -->
   {% for post in sorted_posts %}
-    {% unless post.title contains "1." %}
+    {% if post.tags contains "networks" %}
       <article class="post">
         <div class="post-content-thumbnail">
           {% if post.thumbnail %}
@@ -62,7 +61,7 @@ For the purposes of this section, we shall solely discuss undirected networks. Y
           </div>
         </div>
       </article>
-    {% endunless %}
+    {% endif %}
   {% endfor %}
 </div>
 
