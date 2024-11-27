@@ -5,8 +5,6 @@ date: 2024-11-07
 thumbnail: "/assets/network_intro_5.png"
 excerpt: "Defining the degree of a node."
 tags: ['networks']
-header:
-  teaser: "/assets/network_intro_5.png"
 ---
 
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
