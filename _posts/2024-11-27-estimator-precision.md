@@ -1,9 +1,9 @@
 ---
 layout: single
-title: "1.3 Determining the Precision of Estimating `β_0` and `β_1` using Fisher Information"
+title: "1.3 Determining the Precision of Estimating `β_0` and `β_1`"
 date: 2024-11-27
 thumbnail: "/assets/beta_0_beta_1_thumbnail.png"
-excerpt: "We shall introduce how we determine how precise our estimators are by using the Fisher Information matrix."
+excerpt: "We shall introduce how we determine how precise our estimators are."
 tags: ['doe']
 read_time: true
 ---
