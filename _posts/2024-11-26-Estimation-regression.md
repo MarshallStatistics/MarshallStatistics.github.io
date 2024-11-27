@@ -6,6 +6,8 @@ thumbnail: "/assets/beta_0_beta_1_thumbnail.png"
 excerpt: "We shall introduce least squares estimation as a means to estimate `β_0` and `β_1`."
 tags: ['doe']
 read_time: true
+header:
+  teaser: "/assets/beta_0_beta_1_thumbnail.png"
 ---
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
