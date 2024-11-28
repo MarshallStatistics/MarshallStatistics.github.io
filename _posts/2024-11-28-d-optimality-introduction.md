@@ -55,15 +55,15 @@ n & \sum_{i=1}^{n} x_i \\
 \end{align}
 $$
 
-From here, we can compute the determinant of the information matrix, $$\left\|\mathbf{I}\right\|$$:
+From here, we can compute the determinant of the information matrix, $$\left|\mathbf{I}\right|$$:
 
 $$
 \begin{align}
-\left\|\mathbf{I}\right\| &= \begin{vmatrix}
+\left|\mathbf{I}\right| &= \begin{vmatrix}
 n & \sum_{i=1}^{n} x_i \\
 \sum_{i=1}^{n} x_i & \sum_{i=1}^{n} x_i^2
 \end{vmatrix} \\ \\
-& = = n \cdot \sum_{i=1}^{n} x_i^2 - \left( \sum_{i=1}^{n} x_i \right)^2
+&= n \cdot \sum_{i=1}^{n} x_i^2 - \left( \sum_{i=1}^{n} x_i \right)^2
 \end{align} 
 $$
 
