@@ -45,6 +45,8 @@ I thought that this would be a good place to start, since no experimental design
   {% endfor %}
 </div>
 
+<div style="text-align: right;"> <img src="/assets/back_to_home_button.png" alt="custom emoji" width="50px" height="50px"> <a href="/">Return to home page</a> </div>
+
 ## &sect;3 An Introduction to Design Optimality
 
 I am aiming to provide a formal introduction to experimental design in the future (see the currently missing &sect;2). For now, and for the purposes of my studies, I wish to make notes on optimality. I believe this follows on nicely from our discussions of the design matrix in the first section. Much of design optimisation theory relies on minimising the variance of the estimator(s) in some form.
@@ -70,5 +72,6 @@ I am aiming to provide a formal introduction to experimental design in the futur
       </article>
     {% endif %}
   {% endfor %}
+</div>
 
 <div style="text-align: right;"> <img src="/assets/back_to_home_button.png" alt="custom emoji" width="50px" height="50px"> <a href="/">Return to home page</a> </div>
