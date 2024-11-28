@@ -68,6 +68,6 @@ d(x, \epsilon) & = N \mathbf{f(x)}^T \left( \mathbf{F}^T \mathbf{F}\right)^{-1} 
 \end{align}
 $$
 
-This $$d(x, \epsilon)$$ has a maximum over the design region $$x \in [-0.5, 0.5]$$ at $$x=0.5$$ or $$x=0.5$$ is $$2.5$$.
+This $$d(x, \epsilon)$$ has a maximum over the design region $$x \in [-0.5, 0.5]$$ at $$x=0.5$$ or $$x=-0.5$$ is $$2.5$$.
 
 $$G$$-optimality requires us to choose a sensible design over the design space to minimise this maximum, as this would help to minimise prediction variance. 
