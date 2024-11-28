@@ -15,12 +15,13 @@ read_time: true
 
 The fourth measure of optimality we shall consider is $$T$$-optimality. This is where we seek to calculate the geometric mean of the eigenvalues of the information matrix.
 
-> ### Definition 1 : Geometric Mean
->Given a dataset $$\left\{x_1, x_2, \vdots, x_N \right\}$$, the geometric mean is given by:
+> ### Definition 1: Geometric Mean
+>Given a dataset $$\left\{x_1, x_2, \ldots, x_N \right\}$$, the geometric mean is given by:
 >
 >$$
->\text{Geometric Mean} = \left( \prod_{i=1}^{N} x_i \right)^{\frac{1}{N}}
+>\text{Geometric mean} = \left( \prod_{i=1}^{N} x_i \right)^{\frac{1}{N}}
 >$$
+> 
 > where $$N$$ is the number of points in your dataset.
 
 We shall now calculate the eigenvalues of the information matrix and apply the above definition to provide a definition for the $$T$$-optimality. If you recall from our section on regression, we claimed that the variance of an estimator is a measure of its precision. We also established a formula for the variance of the regression coefficients, $$\boldsymbol{\hat{\beta}}$$ using the design matrix, $$\mathbf{F}$$:
@@ -97,7 +98,8 @@ Now, we shall compute the geometric mean. We must first compute the product of t
 
 $$
 \begin{align}
-\lambda_+ \cdot \lambda_- &= \left( \frac{n + \sum_{i=1}^{n} x_i^2 + \sqrt{(n + \sum_{i=1}^{n} x_i^2)^2 - 4\left(n \sum_{i=1}^{n} x_i^2 - \left(\sum_{i=1}^{n} x_i\right)^2\right)}}{2} \right) \cdot \left( \frac{n + \sum_{i=1}^{n} x_i^2 - \sqrt{(n + \sum_{i=1}^{n} x_i^2)^2 - 4\left(n \sum_{i=1}^{n} x_i^2 - \left(\sum_{i=1}^{n} x_i\right)^2\right)}}{2} \right) \\ \\
+\lambda_+ \cdot \lambda_- &= \left( \frac{n + \sum_{i=1}^{n} x_i^2 + \sqrt{(n + \sum_{i=1}^{n} x_i^2)^2 - 4\left(n \sum_{i=1}^{n} x_i^2 - \left(\sum_{i=1}^{n} x_i\right)^2\right)}}{2} \right) \\ \\ 
+& \ \ \times \left( \frac{n + \sum_{i=1}^{n} x_i^2 - \sqrt{(n + \sum_{i=1}^{n} x_i^2)^2 - 4\left(n \sum_{i=1}^{n} x_i^2 - \left(\sum_{i=1}^{n} x_i\right)^2\right)}}{2} \right) \\ \\
 &= \frac{\left(n + \sum_{i=1}^{n} x_i^2\right)^2 - \left((n + \sum_{i=1}^{n} x_i^2)^2 - 4\left(n \sum_{i=1}^{n} x_i^2 - \left(\sum_{i=1}^{n} x_i\right)^2\right)\right)}{4} \\ \\
 &= \frac{4\left(n \sum_{i=1}^{n} x_i^2 - \left(\sum_{i=1}^{n} x_i\right)^2\right)}{4} \\ \\
 &= n \sum_{i=1}^{n} x_i^2 - \left(\sum_{i=1}^{n} x_i\right)^2
