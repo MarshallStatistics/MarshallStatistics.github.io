@@ -1,9 +1,9 @@
 ---
 layout: single
-title: "3.1 D-Optimality Introduction"
+title: "3.1 `D`-Optimality Introduction"
 date: 2024-11-28
 thumbnail: "/assets/var_parameter_thumbnail.png"
-excerpt: "Exploring D-optimality and how it dictates a solid experiment."
+excerpt: "Exploring `D`-optimality and how it dictates a solid experiment."
 tags: ['doe']
 read_time: true
 ---
