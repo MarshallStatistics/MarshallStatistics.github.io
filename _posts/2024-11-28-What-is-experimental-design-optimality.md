@@ -75,9 +75,9 @@ Thus, we should purposefully choose our values of the independent variable (at w
 
 Over the next few posts, we shall discuss some popular measures of optimality:
 
-- A-Optimality seeks to minimise the average variance of the parameter estimates.
-
 - D-Optimality seeks to maximise the determinant of the information matrix, which is equivalent to minimizing the volume of the confidence ellipsoid for the parameter estimates.
+  
+- A-Optimality seeks to minimise the average variance of the parameter estimates.
 
 - E-Optimality seeks to maximise the minimum eigenvalue of the information matrix.
 
