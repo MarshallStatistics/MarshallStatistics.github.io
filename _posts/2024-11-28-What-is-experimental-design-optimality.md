@@ -25,14 +25,62 @@ Thus, we know that the precision of the regression coefficients (i.e., how good 
 
 In essence, we wish to minimise the variance as much as possible, since a smaller variance means a more precise estimator. To do this, we often consider maximising $$\left(\mathbf{F}^T \mathbf{F}\right)$$ in some way. Recall, that in the linear model
 
+$$
+\begin{equation}
+\mathbf{y} = \mathbf{F} \boldsymbol{\beta} + \boldsymbol{\epsilon}
+\end{equation}
+$$
+
+where:
+
+$$
+\mathbf{y} = \begin{equation}
+\begin{pmatrix}
+y_1 \\
+y_2 \\
+y_3 \\
+\vdots \\
+y_n
+\end{pmatrix}, \text{      } \mathbf{F} = \begin{pmatrix}
+1 & x_1 \\
+1 & x_2 \\
+1 & x_3 \\
+\vdots & \vdots \\
+1 & x_n
+\end{pmatrix}\end{equation}, \text{      }\boldsymbol{\beta} = \begin{pmatrix}
+\beta_0 \\
+\beta_1 \\
+\end{pmatrix}, \text{   and   } \boldsymbol{\epsilon} = \begin{pmatrix}
+\epsilon_1 \\
+\epsilon_2 \\
+\epsilon_3 \\
+\vdots \\
+\epsilon_n
+\end{pmatrix}
+$$
 
 the design matrix is given by
 
+$$
+\mathbf{F} = \begin{pmatrix}
+1 & x_1 \\
+1 & x_2 \\
+1 & x_3 \\
+\vdots & \vdots \\
+1 & x_n
+\end{pmatrix}
+$$
 
-Thus, we should purposefully choose our values of the independent variable (at which a response should be measured) for $$\left(\mathbf{F}^T \mathbf{F}\right)$$ to be maximised.
+Thus, we should purposefully choose our values of the independent variable (at which a response should be measured) for $$\left(\mathbf{F}^T \mathbf{F}\right)$$ to be maximised. Fortunately, there are quantifiers to assist us in determining optimal design and what these values of the independent variable hsould be.
 
-Over the next few posts, we shall discuss three popular measures of optimality:
+Over the next few posts, we shall discuss some popular measures of optimality:
 
-- D-optimality
-- V-optimality
-- G-optimality
+- A-Optimality: Minimizes the average variance of the parameter estimates.
+
+- D-Optimality: Maximizes the determinant of the information matrix, which is equivalent to minimizing the volume of the confidence ellipsoid for the parameter estimates.
+
+- E-Optimality: Maximizes the minimum eigenvalue of the information matrix.
+
+- T-Optimality: Maximizes the geometric mean of the eigenvalues of the information matrix.
+
+- G-Optimality: Minimizes the maximum prediction variance over the design space, which is useful for designs aimed at prediction rather than parameter estimation.
