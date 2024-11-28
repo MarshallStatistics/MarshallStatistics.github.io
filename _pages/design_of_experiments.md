@@ -43,6 +43,7 @@ I thought that this would be a good place to start, since no experimental design
       </article>
     {% endif %}
   {% endfor %}
+</div>
 
 ## &sect;3 An Introduction to Design Optimality
 
