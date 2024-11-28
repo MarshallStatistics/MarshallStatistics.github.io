@@ -23,7 +23,7 @@ $$
 
 Thus, we know that the precision of the regression coefficients (i.e., how good the results of our experiment model the cause-and-effect relationship we wish to investigate) is dependent on the design of the experiment itself. This result motivates much of the theory of experimental design optimisation.
 
-In essence, we wish to minimise the variance as much as possible, since a smaller variance means a more precise estimator. To do this, we often consider maximising $$\left(\mathbf{F}^T \mathbf{F}\right)$$ in some way. Recall, that in the linear model
+In essence, we wish to minimise the variance as much as possible, since a smaller variance means a more precise estimator. To do this, we often consider maximising $$\mathbf{F}^T \mathbf{F}$$ in some way. Recall, that in the linear model
 
 $$
 \begin{equation}
@@ -71,16 +71,18 @@ $$
 \end{pmatrix}
 $$
 
-Thus, we should purposefully choose our values of the independent variable (at which a response should be measured) for $$\left(\mathbf{F}^T \mathbf{F}\right)$$ to be maximised. Fortunately, there are quantifiers to assist us in determining optimal design and what these values of the independent variable hsould be.
+Thus, we should purposefully choose our values of the independent variable (at which a response should be measured) for $$\mathbf{F}^T \mathbf{F}$$ to be maximised. Fortunately, there are quantifiers to assist us in determining optimal design and what these values of the independent variable should be.
 
 Over the next few posts, we shall discuss some popular measures of optimality:
 
-- A-Optimality: Minimizes the average variance of the parameter estimates.
+- A-Optimality seeks to minimise the average variance of the parameter estimates.
 
-- D-Optimality: Maximizes the determinant of the information matrix, which is equivalent to minimizing the volume of the confidence ellipsoid for the parameter estimates.
+- D-Optimality seeks to maximise the determinant of the information matrix, which is equivalent to minimizing the volume of the confidence ellipsoid for the parameter estimates.
 
-- E-Optimality: Maximizes the minimum eigenvalue of the information matrix.
+- E-Optimality seeks to maximise the minimum eigenvalue of the information matrix.
 
-- T-Optimality: Maximizes the geometric mean of the eigenvalues of the information matrix.
+- T-Optimality seeks to maximise the geometric mean of the eigenvalues of the information matrix.
 
-- G-Optimality: Minimizes the maximum prediction variance over the design space, which is useful for designs aimed at prediction rather than parameter estimation.
+- G-Optimality seeks to minimise the maximum prediction variance over the design space, which is useful for designs aimed at prediction rather than parameter estimation. We will establish what this means in a future post.
+
+
