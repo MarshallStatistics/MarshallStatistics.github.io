@@ -13,7 +13,7 @@ read_time: true
   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
 </script>
 
-The third measure of optimality we shall consider is $$E$$-optimality. This is where we seek to maximise the smallest eigenvalue of the information matrix. Recall that $$D$$-optimality focussed on maxmising the entire dterminant of the information matix, $$E$$-optimality is a more sepcific way of focussing on optimality where we ensure that the least rpecise estimator is as accurate as possible.
+The third measure of optimality we shall consider is $$E$$-optimality. This is where we seek to maximise the smallest eigenvalue of the information matrix. Recall that $$D$$-optimality focussed on maximising the entire determinant of the information matrix, $$E$$-optimality is a more specific way of focussing on optimality where we ensure that the least precise estimator is as accurate as possible.
 
 If you recall from our section on regression, we claimed that the variance of an estimator is a measure of its precision. We also established a formula for the variance of the regression coefficients, $$\boldsymbol{\hat{\beta}}$$ using the design matrix, $$\mathbf{F}$$:
 
