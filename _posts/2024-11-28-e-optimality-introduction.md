@@ -1,9 +1,9 @@
 ---
 layout: single
-title: "3.2 `E`-Optimality Introduction"
+title: "3.3 `E`-Optimality Introduction"
 date: 2024-11-28
 thumbnail: "/assets/var_parameter_thumbnail.png"
-excerpt: "Exploring `E`-optimality and how it asserts a solid experiment."
+excerpt: "Exploring `E`-optimality and how it explains a solid experiment."
 tags: ['doe']
 read_time: true
 ---
