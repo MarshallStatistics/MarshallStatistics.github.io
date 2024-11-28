@@ -55,7 +55,7 @@ n & \sum_{i=1}^{n} x_i \\
 \end{align}
 $$
 
-From here, we can compute the determinant of the information matrix, $$\left|\mathbf{I}\right|$$:
+From here, we can compute the determinant of the information matrix:
 
 $$
 \begin{align}
