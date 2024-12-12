@@ -5,6 +5,7 @@
   <div class="grid__wrapper">
     {% for post in posts limit:4 %}
       {% if post.id == page.id %}{% continue %}{% endif %}
+      {% if post.tags != page.tags %}{% continue %}{% endif %}
       {% include archive-single.html type="grid" %}
     {% endfor %}
   </div>
