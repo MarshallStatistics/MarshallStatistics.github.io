@@ -7,7 +7,7 @@
     {% for post in posts %}
       {% if post.id == page.id %}{% continue %}{% endif %}
       {% assign intersect = post.tags | intersection: page.tags %}
-      {% if intersect.size <= 1 %}{% continue %}{% endif %}
+      {% if intersect.size == 0 %}{% continue %}{% endif %}
       {% include archive-single.html type="grid" %}
       {% assign matched_count = matched_count | plus: 1 %}
       {% if matched_count == 4 %}{% break %}{% endif %}
