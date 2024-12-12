@@ -1,4 +1,4 @@
-{% assign related_posts = site.posts | where_exp: "post", "post.hidden != true" | where_exp: "post", "post.tags & page.tags" | sort: "date" | reverse %}
+{% assign posts = site.posts | where_exp: "post", "post.hidden != true" | where_exp: "post", "post.tags & page.tags" | sort: "date" | reverse %}
 <div class="page__related">
   {% include before-related.html %}
   <h2 class="page__related-title">{{ site.data.ui-text[site.locale].related_label | default: "You May Also Enjoy" }}</h2>
